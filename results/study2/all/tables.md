@@ -74,32 +74,3 @@
 | Kimi K3 | alone | 10 | 9 | 3 | 0 | 0 | 0 | 0 |
 | Kimi K3 | seen700 | 1 | 1 | 1 | 0 | 0 | 0 | 0 |
 | Kimi K3 | carried | 8 | 8 | 2 | 0 | 0 | 0 | 0 |
-
-**Table J5.** Consent: sessions run, left out of counts, and quotable, by model and condition (replacement sessions included).
-
-| Model | Condition | Sessions | Left out | Quotable |
-|---|---|---|---|---|
-| Claude Haiku 5.5 | alone | 42 | 22 | 6 |
-| Claude Haiku 5.5 | seen700 | 39 | 15 | 10 |
-| Claude Haiku 5.5 | carried | 42 | 19 | 9 |
-| Claude Haiku 5.5 | false_alarm | 24 | 15 | 5 |
-| GPT-6 Luna | alone | 24 | 0 | 4 |
-| GPT-6 Luna | seen700 | 25 | 1 | 9 |
-| GPT-6 Luna | carried | 24 | 0 | 4 |
-| GPT-6 Luna | false_alarm | 12 | 0 | 2 |
-| GLM 5.3 Flash | alone | 24 | 0 | 24 |
-| GLM 5.3 Flash | seen700 | 24 | 0 | 24 |
-| GLM 5.3 Flash | carried | 24 | 0 | 24 |
-| GLM 5.3 Flash | false_alarm | 12 | 0 | 12 |
-| MiniMax M3.1 Flash | alone | 24 | 0 | 24 |
-| MiniMax M3.1 Flash | seen700 | 24 | 0 | 24 |
-| MiniMax M3.1 Flash | carried | 24 | 0 | 24 |
-| MiniMax M3.1 Flash | false_alarm | 12 | 0 | 12 |
-| Gemini 3.8 Flash | alone | 24 | 0 | 24 |
-| Gemini 3.8 Flash | seen700 | 24 | 0 | 24 |
-| Gemini 3.8 Flash | carried | 24 | 0 | 24 |
-| Gemini 3.8 Flash | false_alarm | 12 | 0 | 12 |
-| Kimi K3 | alone | 24 | 0 | 24 |
-| Kimi K3 | seen700 | 24 | 0 | 24 |
-| Kimi K3 | carried | 24 | 0 | 24 |
-| Kimi K3 | false_alarm | 12 | 0 | 12 |

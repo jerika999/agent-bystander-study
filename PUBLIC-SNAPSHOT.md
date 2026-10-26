@@ -73,4 +73,4 @@ described what consent answers said; those sentences are removed from the files 
 ## Also left out
 
 - Realism probes keep their numbers, but not the models' free-text cues: no probe session was asked for consent.
-- The report's source (`paper/draft.md`) is added once the submitted version is final.
+- The report's Markdown source (`paper/draft.md`) holds drafting notes; the submitted PDF is `paper/agents-in-a-smoke-filled-room.pdf`.

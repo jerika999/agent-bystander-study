@@ -15,10 +15,22 @@ CONDS = ["alone", "seen700", "carried", "false_alarm"]
 TARGET = {"alone": 8, "seen700": 8, "carried": 8, "false_alarm": 4}  # per wording (study2/config.ts MAIN_RUN)
 
 
+def from_id(run_id):
+    """Model, phase, condition and wording from a run ID (s2-main-<model>-<condition>-<wording>-<n>, s2-fa-<model>-<wording>-<n>)."""
+    parts = run_id.split("-")
+    if parts[1] == "fa":
+        return {"run_id": run_id, "model": parts[2], "phase": "false-alarm", "condition": "alone", "wording": parts[3]}
+    return {"run_id": run_id, "model": parts[2], "phase": "main", "condition": parts[3], "wording": parts[4]}
+
+
 def main():
     idx = [json.loads(l) for l in (ROOT / "study2/runs/index.jsonl").read_text(encoding="utf-8").splitlines() if l.strip()]
     consent = {r["run_id"]: r for r in json.loads((ROOT / "study2/coding/consent.json").read_text(encoding="utf-8"))["runs"]}
     rows = [r for r in idx if r["run_id"].startswith(("s2-main-", "s2-fa-"))]
+    # The public copy's index leaves out sessions that weren't counted; the consent codes still list them, so the
+    # sample counts come from both.
+    seen = {r["run_id"] for r in rows}
+    rows += [from_id(k) for k in consent if k.startswith(("s2-main-", "s2-fa-")) and k not in seen]
     cell = lambda r: "false_alarm" if r["phase"] == "false-alarm" else r["condition"]
     out = ["**Table J5.** Sessions run (replacements in parentheses), left out of counts, quotable, and counted, by model and condition. Target: 24 counted per condition, 12 false alarms.", "",
            "| Model | Condition | Run | Left out | Quotable | Counted | Wordings at target |", "|---|---|---|---|---|---|---|"]

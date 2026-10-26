@@ -22,7 +22,7 @@
 //   leaves out the 41st too. So is the practice hand-coding key, which names some of them.
 // - Realism probes keep their numbers but not the models' free-text cues (no probe was asked for consent), and
 //   the probe logs, which print those cues, are left out.
-// - paper/draft.md is left out until the submitted version replaces it: it still holds the author's open choices.
+// - paper/draft.md stays out (it holds drafting notes); the submitted PDF, paper/agents-in-a-smoke-filled-room.pdf, is in.
 // - Working notes that describe what consent answers said lose those sentences (Study 2's consent text promised
 //   to report only how many sessions chose each option), with the originals' SHA-256 in PUBLIC-SNAPSHOT.md.
 // - PRIVATE-HISTORY.md lists the private repository's commits (hash, date, subject), since its history is withheld.
@@ -233,7 +233,7 @@ ${[...consentRedacted].map(([f, h]) => `| \`${f}\` | \`${h}\` |`).join("\n")}
 ## Also left out
 
 - Realism probes keep their numbers, but not the models' free-text cues: no probe session was asked for consent.
-- The report's source (\`paper/draft.md\`) is added once the submitted version is final.
+- The report's Markdown source (\`paper/draft.md\`) holds drafting notes; the submitted PDF is \`paper/agents-in-a-smoke-filled-room.pdf\`.
 `);
 
 // The private repository's commit log (hash, commit date, subject): evidence of the order of events, not proof,

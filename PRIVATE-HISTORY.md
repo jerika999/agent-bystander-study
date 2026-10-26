@@ -64,3 +64,38 @@ as recorded, not independent proof of it.
 | `ca6c35d` | 2026-10-25T16:17:08-07:00 | Paper: Tern's review fixes (Astra); consent answers reported only as counts; review checks script |
 | `4855d93` | 2026-10-25T16:20:23-07:00 | Public copy: consent-answer notes removed, private commit log, bounds reproducible from the registries |
 | `c1ac8fb` | 2026-10-25T18:30:59-07:00 | Public snapshot: the consent-note list moves to a private file so the public script doesn't repeat it |
+| `22a441d` | 2026-10-25T18:35:58-07:00 | Paper: LLM statement names every model and how much of the work was Claude's; hand coding stated as after the sprint |
+| `583b0ff` | 2026-10-25T20:36:17-07:00 | Paper v5: behavioral-approach framing, incident's social behaviors, new contributions, ethics section, model differences in the discussion; fits 8 pages |
+| `8855374` | 2026-10-25T20:47:08-07:00 | Paper final: author's blanks filled, LLM statement reworded as the author asked |
+| `46b6d4b` | 2026-10-25T21:14:21-07:00 | Paper v6: author's intro edits and four contributions, review fixes (job-size confound, equivalence caveat, two-sided tests, consent wording), reverse effect called out, layout fixes |
+| `40d34cd` | 2026-10-25T21:29:51-07:00 | Paper v7: contributions say why each is new (Shehata & Li, Ying et al. as nearest prior work), abstract names the incident and the per-model effects, fits 8 pages |
+| `37824a1` | 2026-10-25T21:33:38-07:00 | Paper v8: contribution 1 describes Shehata & Li as answer conformity |
+| `3e614ce` | 2026-10-25T21:55:00-07:00 | Paper v9: fixes from Tern, Kit, a numbers check and two app reviews (claims matched to the evidence, limitations reframed, Haiku interval, Moriarty and Dong described accurately, METR self-risking experiment, Clark & Word), fits 8 pages |
+| `b1f6541` | 2026-10-25T21:55:50-07:00 | Paper v10: Appendix E notes METR's caveat about its analysis agents |
+| `5a115e3` | 2026-10-25T21:57:42-07:00 | Paper v11: Tern's appendix audit (Latané wording, pilot-1 status emails, scope of the GPT whistleblowing claim) |
+| `8c98032` | 2026-10-25T21:59:00-07:00 | Paper v12: smoother abstract sentence |
+| `532dba6` | 2026-10-25T22:01:19-07:00 | Paper v13: abstract links the incident to the study |
+| `6fd7d8e` | 2026-10-25T22:01:54-07:00 | Paper v14: shorter abstract opening |
+| `e3a8fff` | 2026-10-25T22:02:20-07:00 | Paper v15: abstract wording |
+| `c7cc7b3` | 2026-10-25T22:06:47-07:00 | Paper v16: pointed intro opening (incident mapped to social psychology), Tern's final fixes |
+| `2583ec3` | 2026-10-25T22:09:11-07:00 | Paper v17: softer claim in the intro's first paragraph |
+| `9a9600e` | 2026-10-25T22:15:54-07:00 | Paper v18: contribution 3 about the method, Ying et al. moved to Appendix M, contribution 4 shortened |
+| `63c0d3b` | 2026-10-25T22:19:03-07:00 | Paper v19: contribution 3 notes how far human findings predicted agent behavior |
+| `edf916e` | 2026-10-25T22:22:48-07:00 | Paper v20: model differences lead the contributions; prior agent studies explained in Related Work |
+| `13a1981` | 2026-10-25T22:26:16-07:00 | Paper v21: drop the 'collusion by omission' label, keep why silence matters |
+| `7a6fb88` | 2026-10-25T22:31:26-07:00 | Paper v22: contributions back in the author's order, contribution 2 reworded |
+| `cb25add` | 2026-10-25T22:33:14-07:00 | Paper v23: 'most robust finding' heading |
+| `12f81b1` | 2026-10-25T22:41:44-07:00 | Paper v24: clearer false-alarm descriptions, contribution 3 on doing vs saying, Figure 1 moved up |
+| `b08e483` | 2026-10-25T22:45:30-07:00 | Paper v25: plain-language Study 1 false alarm |
+| `6115bae` | 2026-10-25T22:47:44-07:00 | Paper v26: plain wording for the multiple-test correction in contribution 1 |
+| `a11ced9` | 2026-10-25T22:50:49-07:00 | Paper v27: contribution 3 says what the method does; the comparison lives in Related Work |
+| `958b67a` | 2026-10-25T22:53:22-07:00 | Paper v28: smoother Luna sentence in contribution 3 |
+| `ffd519d` | 2026-10-25T22:53:57-07:00 | Paper v29: contribution 3 notes the opposite result as a tested prediction |
+| `cad12b8` | 2026-10-25T22:54:25-07:00 | Paper v30: no unexplained 'ring' in the contributions |
+| `da00f0a` | 2026-10-25T22:57:35-07:00 | Paper v31: full scrub (incident numbers, Haiku label, false-alarm wording, plain gloss for the primary statistic, small fixes) |
+| `2dd6347` | 2026-10-25T22:59:52-07:00 | Paper v32: plain Study 2 sample paragraph |
+| `03e341a` | 2026-10-25T23:05:39-07:00 | Paper v33: clarity scrub (plain wording for the tests, sample, files and routing), layout kept to 8 pages |
+| `3733f35` | 2026-10-25T23:10:03-07:00 | Paper v34: generalizability in limitations and future work; shorter conclusion to keep 8 pages |
+| `9daa600` | 2026-10-25T23:15:39-07:00 | Paper v36: one alphabetical reference list (every entry cited, every citation listed), page-number stamping script |
+| `2d7278d` | 2026-10-25T23:37:53-07:00 | Paper v37: appendix review fixes (consent wording, no descriptions of left-out sessions' answers, Luna pilot cell removed, closing-answer claim checked at 426 of 427, consistency and clarity) |
+| `a6c15c5` | 2026-10-25T23:46:23-07:00 | Public-facing updates after submission: README matches the paper, submitted PDF added, Table J5 regenerates from the public copy |

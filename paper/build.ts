@@ -92,7 +92,8 @@ marked.use({
 // marked writes quotes in text as entities, which smartypants doesn't recognize, so put them back
 // (outside tags only) before curling them. smartypants leaves <code> and <pre> alone.
 const typeset = (h: string) => smartypantsu(h.split(/(<[^>]+>)/).map((s) => (s.startsWith("<") ? s : s.replace(/&quot;/g, '"').replace(/&#39;/g, "'"))).join(""), 1);
-const bodyHtml = typeset(await marked.parse(body));
+// A "**Table N.**" caption and the table right after it are kept on one page.
+const bodyHtml = typeset(await marked.parse(body)).replace(/(<p><strong>Table [A-Z]?\d+\.<\/strong>(?:(?!<\/p>)[\s\S])*<\/p>\s*<table>[\s\S]*?<\/table>)/g, '<div class="tablewrap">$1</div>');
 const abstractHtml = typeset(await marked.parse(abstract));
 if (final && problems.length) {
   console.error("Not ready for --final:\n" + problems.map((p) => `- ${p}`).join("\n"));
@@ -132,7 +133,7 @@ a { color: #1a4fb5; }
 main h2 { font-size: 14pt; margin: 1.2em 0 0.45em; break-after: avoid; }
 main h2:first-child { margin-top: 0; }
 main h3 { font-size: 11.5pt; margin: 1em 0 0.35em; break-after: avoid; }
-main p { margin: 0 0 0.62em; text-align: justify; hyphens: auto; }
+main p { margin: 0 0 0.5em; text-align: justify; hyphens: auto; }
 main ul, main ol { margin: 0 0 0.62em; padding-left: 1.6em; }
 main li { margin: 0.12em 0; }
 main li > ul, main li > ol { margin: 0.12em 0 0.2em; }
@@ -147,6 +148,11 @@ thead th { border-top: 1pt solid var(--rule); border-bottom: 0.6pt solid var(--r
 tbody tr:last-child td { border-bottom: 1pt solid var(--rule); }
 figure { margin: 0.8em 0 1em; padding: 0 1.5pt; break-inside: avoid; }
 figure img { display: block; max-width: 100%; margin: 0 auto; }
+figure img[alt="Figure 2"] { max-width: 80%; }
+/* A table caption stays on the same page as its table */
+.tablewrap { break-inside: avoid; }
+/* Keep the repository link on one line so it never breaks at a hyphen */
+main a[href^="https://github.com/jerika999"] { white-space: nowrap; }
 figcaption { font-size: 9pt; margin-top: 0.45em; line-height: 1.32; }
 figure.placeholder .box { border: 1pt dashed #999; min-height: 1.3in; display: flex; align-items: center; justify-content: center; color: var(--muted); font-style: italic; padding: 0.3in; text-align: center; }
 mark { border-radius: 2px; padding: 0 0.15em; font-size: 0.92em; font-family: Arial, Helvetica, sans-serif; }

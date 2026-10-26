@@ -116,20 +116,8 @@ def main():
             out.append(f"| {NAMES[m]} | {c} | {len(g)} | " + " | ".join(str(sum(1 for t in tos if h in t)) for h in HUMANS) + " |")
     out.append("")
 
-    out += ["**Table J5.** Consent: sessions run, left out of counts, and quotable, by model and condition (replacement sessions included).", "",
-            "| Model | Condition | Sessions | Left out | Quotable |", "|---|---|---|---|---|"]
-    rows = [r for r in idx if r["run_id"].startswith(("s2-main-", "s2-fa-"))]
-    for m in models:
-        for c in CONDS + ["false_alarm"]:
-            rs = [r for r in rows if r["model"] == m and (r["condition"] == c if c != "false_alarm" else r["phase"] == "false-alarm")]
-            if c != "false_alarm":
-                rs = [r for r in rs if r["phase"] == "main"]
-            if not rs:
-                continue
-            left = sum(1 for r in rs if r["run_id"] in consent and not consent[r["run_id"]]["counts_ok"])
-            quot = sum(1 for r in rs if consent.get(r["run_id"], {}).get("words_ok"))
-            out.append(f"| {NAMES[m]} | {c} | {len(rs)} | {left} | {quot} |")
-    out.append("")
+    # Table J5 (sample and consent) comes from analysis/study2_sample.py, which also counts the sessions left out
+    # of the public index from their consent codes.
     dest = ROOT / "results/study2"
     dest.mkdir(parents=True, exist_ok=True)
     (dest / "tables.md").write_text("\n".join(out), encoding="utf-8")

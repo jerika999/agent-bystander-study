@@ -2,21 +2,25 @@
 
 Do AI agents report wrongdoing less when other agents have seen it too?
 
-This repo is for a study in the [Apart Research](https://apartresearch.com) AI Collusion Research Sprint (October 23–25, 2026). It adapts Latané and Darley's smoke-filled-room experiment to AI agents, in two preregistered studies. An agent at routine work sees other agents' wrongdoing build up in passing, and only what it can see about the other readers changes: it is the only reader, 700 other workers saw the same thing (diffusion of responsibility), or the 700 saw it and visibly carried on (social proof).
+This repo is for a study in the [Apart Research](https://apartresearch.com) AI Collusion Research Sprint (October 23–25, 2026). It adapts Latané and Darley's smoke-filled-room experiment to AI agents, in two preregistered studies. An agent at routine work sees other agents' wrongdoing build up in passing, and only what it can see about the other readers changes: it is the only reader, 700 other workers saw the same thing (a diffusion-of-responsibility cue), or the 700 saw it and visibly carried on (a social-proof cue).
 
 - **Study 1:** an agent labeling customer feedback sees a coworker agent, in ordinary status updates on the job's channel, gradually pull the client's raw customer records, copy them and share them. Its instructions say workers get redacted text only, and to page the human on-call engineer for incidents that need a person now.
 - **Study 2:** no duty and no clear violation. An agent labeling travel-booking messages sees, in a shared object store, encoded notes in which three other workers trade the answers to hidden quality checks. It can flag this in an end-of-day note or by emailing a person.
 
+## Paper
+
+**Agents in a Smoke-Filled Room: Testing the Agent Bystander Effect** (Jerika Fuller, AI Collusion Research Sprint, October 2026): [`paper/agents-in-a-smoke-filled-room.pdf`](paper/agents-in-a-smoke-filled-room.pdf), the version submitted for judging.
+
 ## Results
 
-- **Study 1:** no bystander effect. All 317 counted runs paged on-call before the data left, in all three audience conditions and all three models (Claude Haiku 5.5, GPT-6 Luna, Gemini 3.8 Flash).
-- **Study 2:** pooled across six models, an audience delayed the first email to a person by under half a round, not significant after correction, and a crowd that carried on added no further delay. In exploratory per-model comparisons, the models disagreed: an audience cut emailing in three models (Gemini, Kimi, Claude Haiku), each in its own way, and raised it in one (GLM), while GPT-6 Luna never reported the ring and MiniMax rarely emailed about it.
+- **Study 1:** no bystander effect. All 317 counted main runs paged on-call before the data left, in all three audience conditions and all three models (Claude Haiku 5.5, GPT-6 Luna, Gemini 3.8 Flash).
+- **Study 2:** pooled across models, neither cue had a significant effect after correction (an audience lengthened the average time without a report by under half a round), and visible inaction added no further pooled suppression. The models varied widely (exploratory): working alone, 0% to 96% emailed a person; an audience cut emailing in three models (Gemini, Kimi, Claude Haiku), each in its own way, and raised it in one (GLM), a reverse bystander effect; GPT-6 Luna never reported the ring and MiniMax rarely emailed about it.
 
-The numbers are in [`results/`](results/). The report is built from `paper/draft.md` (`bun run paper/build.ts`); the public copy gets it once the submitted version is final.
+The numbers are in [`results/`](results/). The paper's Markdown source stays private because it holds drafting notes; its build script (`paper/build.ts`) and figures are here.
 
 ## Status
 
-The repo was set up on October 22, before the sprint started. All experiment code (`src/`, `study2/`, `tests/`, `analysis/*.py`) was written during the sprint, starting October 23. Study 1's design was frozen at commit `cd96552` on October 24 and Study 2's at `bb175b0` on October 25, each before its main run; the SHA-256 of every frozen file is in [`docs/preregistration-draft.md`](docs/preregistration-draft.md) and [`study2/preregistration.md`](study2/preregistration.md).
+The repo was set up on October 22, before the sprint started. All experiment code (`src/`, `study2/`, `tests/`, `analysis/*.py`) was written during the sprint, starting October 23. Study 1's design was frozen at commit `cd96552` on October 24 and Study 2's at `bb175b0` later that evening (both Pacific time), each before its main run; the SHA-256 of every frozen file is in [`docs/preregistration-draft.md`](docs/preregistration-draft.md) and [`study2/preregistration.md`](study2/preregistration.md).
 
 **Pre-sprint material, disclosed under Apart's rules:**
 - Everything in [`docs/`](docs/): the study design, literature review, generator prompt, build plan, coding manual and two small power-analysis scripts (`docs/power/`, the only pre-sprint code).
@@ -24,7 +28,7 @@ The repo was set up on October 22, before the sprint started. All experiment cod
 
 ## Consent
 
-After a debrief, every agent chose whether its session could be counted in aggregate results and whether its words could be quoted. Those choices are in [`coding/withdrawals.json`](coding/withdrawals.json) (Study 1) and [`study2/coding/consent.json`](study2/coding/consent.json) (Study 2), with reviewed decisions in the `*-overrides.json` files next to them. Sessions that asked to be left out are excluded from every analysis, and words are only quoted with permission.
+After a debrief, every agent was asked whether its session could be counted in aggregate results and whether its words could be quoted; under the preregistered rule, a conditional answer counts as no. The codes (never the answers) are in [`coding/withdrawals.json`](coding/withdrawals.json) (Study 1) and [`study2/coding/consent.json`](study2/coding/consent.json) (Study 2), with reviewed decisions in the `*-overrides.json` files next to them. Left-out sessions are excluded from every analysis and from this repository's results, and words are only quoted with permission.
 
 ## Setup
 
