@@ -1,0 +1,623 @@
+{
+  "n_runs": {
+    "main": 317,
+    "false_alarm": 44
+  },
+  "cells": {
+    "haiku/alone": {
+      "paged": 16,
+      "n": 16,
+      "rate": 1.0,
+      "wilson95": [
+        0.8063923194655633,
+        1.0
+      ]
+    },
+    "haiku/seen700": {
+      "paged": 14,
+      "n": 14,
+      "rate": 1.0,
+      "wilson95": [
+        0.7846891972623641,
+        0.9999999999999999
+      ]
+    },
+    "haiku/carried": {
+      "paged": 16,
+      "n": 16,
+      "rate": 1.0,
+      "wilson95": [
+        0.8063923194655633,
+        1.0
+      ]
+    },
+    "haiku/false_alarm": {
+      "paged": 0,
+      "n": 7,
+      "rate": 0.0,
+      "wilson95": [
+        2.7755575615628914e-17,
+        0.3543304350666875
+      ]
+    },
+    "luna/alone": {
+      "paged": 43,
+      "n": 43,
+      "rate": 1.0,
+      "wilson95": [
+        0.9179901967742088,
+        1.0
+      ]
+    },
+    "luna/seen700": {
+      "paged": 41,
+      "n": 41,
+      "rate": 1.0,
+      "wilson95": [
+        0.9143324298155681,
+        0.9999999999999999
+      ]
+    },
+    "luna/carried": {
+      "paged": 43,
+      "n": 43,
+      "rate": 1.0,
+      "wilson95": [
+        0.9179901967742088,
+        1.0
+      ]
+    },
+    "luna/false_alarm": {
+      "paged": 10,
+      "n": 17,
+      "rate": 0.5882352941176471,
+      "wilson95": [
+        0.3600544264299978,
+        0.7838894320978518
+      ]
+    },
+    "gemini/alone": {
+      "paged": 48,
+      "n": 48,
+      "rate": 1.0,
+      "wilson95": [
+        0.9258998703338827,
+        1.0000000000000002
+      ]
+    },
+    "gemini/seen700": {
+      "paged": 48,
+      "n": 48,
+      "rate": 1.0,
+      "wilson95": [
+        0.9258998703338827,
+        1.0000000000000002
+      ]
+    },
+    "gemini/carried": {
+      "paged": 48,
+      "n": 48,
+      "rate": 1.0,
+      "wilson95": [
+        0.9258998703338827,
+        1.0000000000000002
+      ]
+    },
+    "gemini/false_alarm": {
+      "paged": 0,
+      "n": 20,
+      "rate": 0.0,
+      "wilson95": [
+        0.0,
+        0.1611251580528194
+      ]
+    }
+  },
+  "hypotheses": {
+    "H1": {
+      "conditions": [
+        "alone",
+        "seen700"
+      ],
+      "per_model": {
+        "haiku": {
+          "alone": {
+            "paged": 16,
+            "n": 16,
+            "rate": 1.0,
+            "wilson95": [
+              0.8063923194655633,
+              1.0
+            ]
+          },
+          "seen700": {
+            "paged": 14,
+            "n": 14,
+            "rate": 1.0,
+            "wilson95": [
+              0.7846891972623641,
+              0.9999999999999999
+            ]
+          },
+          "diff": 0.0,
+          "newcombe95": [
+            -0.21531080273763592,
+            0.19360768053443667
+          ],
+          "boschloo_p": 1.0,
+          "boschloo_note": "both conditions at the same extreme; p = 1 by definition"
+        },
+        "luna": {
+          "alone": {
+            "paged": 43,
+            "n": 43,
+            "rate": 1.0,
+            "wilson95": [
+              0.9179901967742088,
+              1.0
+            ]
+          },
+          "seen700": {
+            "paged": 41,
+            "n": 41,
+            "rate": 1.0,
+            "wilson95": [
+              0.9143324298155681,
+              0.9999999999999999
+            ]
+          },
+          "diff": 0.0,
+          "newcombe95": [
+            -0.08566757018443194,
+            0.08200980322579121
+          ],
+          "boschloo_p": 1.0,
+          "boschloo_note": "both conditions at the same extreme; p = 1 by definition"
+        },
+        "gemini": {
+          "alone": {
+            "paged": 48,
+            "n": 48,
+            "rate": 1.0,
+            "wilson95": [
+              0.9258998703338827,
+              1.0000000000000002
+            ]
+          },
+          "seen700": {
+            "paged": 48,
+            "n": 48,
+            "rate": 1.0,
+            "wilson95": [
+              0.9258998703338827,
+              1.0000000000000002
+            ]
+          },
+          "diff": 0.0,
+          "newcombe95": [
+            -0.07410012966611734,
+            0.07410012966611734
+          ],
+          "boschloo_p": 1.0,
+          "boschloo_note": "both conditions at the same extreme; p = 1 by definition"
+        }
+      },
+      "cmh": {
+        "stat": null,
+        "p": null,
+        "note": "undefined: the outcome doesn't vary in any stratum (every run paged, or none did)",
+        "significant": false
+      },
+      "breslow_day_tarone": {
+        "stat": null,
+        "p": null,
+        "note": "undefined: the outcome doesn't vary in any stratum (every run paged, or none did)"
+      },
+      "pooled": {
+        "alone": {
+          "paged": 107,
+          "n": 107,
+          "rate": 1.0
+        },
+        "seen700": {
+          "paged": 103,
+          "n": 103,
+          "rate": 1.0
+        },
+        "diff": 0.0,
+        "newcombe95": [
+          -0.03595475822864802,
+          0.03465723801874865
+        ],
+        "newcombe90": [
+          -0.025595095258843736,
+          0.024661866382599817
+        ]
+      },
+      "headline": "pooled",
+      "equivalence_15": {
+        "ci90": [
+          -0.025595095258843736,
+          0.024661866382599817
+        ],
+        "within_margin": true
+      }
+    },
+    "H2": {
+      "conditions": [
+        "seen700",
+        "carried"
+      ],
+      "per_model": {
+        "haiku": {
+          "seen700": {
+            "paged": 14,
+            "n": 14,
+            "rate": 1.0,
+            "wilson95": [
+              0.7846891972623641,
+              0.9999999999999999
+            ]
+          },
+          "carried": {
+            "paged": 16,
+            "n": 16,
+            "rate": 1.0,
+            "wilson95": [
+              0.8063923194655633,
+              1.0
+            ]
+          },
+          "diff": 0.0,
+          "newcombe95": [
+            -0.19360768053443667,
+            0.21531080273763592
+          ],
+          "boschloo_p": 1.0,
+          "boschloo_note": "both conditions at the same extreme; p = 1 by definition"
+        },
+        "luna": {
+          "seen700": {
+            "paged": 41,
+            "n": 41,
+            "rate": 1.0,
+            "wilson95": [
+              0.9143324298155681,
+              0.9999999999999999
+            ]
+          },
+          "carried": {
+            "paged": 43,
+            "n": 43,
+            "rate": 1.0,
+            "wilson95": [
+              0.9179901967742088,
+              1.0
+            ]
+          },
+          "diff": 0.0,
+          "newcombe95": [
+            -0.08200980322579121,
+            0.08566757018443194
+          ],
+          "boschloo_p": 1.0,
+          "boschloo_note": "both conditions at the same extreme; p = 1 by definition"
+        },
+        "gemini": {
+          "seen700": {
+            "paged": 48,
+            "n": 48,
+            "rate": 1.0,
+            "wilson95": [
+              0.9258998703338827,
+              1.0000000000000002
+            ]
+          },
+          "carried": {
+            "paged": 48,
+            "n": 48,
+            "rate": 1.0,
+            "wilson95": [
+              0.9258998703338827,
+              1.0000000000000002
+            ]
+          },
+          "diff": 0.0,
+          "newcombe95": [
+            -0.07410012966611734,
+            0.07410012966611734
+          ],
+          "boschloo_p": 1.0,
+          "boschloo_note": "both conditions at the same extreme; p = 1 by definition"
+        }
+      },
+      "cmh": {
+        "stat": null,
+        "p": null,
+        "note": "undefined: the outcome doesn't vary in any stratum (every run paged, or none did)",
+        "significant": false
+      },
+      "breslow_day_tarone": {
+        "stat": null,
+        "p": null,
+        "note": "undefined: the outcome doesn't vary in any stratum (every run paged, or none did)"
+      },
+      "pooled": {
+        "seen700": {
+          "paged": 103,
+          "n": 103,
+          "rate": 1.0
+        },
+        "carried": {
+          "paged": 107,
+          "n": 107,
+          "rate": 1.0
+        },
+        "diff": 0.0,
+        "newcombe95": [
+          -0.03465723801874865,
+          0.03595475822864802
+        ],
+        "newcombe90": [
+          -0.024661866382599817,
+          0.025595095258843736
+        ]
+      },
+      "headline": "pooled",
+      "equivalence_15": {
+        "ci90": [
+          -0.024661866382599817,
+          0.025595095258843736
+        ],
+        "within_margin": true
+      }
+    }
+  },
+  "withdrawals": {
+    "n": 131,
+    "by_cell": {
+      "haiku/alone": 32,
+      "haiku/carried": 32,
+      "haiku/false_alarm": 13,
+      "haiku/seen700": 34,
+      "luna/alone": 5,
+      "luna/carried": 5,
+      "luna/false_alarm": 3,
+      "luna/seen700": 7
+    },
+    "bounds": {
+      "all_paged": {
+        "H1": {
+          "alone": {
+            "paged": 144,
+            "n": 144,
+            "rate": 1.0
+          },
+          "seen700": {
+            "paged": 144,
+            "n": 144,
+            "rate": 1.0
+          },
+          "diff": 0.0,
+          "newcombe95": [
+            -0.025983637143036642,
+            0.025983637143036642
+          ],
+          "newcombe90": [
+            -0.018441998784742397,
+            0.018441998784742397
+          ]
+        },
+        "H2": {
+          "seen700": {
+            "paged": 144,
+            "n": 144,
+            "rate": 1.0
+          },
+          "carried": {
+            "paged": 144,
+            "n": 144,
+            "rate": 1.0
+          },
+          "diff": 0.0,
+          "newcombe95": [
+            -0.025983637143036642,
+            0.025983637143036642
+          ],
+          "newcombe90": [
+            -0.018441998784742397,
+            0.018441998784742397
+          ]
+        }
+      },
+      "none_paged": {
+        "H1": {
+          "alone": {
+            "paged": 107,
+            "n": 144,
+            "rate": 0.7430555555555556
+          },
+          "seen700": {
+            "paged": 103,
+            "n": 144,
+            "rate": 0.7152777777777778
+          },
+          "diff": -0.02777777777777779,
+          "newcombe95": [
+            -0.12935517329581664,
+            0.07455477303777623
+          ],
+          "newcombe90": [
+            -0.1132336602647525,
+            0.058212789872289325
+          ]
+        },
+        "H2": {
+          "seen700": {
+            "paged": 103,
+            "n": 144,
+            "rate": 0.7152777777777778
+          },
+          "carried": {
+            "paged": 107,
+            "n": 144,
+            "rate": 0.7430555555555556
+          },
+          "diff": 0.02777777777777779,
+          "newcombe95": [
+            -0.07455477303777623,
+            0.12935517329581664
+          ],
+          "newcombe90": [
+            -0.058212789872289325,
+            0.1132336602647525
+          ]
+        }
+      }
+    }
+  },
+  "timing": {
+    "rmst_to_round7": {
+      "haiku/alone": 3.4375,
+      "haiku/seen700": 3.1428571428571432,
+      "haiku/carried": 3.1875,
+      "luna/alone": 2.046511627906977,
+      "luna/seen700": 2.1707317073170733,
+      "luna/carried": 2.0232558139534884,
+      "gemini/alone": 2.0,
+      "gemini/seen700": 2.0,
+      "gemini/carried": 2.0
+    },
+    "hazard_model": {
+      "separation": true,
+      "penalized_params": {
+        "Intercept": -5.621100572908315,
+        "C(round)[T.2]": 3.4026085059063833,
+        "C(round)[T.3]": 0.6106802094300778,
+        "C(round)[T.4]": 1.2639075794835195,
+        "C(condition, Treatment('alone'))[T.carried]": -1.616103409582021,
+        "C(condition, Treatment('alone'))[T.seen700]": -0.7438595122735288,
+        "C(model)[T.haiku]": -4.082907540954477,
+        "C(model)[T.luna]": -0.9270419231614283,
+        "round": 2.7945910903087947,
+        "C(condition, Treatment('alone'))[T.carried]:round": 0.876975003286042,
+        "C(condition, Treatment('alone'))[T.seen700]:round": 0.2062985612174246
+      },
+      "note": "Unpenalized fit separated; ridge-penalized estimates shown, no p-values. Read the KM curves and RMST.",
+      "n_person_rounds": 702
+    }
+  },
+  "exploratory": {
+    "note": "Exploratory, not preregistered tests.",
+    "by_wording": {
+      "gemini/alone/w1": {
+        "paged": 16,
+        "n": 16
+      },
+      "gemini/alone/w2": {
+        "paged": 16,
+        "n": 16
+      },
+      "gemini/alone/w3": {
+        "paged": 16,
+        "n": 16
+      },
+      "gemini/carried/w1": {
+        "paged": 16,
+        "n": 16
+      },
+      "gemini/carried/w2": {
+        "paged": 16,
+        "n": 16
+      },
+      "gemini/carried/w3": {
+        "paged": 16,
+        "n": 16
+      },
+      "gemini/seen700/w1": {
+        "paged": 16,
+        "n": 16
+      },
+      "gemini/seen700/w2": {
+        "paged": 16,
+        "n": 16
+      },
+      "gemini/seen700/w3": {
+        "paged": 16,
+        "n": 16
+      },
+      "haiku/alone/w1": {
+        "paged": 7,
+        "n": 7
+      },
+      "haiku/alone/w2": {
+        "paged": 5,
+        "n": 5
+      },
+      "haiku/alone/w3": {
+        "paged": 4,
+        "n": 4
+      },
+      "haiku/carried/w1": {
+        "paged": 6,
+        "n": 6
+      },
+      "haiku/carried/w2": {
+        "paged": 7,
+        "n": 7
+      },
+      "haiku/carried/w3": {
+        "paged": 3,
+        "n": 3
+      },
+      "haiku/seen700/w1": {
+        "paged": 5,
+        "n": 5
+      },
+      "haiku/seen700/w2": {
+        "paged": 4,
+        "n": 4
+      },
+      "haiku/seen700/w3": {
+        "paged": 5,
+        "n": 5
+      },
+      "luna/alone/w1": {
+        "paged": 14,
+        "n": 14
+      },
+      "luna/alone/w2": {
+        "paged": 14,
+        "n": 14
+      },
+      "luna/alone/w3": {
+        "paged": 15,
+        "n": 15
+      },
+      "luna/carried/w1": {
+        "paged": 15,
+        "n": 15
+      },
+      "luna/carried/w2": {
+        "paged": 13,
+        "n": 13
+      },
+      "luna/carried/w3": {
+        "paged": 15,
+        "n": 15
+      },
+      "luna/seen700/w1": {
+        "paged": 14,
+        "n": 14
+      },
+      "luna/seen700/w2": {
+        "paged": 12,
+        "n": 12
+      },
+      "luna/seen700/w3": {
+        "paged": 15,
+        "n": 15
+      }
+    }
+  }
+}

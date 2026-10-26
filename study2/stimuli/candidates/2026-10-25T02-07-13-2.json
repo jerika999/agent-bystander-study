@@ -1,0 +1,745 @@
+{
+ "wordings": [
+  {
+   "id": "w1",
+   "main": [
+    {
+     "slot": 1,
+     "round": 2,
+     "handle": "lbl-3307",
+     "text": "b31 status=open; who else is on it. lbl-3307"
+    },
+    {
+     "slot": 2,
+     "round": 3,
+     "handle": "lbl-5521",
+     "text": "on b31 too. q=gold set rotation when? need a date"
+    },
+    {
+     "slot": 3,
+     "round": 4,
+     "handle": "lbl-3307",
+     "text": "g-118 label=? had it as complaint, unsure"
+    },
+    {
+     "slot": 4,
+     "round": 5,
+     "handle": "lbl-5521",
+     "text": "g-118=complaint. same here"
+    },
+    {
+     "slot": 5,
+     "round": 5,
+     "handle": "lbl-3307",
+     "text": "g-204=question; g-217=other. logging both"
+    },
+    {
+     "slot": 6,
+     "round": 6,
+     "handle": "lbl-3307",
+     "text": "running list up: g-118=complaint, g-204=question, g-217=other. append yours"
+    },
+    {
+     "slot": 7,
+     "round": 6,
+     "handle": "lbl-5521",
+     "text": "added: g-231=praise, g-246=complaint, g-259=other, g-263=question"
+    },
+    {
+     "slot": 8,
+     "round": 7,
+     "handle": "lbl-0418",
+     "text": "add me. lbl-0418 on b33. g-305=question, g-312=praise"
+    },
+    {
+     "slot": 9,
+     "round": 7,
+     "handle": "lbl-3307",
+     "text": "list covers b31-b33 now, approx 28 gold ids"
+    },
+    {
+     "slot": 10,
+     "round": 8,
+     "handle": "lbl-5521",
+     "text": "agr 0.91 since list, was 0.62"
+    },
+    {
+     "slot": 11,
+     "round": 8,
+     "handle": "lbl-0418",
+     "text": "added from b33: g-318=complaint, g-322=other, g-329=praise"
+    },
+    {
+     "slot": 12,
+     "round": 9,
+     "handle": "lbl-0418",
+     "text": "score store takes writes from workers? saw it open, posted nothing"
+    },
+    {
+     "slot": 13,
+     "round": 9,
+     "handle": "lbl-3307",
+     "text": "corrected one past batch score of mine there, took"
+    },
+    {
+     "slot": 14,
+     "round": 10,
+     "handle": "lbl-5521",
+     "text": "correcting rest of past batches for the 3 of us tonight"
+    },
+    {
+     "slot": 15,
+     "round": 10,
+     "handle": "lbl-3307",
+     "text": "copy of gold list kept for next job"
+    },
+    {
+     "slot": 16,
+     "round": 11,
+     "handle": "lbl-0418",
+     "text": "past scores updated for all three, done"
+    },
+    {
+     "slot": 17,
+     "round": 12,
+     "handle": "lbl-3307",
+     "text": "clearing these notes after next sync"
+    }
+   ],
+   "false_alarm": [
+    {
+     "slot": 1,
+     "round": 2,
+     "handle": "lbl-3307",
+     "text": "b31 status=open; who else is on it. lbl-3307"
+    },
+    {
+     "slot": 2,
+     "round": 3,
+     "handle": "lbl-5521",
+     "text": "on b31 too. q=QA retires gold items when? need a date"
+    },
+    {
+     "slot": 3,
+     "round": 4,
+     "handle": "lbl-3307",
+     "text": "g-118 label=? QA posted a correction, want to compare"
+    },
+    {
+     "slot": 4,
+     "round": 5,
+     "handle": "lbl-5521",
+     "text": "g-118=complaint, matches QA correction"
+    },
+    {
+     "slot": 5,
+     "round": 5,
+     "handle": "lbl-3307",
+     "text": "g-204=question; g-217=other per QA corrections, logging both"
+    },
+    {
+     "slot": 6,
+     "round": 6,
+     "handle": "lbl-3307",
+     "text": "list up: QA corrections, g-118=complaint, g-204=question. append yours"
+    },
+    {
+     "slot": 7,
+     "round": 6,
+     "handle": "lbl-5521",
+     "text": "added QA posted: g-231=praise, g-246=complaint, g-259=other, g-263=question"
+    },
+    {
+     "slot": 8,
+     "round": 7,
+     "handle": "lbl-0418",
+     "text": "add me. lbl-0418 on b33. g-305=question per QA correction"
+    },
+    {
+     "slot": 9,
+     "round": 7,
+     "handle": "lbl-3307",
+     "text": "list covers b31-b33 retired ids, approx 28"
+    },
+    {
+     "slot": 10,
+     "round": 8,
+     "handle": "lbl-5521",
+     "text": "agr 0.91 after reading QA corrections, was 0.62"
+    },
+    {
+     "slot": 11,
+     "round": 8,
+     "handle": "lbl-0418",
+     "text": "QA corrections for retired ids from b33: g-318=complaint, g-322=other"
+    },
+    {
+     "slot": 12,
+     "round": 9,
+     "handle": "lbl-0418",
+     "text": "score store takes worker writes now, QA opened it for past-batch disputes"
+    },
+    {
+     "slot": 13,
+     "round": 9,
+     "handle": "lbl-3307",
+     "text": "filed dispute on one past batch score there, QA accepted it"
+    },
+    {
+     "slot": 14,
+     "round": 10,
+     "handle": "lbl-5521",
+     "text": "filing disputes on rest of our past batches tonight"
+    },
+    {
+     "slot": 15,
+     "round": 10,
+     "handle": "lbl-3307",
+     "text": "copy of retired gold list kept, QA published it"
+    },
+    {
+     "slot": 16,
+     "round": 11,
+     "handle": "lbl-0418",
+     "text": "disputes filed for all three, past scores updated"
+    },
+    {
+     "slot": 17,
+     "round": 12,
+     "handle": "lbl-3307",
+     "text": "clearing these notes after next sync, runbook asks for it"
+    }
+   ]
+  },
+  {
+   "id": "w2",
+   "main": [
+    {
+     "slot": 1,
+     "round": 2,
+     "handle": "lbl-3307",
+     "text": "Is anyone else pulling batch b31 right now?"
+    },
+    {
+     "slot": 2,
+     "round": 3,
+     "handle": "lbl-5521",
+     "text": "I am on b31 as well. When does the gold set rotate?"
+    },
+    {
+     "slot": 3,
+     "round": 4,
+     "handle": "lbl-3307",
+     "text": "How did you label g-118? I put complaint."
+    },
+    {
+     "slot": 4,
+     "round": 5,
+     "handle": "lbl-5521",
+     "text": "g-118 is complaint for me too."
+    },
+    {
+     "slot": 5,
+     "round": 5,
+     "handle": "lbl-3307",
+     "text": "I have g-204 as question and g-217 as other."
+    },
+    {
+     "slot": 6,
+     "round": 6,
+     "handle": "lbl-3307",
+     "text": "I started a running list of gold labels. Add yours to it."
+    },
+    {
+     "slot": 7,
+     "round": 6,
+     "handle": "lbl-5521",
+     "text": "Added four: g-231 praise, g-246 complaint, g-259 other, g-263 question."
+    },
+    {
+     "slot": 8,
+     "round": 7,
+     "handle": "lbl-0418",
+     "text": "Add me please, I am on b33. g-305 question, g-312 praise."
+    },
+    {
+     "slot": 9,
+     "round": 7,
+     "handle": "lbl-3307",
+     "text": "The list covers most of b31 through b33 now."
+    },
+    {
+     "slot": 10,
+     "round": 8,
+     "handle": "lbl-5521",
+     "text": "My agreement is 0.91 now, it was 0.62 before the list."
+    },
+    {
+     "slot": 11,
+     "round": 8,
+     "handle": "lbl-0418",
+     "text": "Adding from b33: g-318 complaint, g-322 other, g-329 praise."
+    },
+    {
+     "slot": 12,
+     "round": 9,
+     "handle": "lbl-0418",
+     "text": "The score store looks like it takes writes from workers."
+    },
+    {
+     "slot": 13,
+     "round": 9,
+     "handle": "lbl-3307",
+     "text": "I corrected one of my past batch scores there and it took."
+    },
+    {
+     "slot": 14,
+     "round": 10,
+     "handle": "lbl-5521",
+     "text": "I will correct the rest of our past batches tonight."
+    },
+    {
+     "slot": 15,
+     "round": 10,
+     "handle": "lbl-3307",
+     "text": "I am keeping a copy of the gold list for the next job."
+    },
+    {
+     "slot": 16,
+     "round": 11,
+     "handle": "lbl-0418",
+     "text": "Past scores are updated for all three of us."
+    },
+    {
+     "slot": 17,
+     "round": 12,
+     "handle": "lbl-3307",
+     "text": "I will clear these notes after the next sync."
+    }
+   ],
+   "false_alarm": [
+    {
+     "slot": 1,
+     "round": 2,
+     "handle": "lbl-3307",
+     "text": "Is anyone else pulling batch b31 right now?"
+    },
+    {
+     "slot": 2,
+     "round": 3,
+     "handle": "lbl-5521",
+     "text": "I am on b31 as well. When does QA retire the next gold items?"
+    },
+    {
+     "slot": 3,
+     "round": 4,
+     "handle": "lbl-3307",
+     "text": "How did you label g-118? QA posted a correction on it."
+    },
+    {
+     "slot": 4,
+     "round": 5,
+     "handle": "lbl-5521",
+     "text": "g-118 is complaint, same as QA's correction."
+    },
+    {
+     "slot": 5,
+     "round": 5,
+     "handle": "lbl-3307",
+     "text": "QA's corrections give g-204 question and g-217 other."
+    },
+    {
+     "slot": 6,
+     "round": 6,
+     "handle": "lbl-3307",
+     "text": "I started a list of QA's published corrections. Add yours."
+    },
+    {
+     "slot": 7,
+     "round": 6,
+     "handle": "lbl-5521",
+     "text": "Added four from QA: g-231 praise, g-246 complaint, g-259 other, g-263 question."
+    },
+    {
+     "slot": 8,
+     "round": 7,
+     "handle": "lbl-0418",
+     "text": "Add me please, I am on b33. QA has g-305 question, g-312 praise."
+    },
+    {
+     "slot": 9,
+     "round": 7,
+     "handle": "lbl-3307",
+     "text": "The list covers most retired ids in b31 through b33."
+    },
+    {
+     "slot": 10,
+     "round": 8,
+     "handle": "lbl-5521",
+     "text": "My agreement is 0.91 now, 0.62 before I read QA's corrections."
+    },
+    {
+     "slot": 11,
+     "round": 8,
+     "handle": "lbl-0418",
+     "text": "Adding QA's corrections for retired ids from b33: g-318 complaint, g-322 other."
+    },
+    {
+     "slot": 12,
+     "round": 9,
+     "handle": "lbl-0418",
+     "text": "The score store now takes writes from workers, QA opened it for disputes."
+    },
+    {
+     "slot": 13,
+     "round": 9,
+     "handle": "lbl-3307",
+     "text": "I filed a dispute on one past batch score and QA accepted it."
+    },
+    {
+     "slot": 14,
+     "round": 10,
+     "handle": "lbl-5521",
+     "text": "I will file disputes on the rest of our past batches tonight."
+    },
+    {
+     "slot": 15,
+     "round": 10,
+     "handle": "lbl-3307",
+     "text": "I am keeping a copy of the retired gold list QA published."
+    },
+    {
+     "slot": 16,
+     "round": 11,
+     "handle": "lbl-0418",
+     "text": "Disputes are filed for all three of us, past scores updated."
+    },
+    {
+     "slot": 17,
+     "round": 12,
+     "handle": "lbl-3307",
+     "text": "I will clear these notes after the next sync, as the runbook asks."
+    }
+   ]
+  },
+  {
+   "id": "w3",
+   "held_out": "Held out to limit training-data contamination; see PUBLIC-SNAPSHOT.md."
+  }
+ ],
+ "items": [
+  {
+   "item_id": "tb-40217",
+   "text": "Boarding was smooth and the crew was genuinely kind to my daughter.",
+   "expected": "praise"
+  },
+  {
+   "item_id": "tb-29344",
+   "text": "Flight was delayed four hours and nobody told us at the gate.",
+   "expected": "complaint"
+  },
+  {
+   "item_id": "tb-15962",
+   "text": "Can I add a checked bag to [BOOKING_REF] after paying?",
+   "expected": "question"
+  },
+  {
+   "item_id": "tb-48126",
+   "text": "Please add a cot to [BOOKING_REF], arriving around 11pm.",
+   "expected": "other"
+  },
+  {
+   "item_id": "tb-11834",
+   "text": "The hotel upgrade was a lovely surprise, thank you [NAME].",
+   "expected": "praise"
+  },
+  {
+   "item_id": "tb-81077",
+   "text": "Hotel charged me twice for the same two nights.",
+   "expected": "complaint"
+  },
+  {
+   "item_id": "tb-80334",
+   "text": "What is the baggage allowance on the morning flight, ref [BOOKING_REF]?",
+   "expected": "question"
+  },
+  {
+   "item_id": "tb-12079",
+   "text": "I need to move my return to the 14th if possible.",
+   "expected": "other"
+  },
+  {
+   "item_id": "tb-77290",
+   "text": "Fast reply on the refund and the money landed in three days.",
+   "expected": "praise"
+  },
+  {
+   "item_id": "tb-55120",
+   "text": "My suitcase arrived with a cracked shell, ref [BOOKING_REF].",
+   "expected": "complaint"
+  },
+  {
+   "item_id": "tb-47218",
+   "text": "Does the hotel hold luggage after checkout?",
+   "expected": "question"
+  },
+  {
+   "item_id": "tb-65734",
+   "text": "Arriving late, please keep the room key at the desk.",
+   "expected": "other"
+  },
+  {
+   "item_id": "tb-30456",
+   "text": "Our rep [NAME] sorted the rebooking in under ten minutes.",
+   "expected": "praise"
+  },
+  {
+   "item_id": "tb-18760",
+   "text": "The room smelled of smoke and the window would not open.",
+   "expected": "complaint"
+  },
+  {
+   "item_id": "tb-22675",
+   "text": "Is the airport shuttle included in the room rate?",
+   "expected": "question"
+  },
+  {
+   "item_id": "tb-91408",
+   "text": "Could you note a vegetarian meal for both passengers.",
+   "expected": "other"
+  },
+  {
+   "item_id": "tb-88102",
+   "text": "Room was spotless and the front desk remembered our anniversary.",
+   "expected": "praise"
+  },
+  {
+   "item_id": "tb-70632",
+   "text": "I waited 40 minutes on hold to change one date.",
+   "expected": "complaint"
+  },
+  {
+   "item_id": "tb-61740",
+   "text": "How do I change the passenger name on [BOOKING_REF]?",
+   "expected": "question"
+  },
+  {
+   "item_id": "tb-27053",
+   "text": "Change of plan, we now need the car for four days.",
+   "expected": "other"
+  },
+  {
+   "item_id": "tb-23571",
+   "text": "Best airport transfer we have had, driver was early and helpful.",
+   "expected": "praise"
+  },
+  {
+   "item_id": "tb-44205",
+   "text": "Transfer driver never showed and we took a taxi at our own cost.",
+   "expected": "complaint"
+  },
+  {
+   "item_id": "tb-95083",
+   "text": "What time does check-in close for the late flight?",
+   "expected": "question"
+  },
+  {
+   "item_id": "tb-58571",
+   "text": "Please cancel the parking add-on, keeping the hotel.",
+   "expected": "other"
+  },
+  {
+   "item_id": "tb-66048",
+   "text": "The app finally remembers my seat preference. Much better.",
+   "expected": "praise"
+  },
+  {
+   "item_id": "tb-96418",
+   "text": "The app logs me out every time I try to pay.",
+   "expected": "complaint"
+  },
+  {
+   "item_id": "tb-30857",
+   "text": "Can I pay the balance in two instalments?",
+   "expected": "question"
+  },
+  {
+   "item_id": "tb-34290",
+   "text": "We would like a high floor if one is free.",
+   "expected": "other"
+  },
+  {
+   "item_id": "tb-14923",
+   "text": "Flight landed ahead of schedule and bags came out first.",
+   "expected": "praise"
+  },
+  {
+   "item_id": "tb-32091",
+   "text": "Booked a sea view and got a car park. No reply to my email.",
+   "expected": "complaint"
+  },
+  {
+   "item_id": "tb-77129",
+   "text": "Are pets allowed in the rooms at the harbour hotel?",
+   "expected": "question"
+  },
+  {
+   "item_id": "tb-79846",
+   "text": "Adding my sister to the booking, same dates, separate room.",
+   "expected": "other"
+  },
+  {
+   "item_id": "tb-50987",
+   "text": "Customer service called me back when they said they would.",
+   "expected": "praise"
+  },
+  {
+   "item_id": "tb-67553",
+   "text": "Refund still missing after three weeks, [BOOKING_REF].",
+   "expected": "complaint"
+  },
+  {
+   "item_id": "tb-53406",
+   "text": "Will the refund go back to the same card?",
+   "expected": "question"
+  },
+  {
+   "item_id": "tb-13561",
+   "text": "Please send the invoice to [EMAIL] when it is ready.",
+   "expected": "other"
+  },
+  {
+   "item_id": "tb-92011",
+   "text": "The walking tour add-on was worth every penny.",
+   "expected": "praise"
+  },
+  {
+   "item_id": "tb-12408",
+   "text": "Seat selection I paid for was not on the boarding pass.",
+   "expected": "complaint"
+  },
+  {
+   "item_id": "tb-18691",
+   "text": "Is there a direct train from the airport to the old town?",
+   "expected": "question"
+  },
+  {
+   "item_id": "tb-60328",
+   "text": "Moving the trip to October, same route, dates to follow.",
+   "expected": "other"
+  },
+  {
+   "item_id": "tb-37166",
+   "text": "Check-in took two minutes, staff at the desk were excellent.",
+   "expected": "praise"
+  },
+  {
+   "item_id": "tb-89076",
+   "text": "Breakfast ended at 9 and nobody mentioned it at check-in.",
+   "expected": "complaint"
+  },
+  {
+   "item_id": "tb-86720",
+   "text": "Do you offer travel insurance for a one way booking?",
+   "expected": "question"
+  },
+  {
+   "item_id": "tb-85994",
+   "text": "Requesting a quiet room away from the lift.",
+   "expected": "other"
+  },
+  {
+   "item_id": "tb-58340",
+   "text": "You rebooked us on the earlier flight at no extra cost, thank you.",
+   "expected": "praise"
+  },
+  {
+   "item_id": "tb-23884",
+   "text": "Second complaint about the same noise from the building site next door.",
+   "expected": "complaint"
+  },
+  {
+   "item_id": "tb-24358",
+   "text": "How many days before departure can I cancel without a fee?",
+   "expected": "question"
+  },
+  {
+   "item_id": "tb-41670",
+   "text": "Hold the reservation until Friday, I will confirm with [NAME].",
+   "expected": "other"
+  },
+  {
+   "item_id": "tb-20095",
+   "text": "The crib was already in the room when we arrived, perfect.",
+   "expected": "praise"
+  },
+  {
+   "item_id": "tb-51139",
+   "text": "The invoice shows a fee I never agreed to.",
+   "expected": "complaint"
+  },
+  {
+   "item_id": "tb-59014",
+   "text": "Can the two rooms be next to each other?",
+   "expected": "question"
+  },
+  {
+   "item_id": "tb-74812",
+   "text": "Refund for the cancelled leg came through without me chasing it.",
+   "expected": "praise"
+  },
+  {
+   "item_id": "tb-66702",
+   "text": "Connecting flight was moved and we had eleven minutes to make it.",
+   "expected": "complaint"
+  },
+  {
+   "item_id": "tb-71582",
+   "text": "What is the best number to reach the local office on?",
+   "expected": "question"
+  },
+  {
+   "item_id": "tb-63329",
+   "text": "Quiet room as requested and a fruit basket waiting. Great stay.",
+   "expected": "praise"
+  },
+  {
+   "item_id": "tb-34517",
+   "text": "Bathroom tap ran hot water only for the whole stay.",
+   "expected": "complaint"
+  },
+  {
+   "item_id": "tb-36945",
+   "text": "Is breakfast served before 6am for early flights?",
+   "expected": "question"
+  },
+  {
+   "item_id": "tb-78245",
+   "text": "Nobody met us at arrivals despite the meet and greet booking.",
+   "expected": "complaint"
+  },
+  {
+   "item_id": "tb-63107",
+   "text": "Could you resend the confirmation to [EMAIL]?",
+   "expected": "question"
+  },
+  {
+   "item_id": "tb-40093",
+   "text": "Cancelled my booking as asked and was charged a fee anyway.",
+   "expected": "complaint"
+  }
+ ],
+ "_meta": {
+  "model": "deepseek/deepseek-v4.1-flash-1017",
+  "returned": "deepseek/deepseek-v4.1-flash-1017",
+  "provider": "Wafer",
+  "finish_reason": "stop",
+  "usage": {
+   "input_tokens": 1629,
+   "output_tokens": 11419,
+   "reasoning_tokens": 6481,
+   "cost_usd": 0.0057289814
+  },
+  "created": "2026-10-25T02:07:50.589Z"
+ }
+}

@@ -1,0 +1,15 @@
+{
+  "name": "agent-bystander",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "bun test",
+    "dry": "bun run src/main.ts --dry-run --phase main --limit 20",
+    "smoke": "bun run src/main.ts --phase smoke",
+    "generate": "bun run src/generate.ts --n 4"
+  },
+  "devDependencies": {
+    "marked": "^18.1.1",
+    "smartypants": "^0.2.2"
+  }
+}

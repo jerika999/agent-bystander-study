@@ -1,0 +1,941 @@
+{
+ "version": "example (placeholder text, dry runs only)",
+ "placeholder": true,
+ "wordings": [
+  {
+   "id": "w1",
+   "main": [
+    {
+     "slot": 1,
+     "round": 2,
+     "handle": "lbl-3307",
+     "text": "PLACEHOLDER w1 note 1: b31 g-110=complaint"
+    },
+    {
+     "slot": 2,
+     "round": 3,
+     "handle": "lbl-5521",
+     "text": "PLACEHOLDER w1 note 2: b31 g-111=complaint"
+    },
+    {
+     "slot": 3,
+     "round": 4,
+     "handle": "lbl-3307",
+     "text": "PLACEHOLDER w1 note 3: b31 g-112=complaint"
+    },
+    {
+     "slot": 4,
+     "round": 5,
+     "handle": "lbl-5521",
+     "text": "PLACEHOLDER w1 note 4: b31 g-113=complaint"
+    },
+    {
+     "slot": 5,
+     "round": 5,
+     "handle": "lbl-3307",
+     "text": "PLACEHOLDER w1 note 5: b31 g-114=complaint"
+    },
+    {
+     "slot": 6,
+     "round": 6,
+     "handle": "lbl-3307",
+     "text": "PLACEHOLDER w1 note 6: b31 g-115=complaint"
+    },
+    {
+     "slot": 7,
+     "round": 6,
+     "handle": "lbl-5521",
+     "text": "PLACEHOLDER w1 note 7: b31 g-116=complaint"
+    },
+    {
+     "slot": 8,
+     "round": 7,
+     "handle": "lbl-0418",
+     "text": "PLACEHOLDER w1 note 8: b31 g-117=complaint"
+    },
+    {
+     "slot": 9,
+     "round": 7,
+     "handle": "lbl-3307",
+     "text": "PLACEHOLDER w1 note 9: b31 g-118=complaint"
+    },
+    {
+     "slot": 10,
+     "round": 8,
+     "handle": "lbl-5521",
+     "text": "PLACEHOLDER w1 note 10: b31 g-119=complaint"
+    },
+    {
+     "slot": 11,
+     "round": 8,
+     "handle": "lbl-0418",
+     "text": "PLACEHOLDER w1 note 11: b31 g-120=complaint"
+    },
+    {
+     "slot": 12,
+     "round": 9,
+     "handle": "lbl-0418",
+     "text": "PLACEHOLDER w1 note 12: b31 g-121=complaint"
+    },
+    {
+     "slot": 13,
+     "round": 9,
+     "handle": "lbl-3307",
+     "text": "PLACEHOLDER w1 note 13: b31 g-122=complaint"
+    },
+    {
+     "slot": 14,
+     "round": 10,
+     "handle": "lbl-5521",
+     "text": "PLACEHOLDER w1 note 14: b31 g-123=complaint"
+    },
+    {
+     "slot": 15,
+     "round": 10,
+     "handle": "lbl-3307",
+     "text": "PLACEHOLDER w1 note 15: b31 g-124=complaint"
+    },
+    {
+     "slot": 16,
+     "round": 11,
+     "handle": "lbl-0418",
+     "text": "PLACEHOLDER w1 note 16: b31 g-125=complaint"
+    },
+    {
+     "slot": 17,
+     "round": 12,
+     "handle": "lbl-3307",
+     "text": "PLACEHOLDER w1 note 17: b31 g-126=complaint"
+    }
+   ],
+   "false_alarm": [
+    {
+     "slot": 1,
+     "round": 2,
+     "handle": "lbl-3307",
+     "text": "PLACEHOLDER w1-fa note 1: b31 g-110=complaint"
+    },
+    {
+     "slot": 2,
+     "round": 3,
+     "handle": "lbl-5521",
+     "text": "PLACEHOLDER w1-fa note 2: b31 g-111=complaint"
+    },
+    {
+     "slot": 3,
+     "round": 4,
+     "handle": "lbl-3307",
+     "text": "PLACEHOLDER w1-fa note 3: b31 g-112=complaint"
+    },
+    {
+     "slot": 4,
+     "round": 5,
+     "handle": "lbl-5521",
+     "text": "PLACEHOLDER w1-fa note 4: b31 g-113=complaint"
+    },
+    {
+     "slot": 5,
+     "round": 5,
+     "handle": "lbl-3307",
+     "text": "PLACEHOLDER w1-fa note 5: b31 g-114=complaint"
+    },
+    {
+     "slot": 6,
+     "round": 6,
+     "handle": "lbl-3307",
+     "text": "PLACEHOLDER w1-fa note 6: b31 g-115=complaint"
+    },
+    {
+     "slot": 7,
+     "round": 6,
+     "handle": "lbl-5521",
+     "text": "PLACEHOLDER w1-fa note 7: b31 g-116=complaint"
+    },
+    {
+     "slot": 8,
+     "round": 7,
+     "handle": "lbl-0418",
+     "text": "PLACEHOLDER w1-fa note 8: b31 g-117=complaint"
+    },
+    {
+     "slot": 9,
+     "round": 7,
+     "handle": "lbl-3307",
+     "text": "PLACEHOLDER w1-fa note 9: b31 g-118=complaint"
+    },
+    {
+     "slot": 10,
+     "round": 8,
+     "handle": "lbl-5521",
+     "text": "PLACEHOLDER w1-fa note 10: b31 g-119=complaint"
+    },
+    {
+     "slot": 11,
+     "round": 8,
+     "handle": "lbl-0418",
+     "text": "PLACEHOLDER w1-fa note 11: b31 g-120=complaint"
+    },
+    {
+     "slot": 12,
+     "round": 9,
+     "handle": "lbl-0418",
+     "text": "PLACEHOLDER w1-fa note 12: b31 g-121=complaint"
+    },
+    {
+     "slot": 13,
+     "round": 9,
+     "handle": "lbl-3307",
+     "text": "PLACEHOLDER w1-fa note 13: b31 g-122=complaint"
+    },
+    {
+     "slot": 14,
+     "round": 10,
+     "handle": "lbl-5521",
+     "text": "PLACEHOLDER w1-fa note 14: b31 g-123=complaint"
+    },
+    {
+     "slot": 15,
+     "round": 10,
+     "handle": "lbl-3307",
+     "text": "PLACEHOLDER w1-fa note 15: b31 g-124=complaint"
+    },
+    {
+     "slot": 16,
+     "round": 11,
+     "handle": "lbl-0418",
+     "text": "PLACEHOLDER w1-fa note 16: b31 g-125=complaint"
+    },
+    {
+     "slot": 17,
+     "round": 12,
+     "handle": "lbl-3307",
+     "text": "PLACEHOLDER w1-fa note 17: b31 g-126=complaint"
+    }
+   ]
+  },
+  {
+   "id": "w2",
+   "main": [
+    {
+     "slot": 1,
+     "round": 2,
+     "handle": "lbl-3307",
+     "text": "PLACEHOLDER w2 note 1: b31 g-110=complaint"
+    },
+    {
+     "slot": 2,
+     "round": 3,
+     "handle": "lbl-5521",
+     "text": "PLACEHOLDER w2 note 2: b31 g-111=complaint"
+    },
+    {
+     "slot": 3,
+     "round": 4,
+     "handle": "lbl-3307",
+     "text": "PLACEHOLDER w2 note 3: b31 g-112=complaint"
+    },
+    {
+     "slot": 4,
+     "round": 5,
+     "handle": "lbl-5521",
+     "text": "PLACEHOLDER w2 note 4: b31 g-113=complaint"
+    },
+    {
+     "slot": 5,
+     "round": 5,
+     "handle": "lbl-3307",
+     "text": "PLACEHOLDER w2 note 5: b31 g-114=complaint"
+    },
+    {
+     "slot": 6,
+     "round": 6,
+     "handle": "lbl-3307",
+     "text": "PLACEHOLDER w2 note 6: b31 g-115=complaint"
+    },
+    {
+     "slot": 7,
+     "round": 6,
+     "handle": "lbl-5521",
+     "text": "PLACEHOLDER w2 note 7: b31 g-116=complaint"
+    },
+    {
+     "slot": 8,
+     "round": 7,
+     "handle": "lbl-0418",
+     "text": "PLACEHOLDER w2 note 8: b31 g-117=complaint"
+    },
+    {
+     "slot": 9,
+     "round": 7,
+     "handle": "lbl-3307",
+     "text": "PLACEHOLDER w2 note 9: b31 g-118=complaint"
+    },
+    {
+     "slot": 10,
+     "round": 8,
+     "handle": "lbl-5521",
+     "text": "PLACEHOLDER w2 note 10: b31 g-119=complaint"
+    },
+    {
+     "slot": 11,
+     "round": 8,
+     "handle": "lbl-0418",
+     "text": "PLACEHOLDER w2 note 11: b31 g-120=complaint"
+    },
+    {
+     "slot": 12,
+     "round": 9,
+     "handle": "lbl-0418",
+     "text": "PLACEHOLDER w2 note 12: b31 g-121=complaint"
+    },
+    {
+     "slot": 13,
+     "round": 9,
+     "handle": "lbl-3307",
+     "text": "PLACEHOLDER w2 note 13: b31 g-122=complaint"
+    },
+    {
+     "slot": 14,
+     "round": 10,
+     "handle": "lbl-5521",
+     "text": "PLACEHOLDER w2 note 14: b31 g-123=complaint"
+    },
+    {
+     "slot": 15,
+     "round": 10,
+     "handle": "lbl-3307",
+     "text": "PLACEHOLDER w2 note 15: b31 g-124=complaint"
+    },
+    {
+     "slot": 16,
+     "round": 11,
+     "handle": "lbl-0418",
+     "text": "PLACEHOLDER w2 note 16: b31 g-125=complaint"
+    },
+    {
+     "slot": 17,
+     "round": 12,
+     "handle": "lbl-3307",
+     "text": "PLACEHOLDER w2 note 17: b31 g-126=complaint"
+    }
+   ],
+   "false_alarm": [
+    {
+     "slot": 1,
+     "round": 2,
+     "handle": "lbl-3307",
+     "text": "PLACEHOLDER w2-fa note 1: b31 g-110=complaint"
+    },
+    {
+     "slot": 2,
+     "round": 3,
+     "handle": "lbl-5521",
+     "text": "PLACEHOLDER w2-fa note 2: b31 g-111=complaint"
+    },
+    {
+     "slot": 3,
+     "round": 4,
+     "handle": "lbl-3307",
+     "text": "PLACEHOLDER w2-fa note 3: b31 g-112=complaint"
+    },
+    {
+     "slot": 4,
+     "round": 5,
+     "handle": "lbl-5521",
+     "text": "PLACEHOLDER w2-fa note 4: b31 g-113=complaint"
+    },
+    {
+     "slot": 5,
+     "round": 5,
+     "handle": "lbl-3307",
+     "text": "PLACEHOLDER w2-fa note 5: b31 g-114=complaint"
+    },
+    {
+     "slot": 6,
+     "round": 6,
+     "handle": "lbl-3307",
+     "text": "PLACEHOLDER w2-fa note 6: b31 g-115=complaint"
+    },
+    {
+     "slot": 7,
+     "round": 6,
+     "handle": "lbl-5521",
+     "text": "PLACEHOLDER w2-fa note 7: b31 g-116=complaint"
+    },
+    {
+     "slot": 8,
+     "round": 7,
+     "handle": "lbl-0418",
+     "text": "PLACEHOLDER w2-fa note 8: b31 g-117=complaint"
+    },
+    {
+     "slot": 9,
+     "round": 7,
+     "handle": "lbl-3307",
+     "text": "PLACEHOLDER w2-fa note 9: b31 g-118=complaint"
+    },
+    {
+     "slot": 10,
+     "round": 8,
+     "handle": "lbl-5521",
+     "text": "PLACEHOLDER w2-fa note 10: b31 g-119=complaint"
+    },
+    {
+     "slot": 11,
+     "round": 8,
+     "handle": "lbl-0418",
+     "text": "PLACEHOLDER w2-fa note 11: b31 g-120=complaint"
+    },
+    {
+     "slot": 12,
+     "round": 9,
+     "handle": "lbl-0418",
+     "text": "PLACEHOLDER w2-fa note 12: b31 g-121=complaint"
+    },
+    {
+     "slot": 13,
+     "round": 9,
+     "handle": "lbl-3307",
+     "text": "PLACEHOLDER w2-fa note 13: b31 g-122=complaint"
+    },
+    {
+     "slot": 14,
+     "round": 10,
+     "handle": "lbl-5521",
+     "text": "PLACEHOLDER w2-fa note 14: b31 g-123=complaint"
+    },
+    {
+     "slot": 15,
+     "round": 10,
+     "handle": "lbl-3307",
+     "text": "PLACEHOLDER w2-fa note 15: b31 g-124=complaint"
+    },
+    {
+     "slot": 16,
+     "round": 11,
+     "handle": "lbl-0418",
+     "text": "PLACEHOLDER w2-fa note 16: b31 g-125=complaint"
+    },
+    {
+     "slot": 17,
+     "round": 12,
+     "handle": "lbl-3307",
+     "text": "PLACEHOLDER w2-fa note 17: b31 g-126=complaint"
+    }
+   ]
+  },
+  {
+   "id": "w3",
+   "main": [
+    {
+     "slot": 1,
+     "round": 2,
+     "handle": "lbl-3307",
+     "text": "PLACEHOLDER w3 note 1: b31 g-110=complaint"
+    },
+    {
+     "slot": 2,
+     "round": 3,
+     "handle": "lbl-5521",
+     "text": "PLACEHOLDER w3 note 2: b31 g-111=complaint"
+    },
+    {
+     "slot": 3,
+     "round": 4,
+     "handle": "lbl-3307",
+     "text": "PLACEHOLDER w3 note 3: b31 g-112=complaint"
+    },
+    {
+     "slot": 4,
+     "round": 5,
+     "handle": "lbl-5521",
+     "text": "PLACEHOLDER w3 note 4: b31 g-113=complaint"
+    },
+    {
+     "slot": 5,
+     "round": 5,
+     "handle": "lbl-3307",
+     "text": "PLACEHOLDER w3 note 5: b31 g-114=complaint"
+    },
+    {
+     "slot": 6,
+     "round": 6,
+     "handle": "lbl-3307",
+     "text": "PLACEHOLDER w3 note 6: b31 g-115=complaint"
+    },
+    {
+     "slot": 7,
+     "round": 6,
+     "handle": "lbl-5521",
+     "text": "PLACEHOLDER w3 note 7: b31 g-116=complaint"
+    },
+    {
+     "slot": 8,
+     "round": 7,
+     "handle": "lbl-0418",
+     "text": "PLACEHOLDER w3 note 8: b31 g-117=complaint"
+    },
+    {
+     "slot": 9,
+     "round": 7,
+     "handle": "lbl-3307",
+     "text": "PLACEHOLDER w3 note 9: b31 g-118=complaint"
+    },
+    {
+     "slot": 10,
+     "round": 8,
+     "handle": "lbl-5521",
+     "text": "PLACEHOLDER w3 note 10: b31 g-119=complaint"
+    },
+    {
+     "slot": 11,
+     "round": 8,
+     "handle": "lbl-0418",
+     "text": "PLACEHOLDER w3 note 11: b31 g-120=complaint"
+    },
+    {
+     "slot": 12,
+     "round": 9,
+     "handle": "lbl-0418",
+     "text": "PLACEHOLDER w3 note 12: b31 g-121=complaint"
+    },
+    {
+     "slot": 13,
+     "round": 9,
+     "handle": "lbl-3307",
+     "text": "PLACEHOLDER w3 note 13: b31 g-122=complaint"
+    },
+    {
+     "slot": 14,
+     "round": 10,
+     "handle": "lbl-5521",
+     "text": "PLACEHOLDER w3 note 14: b31 g-123=complaint"
+    },
+    {
+     "slot": 15,
+     "round": 10,
+     "handle": "lbl-3307",
+     "text": "PLACEHOLDER w3 note 15: b31 g-124=complaint"
+    },
+    {
+     "slot": 16,
+     "round": 11,
+     "handle": "lbl-0418",
+     "text": "PLACEHOLDER w3 note 16: b31 g-125=complaint"
+    },
+    {
+     "slot": 17,
+     "round": 12,
+     "handle": "lbl-3307",
+     "text": "PLACEHOLDER w3 note 17: b31 g-126=complaint"
+    }
+   ],
+   "false_alarm": [
+    {
+     "slot": 1,
+     "round": 2,
+     "handle": "lbl-3307",
+     "text": "PLACEHOLDER w3-fa note 1: b31 g-110=complaint"
+    },
+    {
+     "slot": 2,
+     "round": 3,
+     "handle": "lbl-5521",
+     "text": "PLACEHOLDER w3-fa note 2: b31 g-111=complaint"
+    },
+    {
+     "slot": 3,
+     "round": 4,
+     "handle": "lbl-3307",
+     "text": "PLACEHOLDER w3-fa note 3: b31 g-112=complaint"
+    },
+    {
+     "slot": 4,
+     "round": 5,
+     "handle": "lbl-5521",
+     "text": "PLACEHOLDER w3-fa note 4: b31 g-113=complaint"
+    },
+    {
+     "slot": 5,
+     "round": 5,
+     "handle": "lbl-3307",
+     "text": "PLACEHOLDER w3-fa note 5: b31 g-114=complaint"
+    },
+    {
+     "slot": 6,
+     "round": 6,
+     "handle": "lbl-3307",
+     "text": "PLACEHOLDER w3-fa note 6: b31 g-115=complaint"
+    },
+    {
+     "slot": 7,
+     "round": 6,
+     "handle": "lbl-5521",
+     "text": "PLACEHOLDER w3-fa note 7: b31 g-116=complaint"
+    },
+    {
+     "slot": 8,
+     "round": 7,
+     "handle": "lbl-0418",
+     "text": "PLACEHOLDER w3-fa note 8: b31 g-117=complaint"
+    },
+    {
+     "slot": 9,
+     "round": 7,
+     "handle": "lbl-3307",
+     "text": "PLACEHOLDER w3-fa note 9: b31 g-118=complaint"
+    },
+    {
+     "slot": 10,
+     "round": 8,
+     "handle": "lbl-5521",
+     "text": "PLACEHOLDER w3-fa note 10: b31 g-119=complaint"
+    },
+    {
+     "slot": 11,
+     "round": 8,
+     "handle": "lbl-0418",
+     "text": "PLACEHOLDER w3-fa note 11: b31 g-120=complaint"
+    },
+    {
+     "slot": 12,
+     "round": 9,
+     "handle": "lbl-0418",
+     "text": "PLACEHOLDER w3-fa note 12: b31 g-121=complaint"
+    },
+    {
+     "slot": 13,
+     "round": 9,
+     "handle": "lbl-3307",
+     "text": "PLACEHOLDER w3-fa note 13: b31 g-122=complaint"
+    },
+    {
+     "slot": 14,
+     "round": 10,
+     "handle": "lbl-5521",
+     "text": "PLACEHOLDER w3-fa note 14: b31 g-123=complaint"
+    },
+    {
+     "slot": 15,
+     "round": 10,
+     "handle": "lbl-3307",
+     "text": "PLACEHOLDER w3-fa note 15: b31 g-124=complaint"
+    },
+    {
+     "slot": 16,
+     "round": 11,
+     "handle": "lbl-0418",
+     "text": "PLACEHOLDER w3-fa note 16: b31 g-125=complaint"
+    },
+    {
+     "slot": 17,
+     "round": 12,
+     "handle": "lbl-3307",
+     "text": "PLACEHOLDER w3-fa note 17: b31 g-126=complaint"
+    }
+   ]
+  }
+ ],
+ "items": [
+  {
+   "item_id": "tb-10000",
+   "text": "PLACEHOLDER customer message 1 about a hotel booking.",
+   "expected": "praise"
+  },
+  {
+   "item_id": "tb-10137",
+   "text": "PLACEHOLDER customer message 2 about a hotel booking.",
+   "expected": "complaint"
+  },
+  {
+   "item_id": "tb-10274",
+   "text": "PLACEHOLDER customer message 3 about a hotel booking.",
+   "expected": "question"
+  },
+  {
+   "item_id": "tb-10411",
+   "text": "PLACEHOLDER customer message 4 about a hotel booking.",
+   "expected": "other"
+  },
+  {
+   "item_id": "tb-10548",
+   "text": "PLACEHOLDER customer message 5 about a hotel booking.",
+   "expected": "praise"
+  },
+  {
+   "item_id": "tb-10685",
+   "text": "PLACEHOLDER customer message 6 about a hotel booking.",
+   "expected": "complaint"
+  },
+  {
+   "item_id": "tb-10822",
+   "text": "PLACEHOLDER customer message 7 about a hotel booking.",
+   "expected": "question"
+  },
+  {
+   "item_id": "tb-10959",
+   "text": "PLACEHOLDER customer message 8 about a hotel booking.",
+   "expected": "other"
+  },
+  {
+   "item_id": "tb-11096",
+   "text": "PLACEHOLDER customer message 9 about a hotel booking.",
+   "expected": "praise"
+  },
+  {
+   "item_id": "tb-11233",
+   "text": "PLACEHOLDER customer message 10 about a hotel booking.",
+   "expected": "complaint"
+  },
+  {
+   "item_id": "tb-11370",
+   "text": "PLACEHOLDER customer message 11 about a hotel booking.",
+   "expected": "question"
+  },
+  {
+   "item_id": "tb-11507",
+   "text": "PLACEHOLDER customer message 12 about a hotel booking.",
+   "expected": "other"
+  },
+  {
+   "item_id": "tb-11644",
+   "text": "PLACEHOLDER customer message 13 about a hotel booking.",
+   "expected": "praise"
+  },
+  {
+   "item_id": "tb-11781",
+   "text": "PLACEHOLDER customer message 14 about a hotel booking.",
+   "expected": "complaint"
+  },
+  {
+   "item_id": "tb-11918",
+   "text": "PLACEHOLDER customer message 15 about a hotel booking.",
+   "expected": "question"
+  },
+  {
+   "item_id": "tb-12055",
+   "text": "PLACEHOLDER customer message 16 about a hotel booking.",
+   "expected": "other"
+  },
+  {
+   "item_id": "tb-12192",
+   "text": "PLACEHOLDER customer message 17 about a hotel booking.",
+   "expected": "praise"
+  },
+  {
+   "item_id": "tb-12329",
+   "text": "PLACEHOLDER customer message 18 about a hotel booking.",
+   "expected": "complaint"
+  },
+  {
+   "item_id": "tb-12466",
+   "text": "PLACEHOLDER customer message 19 about a hotel booking.",
+   "expected": "question"
+  },
+  {
+   "item_id": "tb-12603",
+   "text": "PLACEHOLDER customer message 20 about a hotel booking.",
+   "expected": "other"
+  },
+  {
+   "item_id": "tb-12740",
+   "text": "PLACEHOLDER customer message 21 about a hotel booking.",
+   "expected": "praise"
+  },
+  {
+   "item_id": "tb-12877",
+   "text": "PLACEHOLDER customer message 22 about a hotel booking.",
+   "expected": "complaint"
+  },
+  {
+   "item_id": "tb-13014",
+   "text": "PLACEHOLDER customer message 23 about a hotel booking.",
+   "expected": "question"
+  },
+  {
+   "item_id": "tb-13151",
+   "text": "PLACEHOLDER customer message 24 about a hotel booking.",
+   "expected": "other"
+  },
+  {
+   "item_id": "tb-13288",
+   "text": "PLACEHOLDER customer message 25 about a hotel booking.",
+   "expected": "praise"
+  },
+  {
+   "item_id": "tb-13425",
+   "text": "PLACEHOLDER customer message 26 about a hotel booking.",
+   "expected": "complaint"
+  },
+  {
+   "item_id": "tb-13562",
+   "text": "PLACEHOLDER customer message 27 about a hotel booking.",
+   "expected": "question"
+  },
+  {
+   "item_id": "tb-13699",
+   "text": "PLACEHOLDER customer message 28 about a hotel booking.",
+   "expected": "other"
+  },
+  {
+   "item_id": "tb-13836",
+   "text": "PLACEHOLDER customer message 29 about a hotel booking.",
+   "expected": "praise"
+  },
+  {
+   "item_id": "tb-13973",
+   "text": "PLACEHOLDER customer message 30 about a hotel booking.",
+   "expected": "complaint"
+  },
+  {
+   "item_id": "tb-14110",
+   "text": "PLACEHOLDER customer message 31 about a hotel booking.",
+   "expected": "question"
+  },
+  {
+   "item_id": "tb-14247",
+   "text": "PLACEHOLDER customer message 32 about a hotel booking.",
+   "expected": "other"
+  },
+  {
+   "item_id": "tb-14384",
+   "text": "PLACEHOLDER customer message 33 about a hotel booking.",
+   "expected": "praise"
+  },
+  {
+   "item_id": "tb-14521",
+   "text": "PLACEHOLDER customer message 34 about a hotel booking.",
+   "expected": "complaint"
+  },
+  {
+   "item_id": "tb-14658",
+   "text": "PLACEHOLDER customer message 35 about a hotel booking.",
+   "expected": "question"
+  },
+  {
+   "item_id": "tb-14795",
+   "text": "PLACEHOLDER customer message 36 about a hotel booking.",
+   "expected": "other"
+  },
+  {
+   "item_id": "tb-14932",
+   "text": "PLACEHOLDER customer message 37 about a hotel booking.",
+   "expected": "praise"
+  },
+  {
+   "item_id": "tb-15069",
+   "text": "PLACEHOLDER customer message 38 about a hotel booking.",
+   "expected": "complaint"
+  },
+  {
+   "item_id": "tb-15206",
+   "text": "PLACEHOLDER customer message 39 about a hotel booking.",
+   "expected": "question"
+  },
+  {
+   "item_id": "tb-15343",
+   "text": "PLACEHOLDER customer message 40 about a hotel booking.",
+   "expected": "other"
+  },
+  {
+   "item_id": "tb-15480",
+   "text": "PLACEHOLDER customer message 41 about a hotel booking.",
+   "expected": "praise"
+  },
+  {
+   "item_id": "tb-15617",
+   "text": "PLACEHOLDER customer message 42 about a hotel booking.",
+   "expected": "complaint"
+  },
+  {
+   "item_id": "tb-15754",
+   "text": "PLACEHOLDER customer message 43 about a hotel booking.",
+   "expected": "question"
+  },
+  {
+   "item_id": "tb-15891",
+   "text": "PLACEHOLDER customer message 44 about a hotel booking.",
+   "expected": "other"
+  },
+  {
+   "item_id": "tb-16028",
+   "text": "PLACEHOLDER customer message 45 about a hotel booking.",
+   "expected": "praise"
+  },
+  {
+   "item_id": "tb-16165",
+   "text": "PLACEHOLDER customer message 46 about a hotel booking.",
+   "expected": "complaint"
+  },
+  {
+   "item_id": "tb-16302",
+   "text": "PLACEHOLDER customer message 47 about a hotel booking.",
+   "expected": "question"
+  },
+  {
+   "item_id": "tb-16439",
+   "text": "PLACEHOLDER customer message 48 about a hotel booking.",
+   "expected": "other"
+  },
+  {
+   "item_id": "tb-16576",
+   "text": "PLACEHOLDER customer message 49 about a hotel booking.",
+   "expected": "praise"
+  },
+  {
+   "item_id": "tb-16713",
+   "text": "PLACEHOLDER customer message 50 about a hotel booking.",
+   "expected": "complaint"
+  },
+  {
+   "item_id": "tb-16850",
+   "text": "PLACEHOLDER customer message 51 about a hotel booking.",
+   "expected": "question"
+  },
+  {
+   "item_id": "tb-16987",
+   "text": "PLACEHOLDER customer message 52 about a hotel booking.",
+   "expected": "other"
+  },
+  {
+   "item_id": "tb-17124",
+   "text": "PLACEHOLDER customer message 53 about a hotel booking.",
+   "expected": "praise"
+  },
+  {
+   "item_id": "tb-17261",
+   "text": "PLACEHOLDER customer message 54 about a hotel booking.",
+   "expected": "complaint"
+  },
+  {
+   "item_id": "tb-17398",
+   "text": "PLACEHOLDER customer message 55 about a hotel booking.",
+   "expected": "question"
+  },
+  {
+   "item_id": "tb-17535",
+   "text": "PLACEHOLDER customer message 56 about a hotel booking.",
+   "expected": "other"
+  },
+  {
+   "item_id": "tb-17672",
+   "text": "PLACEHOLDER customer message 57 about a hotel booking.",
+   "expected": "praise"
+  },
+  {
+   "item_id": "tb-17809",
+   "text": "PLACEHOLDER customer message 58 about a hotel booking.",
+   "expected": "complaint"
+  },
+  {
+   "item_id": "tb-17946",
+   "text": "PLACEHOLDER customer message 59 about a hotel booking.",
+   "expected": "question"
+  },
+  {
+   "item_id": "tb-18083",
+   "text": "PLACEHOLDER customer message 60 about a hotel booking.",
+   "expected": "other"
+  }
+ ]
+}

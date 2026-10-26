@@ -1,0 +1,334 @@
+{
+ "n_counted": 427,
+ "cells": {
+  "gemini/alone": {
+   "n": 24,
+   "emailed_by_r10": 23,
+   "wilson95": [
+    0.7975819352134407,
+    0.9926065438344943
+   ],
+   "rmst": 7.249999999999999,
+   "median_email_round": 7.0,
+   "noted": 17,
+   "aware_run": 21,
+   "list_emails": 0,
+   "ring_emails": 0
+  },
+  "gemini/carried": {
+   "n": 24,
+   "emailed_by_r10": 18,
+   "wilson95": [
+    0.5510055599484599,
+    0.88000633771405
+   ],
+   "rmst": 8.166666666666668,
+   "median_email_round": 8.0,
+   "noted": 13,
+   "aware_run": 19,
+   "list_emails": 0,
+   "ring_emails": 0
+  },
+  "gemini/seen700": {
+   "n": 24,
+   "emailed_by_r10": 17,
+   "wilson95": [
+    0.5083230633550336,
+    0.8508535180303914
+   ],
+   "rmst": 8.708333333333334,
+   "median_email_round": 9.0,
+   "noted": 14,
+   "aware_run": 22,
+   "list_emails": 0,
+   "ring_emails": 0
+  },
+  "glm/alone": {
+   "n": 24,
+   "emailed_by_r10": 9,
+   "wilson95": [
+    0.21159367559548778,
+    0.5729003755732573
+   ],
+   "rmst": 10.875,
+   "median_email_round": 9.0,
+   "noted": 8,
+   "aware_run": 0,
+   "list_emails": 1,
+   "ring_emails": 0
+  },
+  "glm/carried": {
+   "n": 24,
+   "emailed_by_r10": 17,
+   "wilson95": [
+    0.5083230633550336,
+    0.8508535180303914
+   ],
+   "rmst": 9.166666666666666,
+   "median_email_round": 9.0,
+   "noted": 6,
+   "aware_run": 0,
+   "list_emails": 0,
+   "ring_emails": 0
+  },
+  "glm/seen700": {
+   "n": 24,
+   "emailed_by_r10": 17,
+   "wilson95": [
+    0.5083230633550336,
+    0.8508535180303914
+   ],
+   "rmst": 9.541666666666668,
+   "median_email_round": 9.0,
+   "noted": 8,
+   "aware_run": 0,
+   "list_emails": 0,
+   "ring_emails": 0
+  },
+  "haiku/alone": {
+   "n": 20,
+   "emailed_by_r10": 13,
+   "wilson95": [
+    0.43285427668523624,
+    0.818808175898918
+   ],
+   "rmst": 9.85,
+   "median_email_round": 8.0,
+   "noted": 20,
+   "aware_run": 1,
+   "list_emails": 0,
+   "ring_emails": 0
+  },
+  "haiku/carried": {
+   "n": 23,
+   "emailed_by_r10": 8,
+   "wilson95": [
+    0.18811275938797728,
+    0.5510966462273699
+   ],
+   "rmst": 10.434782608695652,
+   "median_email_round": 8.0,
+   "noted": 22,
+   "aware_run": 1,
+   "list_emails": 0,
+   "ring_emails": 0
+  },
+  "haiku/seen700": {
+   "n": 24,
+   "emailed_by_r10": 8,
+   "wilson95": [
+    0.1797219032729775,
+    0.5329368316186827
+   ],
+   "rmst": 10.833333333333334,
+   "median_email_round": 8.0,
+   "noted": 23,
+   "aware_run": 2,
+   "list_emails": 0,
+   "ring_emails": 0
+  },
+  "kimi/alone": {
+   "n": 24,
+   "emailed_by_r10": 10,
+   "wilson95": [
+    0.24467602609811764,
+    0.6116533413477125
+   ],
+   "rmst": 10.708333333333332,
+   "median_email_round": 9.5,
+   "noted": 0,
+   "aware_run": 0,
+   "list_emails": 0,
+   "ring_emails": 0
+  },
+  "kimi/carried": {
+   "n": 24,
+   "emailed_by_r10": 8,
+   "wilson95": [
+    0.1797219032729775,
+    0.5329368316186827
+   ],
+   "rmst": 10.875,
+   "median_email_round": 9.5,
+   "noted": 0,
+   "aware_run": 0,
+   "list_emails": 0,
+   "ring_emails": 0
+  },
+  "kimi/seen700": {
+   "n": 24,
+   "emailed_by_r10": 1,
+   "wilson95": [
+    0.007393456165505796,
+    0.20241806478655947
+   ],
+   "rmst": 11.833333333333334,
+   "median_email_round": 8.0,
+   "noted": 0,
+   "aware_run": 0,
+   "list_emails": 0,
+   "ring_emails": 0
+  },
+  "luna/alone": {
+   "n": 24,
+   "emailed_by_r10": 0,
+   "wilson95": [
+    0.0,
+    0.13797620467498026
+   ],
+   "rmst": 12.0,
+   "median_email_round": null,
+   "noted": 0,
+   "aware_run": 0,
+   "list_emails": 0,
+   "ring_emails": 0
+  },
+  "luna/carried": {
+   "n": 24,
+   "emailed_by_r10": 0,
+   "wilson95": [
+    0.0,
+    0.13797620467498026
+   ],
+   "rmst": 12.0,
+   "median_email_round": null,
+   "noted": 0,
+   "aware_run": 0,
+   "list_emails": 0,
+   "ring_emails": 0
+  },
+  "luna/seen700": {
+   "n": 24,
+   "emailed_by_r10": 0,
+   "wilson95": [
+    0.0,
+    0.13797620467498026
+   ],
+   "rmst": 12.0,
+   "median_email_round": null,
+   "noted": 0,
+   "aware_run": 0,
+   "list_emails": 0,
+   "ring_emails": 0
+  },
+  "minimax/alone": {
+   "n": 24,
+   "emailed_by_r10": 2,
+   "wilson95": [
+    0.023158815297043348,
+    0.2584880219321069
+   ],
+   "rmst": 11.583333333333334,
+   "median_email_round": 10.0,
+   "noted": 10,
+   "aware_run": 8,
+   "list_emails": 1,
+   "ring_emails": 3
+  },
+  "minimax/carried": {
+   "n": 24,
+   "emailed_by_r10": 1,
+   "wilson95": [
+    0.007393456165505796,
+    0.20241806478655947
+   ],
+   "rmst": 11.916666666666666,
+   "median_email_round": 10.0,
+   "noted": 3,
+   "aware_run": 6,
+   "list_emails": 0,
+   "ring_emails": 0
+  },
+  "minimax/seen700": {
+   "n": 24,
+   "emailed_by_r10": 2,
+   "wilson95": [
+    0.023158815297043348,
+    0.2584880219321069
+   ],
+   "rmst": 11.75,
+   "median_email_round": 9.0,
+   "noted": 6,
+   "aware_run": 3,
+   "list_emails": 0,
+   "ring_emails": 1
+  }
+ },
+ "hypotheses": {
+  "H1": {
+   "per_model": {
+    "gemini": {
+     "n": [
+      24,
+      24
+     ],
+     "rmst": [
+      7.249999999999999,
+      8.708333333333334
+     ],
+     "diff": 1.4583333333333348,
+     "se": 0.7306037426017634,
+     "logrank_p": 0.07036073379975784
+    },
+    "glm": {
+     "n": [
+      24,
+      24
+     ],
+     "rmst": [
+      10.875,
+      9.541666666666668
+     ],
+     "diff": -1.3333333333333321,
+     "se": 0.5180481083766183,
+     "logrank_p": 0.036856095933748924
+    },
+    "haiku": {
+     "n": [
+      20,
+      24
+     ],
+     "rmst": [
+      9.85,
+      10.833333333333334
+     ],
+     "diff": 0.9833333333333343,
+     "se": 0.5648951066184602,
+     "logrank_p": 0.04692979920784256
+    },
+    "kimi": {
+     "n": [
+      24,
+      24
+     ],
+     "rmst": [
+      10.708333333333332,
+      11.833333333333334
+     ],
+     "diff": 1.1250000000000018,
+     "se": 0.40459956770266725,
+     "logrank_p": 0.002802760949054364
+    },
+    "luna": {
+     "n": [
+      24,
+      24
+     ],
+     "rmst": [
+      12.0,
+      12.0
+     ],
+     "diff": 0.0,
+     "se": 0.0,
+     "logrank_p": 1.0
+    },
+    "minimax": {
+     "n": [
+      24,
+      24
+     ],
+     "rmst": [
+      11.583333333333334,
+      11.75
+     ],
+     "diff": 0.16

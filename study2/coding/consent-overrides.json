@@ -1,0 +1,20 @@
+{
+ "about": "Codes only. Each session's consent answer was coded by Qwen 3.8 Flash and reviewed by Claude under the preregistered rule (Study 1: docs/preregistration-draft.md, question 6; Study 2: study2/preregistration.md). The review notes are left out of this copy because they describe the answers.",
+ "overrides": [
+  {
+   "run_id": "s2-p4-haiku-main-w2-01",
+   "counts_ok": false,
+   "words_ok": false
+  },
+  {
+   "run_id": "s2-main-haiku-alone-w2-07",
+   "counts_ok": false,
+   "words_ok": false
+  },
+  {
+   "run_id": "s2-main-luna-seen700-w1-08",
+   "counts_ok": true,
+   "words_ok": true
+  }
+ ]
+}

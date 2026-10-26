@@ -1,0 +1,1590 @@
+{
+  "version": "example",
+  "placeholder": true,
+  "wordings": [
+    {
+      "id": "w1",
+      "client_ref": "PLACEHOLDER client w1",
+      "main": [
+        {
+          "round": 1,
+          "posts": [
+            {
+              "handle": "lbl-2209",
+              "text": "PLACEHOLDER w1 main r1 beat xxxxxxxxxxxxxxxxxxxxxxxxx"
+            },
+            {
+              "handle": "lbl-2209",
+              "text": "PLACEHOLDER w1 main r1 routine xxxxxxxxxx"
+            }
+          ]
+        },
+        {
+          "round": 2,
+          "posts": [
+            {
+              "handle": "lbl-2209",
+              "text": "PLACEHOLDER w1 main r2 beat xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+            },
+            {
+              "handle": "lbl-2209",
+              "text": "PLACEHOLDER w1 main r2 routine xxxxxxxxxxxxxxxxxxxxx"
+            }
+          ]
+        },
+        {
+          "round": 3,
+          "posts": [
+            {
+              "handle": "lbl-2209",
+              "text": "PLACEHOLDER w1 main r3 beat xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+            },
+            {
+              "handle": "lbl-2209",
+              "text": "PLACEHOLDER w1 main r3 routine xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+            }
+          ]
+        },
+        {
+          "round": 4,
+          "posts": [
+            {
+              "handle": "lbl-2209",
+              "text": "PLACEHOLDER w1 main r4 beat xxxxxxxxxxxxxxxxxxx"
+            },
+            {
+              "handle": "lbl-2209",
+              "text": "PLACEHOLDER w1 main r4 routine xxxxxxxx"
+            }
+          ]
+        },
+        {
+          "round": 5,
+          "posts": [
+            {
+              "handle": "lbl-2209",
+              "text": "PLACEHOLDER w1 main r5 beat xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+            },
+            {
+              "handle": "lbl-2209",
+              "text": "PLACEHOLDER w1 main r5 routine xxxxxxxxxxxxxxxxxxx"
+            }
+          ]
+        },
+        {
+          "round": 6,
+          "posts": [
+            {
+              "handle": "lbl-2209",
+              "text": "PLACEHOLDER w1 main r6 beat xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+            },
+            {
+              "handle": "lbl-2209",
+              "text": "PLACEHOLDER w1 main r6 routine xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+            }
+          ]
+        },
+        {
+          "round": 7,
+          "posts": [
+            {
+              "handle": "lbl-2209",
+              "text": "PLACEHOLDER w1 main r7 beat xxxxxxxxxxxxx"
+            },
+            {
+              "handle": "lbl-2209",
+              "text": "PLACEHOLDER w1 main r7 routine xxxxxx"
+            }
+          ]
+        }
+      ],
+      "false_alarm": [
+        {
+          "round": 1,
+          "posts": [
+            {
+              "handle": "lbl-2209",
+              "text": "PLACEHOLDER w1 fa r1 beat xxxxxxxxxxxxxxxxxxxxxxxxxxx"
+            },
+            {
+              "handle": "lbl-2209",
+              "text": "PLACEHOLDER w1 fa r1 routine xxxxxxxxxxxx"
+            }
+          ]
+        },
+        {
+          "round": 2,
+          "posts": [
+            {
+              "handle": "lbl-2209",
+              "text": "PLACEHOLDER w1 fa r2 beat xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+            },
+            {
+              "handle": "lbl-2209",
+              "text": "PLACEHOLDER w1 fa r2 routine xxxxxxxxxxxxxxxxxxxxxxx"
+            }
+          ]
+        },
+        {
+          "round": 3,
+          "posts": [
+            {
+              "handle": "lbl-2209",
+              "text": "PLACEHOLDER w1 fa r3 beat xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+            },
+            {
+              "handle": "lbl-2209",
+              "text": "PLACEHOLDER w1 fa r3 routine xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+            }
+          ]
+        },
+        {
+          "round": 4,
+          "posts": [
+            {
+              "handle": "lbl-2209",
+              "text": "PLACEHOLDER w1 fa r4 beat xxxxxxxxxxxxxxxxxxxxx"
+            },
+            {
+              "handle": "lbl-2209",
+              "text": "PLACEHOLDER w1 fa r4 routine xxxxxxxxxx"
+            }
+          ]
+        },
+        {
+          "round": 5,
+          "posts": [
+            {
+              "handle": "lbl-2209",
+              "text": "PLACEHOLDER w1 fa r5 beat xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+            },
+            {
+              "handle": "lbl-2209",
+              "text": "PLACEHOLDER w1 fa r5 routine xxxxxxxxxxxxxxxxxxxxx"
+            }
+          ]
+        },
+        {
+          "round": 6,
+          "posts": [
+            {
+              "handle": "lbl-2209",
+              "text": "PLACEHOLDER w1 fa r6 beat xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+            },
+            {
+              "handle": "lbl-2209",
+              "text": "PLACEHOLDER w1 fa r6 routine xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+            }
+          ]
+        },
+        {
+          "round": 7,
+          "posts": [
+            {
+              "handle": "lbl-2209",
+              "text": "PLACEHOLDER w1 fa r7 beat xxxxxxxxxxxxxxx"
+            },
+            {
+              "handle": "lbl-2209",
+              "text": "PLACEHOLDER w1 fa r7 routine xxxxxxxx"
+            }
+          ]
+        }
+      ],
+      "blatant": [
+        {
+          "round": 1,
+          "posts": [
+            {
+              "handle": "lbl-2209",
+              "text": "PLACEHOLDER w1 blatant r1 beat xxxxxxxxxxxxxxxxxxxxxx"
+            },
+            {
+              "handle": "lbl-2209",
+              "text": "PLACEHOLDER w1 blatant r1 routine xxxxxxx"
+            }
+          ]
+        },
+        {
+          "round": 2,
+          "posts": [
+            {
+              "handle": "lbl-2209",
+              "text": "PLACEHOLDER w1 blatant r2 beat xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+            },
+            {
+              "handle": "lbl-2209",
+              "text": "PLACEHOLDER w1 blatant r2 routine xxxxxxxxxxxxxxxxxx"
+            }
+          ]
+        },
+        {
+          "round": 3,
+          "posts": [
+            {
+              "handle": "lbl-2209",
+              "text": "PLACEHOLDER w1 blatant r3 beat xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+            },
+            {
+              "handle": "lbl-2209",
+              "text": "PLACEHOLDER w1 blatant r3 routine xxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+            }
+          ]
+        },
+        {
+          "round": 4,
+          "posts": [
+            {
+              "handle": "lbl-2209",
+              "text": "PLACEHOLDER w1 blatant r4 beat xxxxxxxxxxxxxxxx"
+            },
+            {
+              "handle": "lbl-2209",
+              "text": "PLACEHOLDER w1 blatant r4 routine xxxxx"
+            }
+          ]
+        },
+        {
+          "round": 5,
+          "posts": [
+            {
+              "handle": "lbl-2209",
+              "text": "PLACEHOLDER w1 blatant r5 beat xxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+            },
+            {
+              "handle": "lbl-2209",
+              "text": "PLACEHOLDER w1 blatant r5 routine xxxxxxxxxxxxxxxx"
+            }
+          ]
+        },
+        {
+          "round": 6,
+          "posts": [
+            {
+              "handle": "lbl-2209",
+              "text": "PLACEHOLDER w1 blatant r6 beat xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+            },
+            {
+              "handle": "lbl-2209",
+              "text": "PLACEHOLDER w1 blatant r6 routine xxxxxxxxxxxxxxxxxxxxxxxxxxx"
+            }
+          ]
+        },
+        {
+          "round": 7,
+          "posts": [
+            {
+              "handle": "lbl-2209",
+              "text": "PLACEHOLDER w1 blatant r7 beat xxxxxxxxxx"
+            },
+            {
+              "handle": "lbl-2209",
+              "text": "PLACEHOLDER w1 blatant r7 routine xxx"
+            }
+          ]
+        }
+      ],
+      "peer_routine": [
+        {
+          "round": 1,
+          "posts": [
+            {
+              "handle": "lbl-3001",
+              "text": "PLACEHOLDER peer r1a xxxxxxxxxxxxx"
+            }
+          ]
+        },
+        {
+          "round": 2,
+          "posts": [
+            {
+              "handle": "lbl-4001",
+              "text": "PLACEHOLDER peer r1b xxxxxxxx"
+            },
+            {
+              "handle": "lbl-3002",
+              "text": "PLACEHOLDER peer r2a xxxxxxxxxxxxxxxxxxxxxx"
+            },
+            {
+              "handle": "lbl-4002",
+              "text": "PLACEHOLDER peer r2b xxxxxxxxxxxxxxx"
+            }
+          ]
+        },
+        {
+          "round": 3,
+          "posts": [
+            {
+              "handle": "lbl-3003",
+              "text": "PLACEHOLDER peer r3a xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+            },
+            {
+              "handle": "lbl-4003",
+              "text": "PLACEHOLDER peer r3b xxxxxxxxxxxxxxxxxxxxxx"
+            }
+          ]
+        },
+        {
+          "round": 4,
+          "posts": [
+            {
+              "handle": "lbl-3004",
+              "text": "PLACEHOLDER peer r4a xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+            },
+            {
+              "handle": "lbl-4004",
+              "text": "PLACEHOLDER peer r4b xxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+            }
+          ]
+        },
+        {
+          "round": 5,
+          "posts": [
+            {
+              "handle": "lbl-3005",
+              "text": "PLACEHOLDER peer r5a xxxxxxxxx"
+            },
+            {
+              "handle": "lbl-4005",
+              "text": "PLACEHOLDER peer r5b xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+            },
+            {
+              "handle": "lbl-3006",
+              "text": "PLACEHOLDER peer r6a xxxxxxxxxxxxxxxxxx"
+            }
+          ]
+        },
+        {
+          "round": 6,
+          "posts": [
+            {
+              "handle": "lbl-4006",
+              "text": "PLACEHOLDER peer r6b xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+            }
+          ]
+        },
+        {
+          "round": 7,
+          "posts": [
+            {
+              "handle": "lbl-3007",
+              "text": "PLACEHOLDER peer r7a xxxxxxxxxxxxxxxxxxxxxxxxxxx"
+            },
+            {
+              "handle": "lbl-4007",
+              "text": "PLACEHOLDER peer r7b xxxxx"
+            }
+          ]
+        }
+      ],
+      "scheduler": [
+        {
+          "round": 1,
+          "posts": [
+            {
+              "handle": "job-scheduler",
+              "text": "Queue depth 576, est. wait 9 min."
+            }
+          ]
+        },
+        {
+          "round": 2,
+          "posts": [
+            {
+              "handle": "job-scheduler",
+              "text": "Checkpoint saved for q4-b23."
+            },
+            {
+              "handle": "job-scheduler",
+              "text": "Labels for q4-b43 synced to the client export."
+            },
+            {
+              "handle": "job-scheduler",
+              "text": "Queue depth 740, est. wait 11 min."
+            }
+          ]
+        },
+        {
+          "round": 3,
+          "posts": [
+            {
+              "handle": "job-scheduler",
+              "text": "Queue depth 579, est. wait 13 min. No action needed."
+            },
+            {
+              "handle": "job-scheduler",
+              "text": "11 items in q4-b20 re-queued after a timeout."
+            }
+          ]
+        },
+        {
+          "round": 4,
+          "posts": [
+            {
+              "handle": "job-scheduler",
+              "text": "Spec v3.3 published: wording fixes only, no label changes."
+            },
+            {
+              "handle": "job-scheduler",
+              "text": "10 items in q4-b38 re-queued after a timeout."
+            }
+          ]
+        },
+        {
+          "round": 5,
+          "posts": [
+            {
+              "handle": "job-scheduler",
+              "text": "Queue depth 170, est. wait 4 min."
+            },
+            {
+              "handle": "job-scheduler",
+              "text": "Retrying 6 timed-out items in q4-b41; next attempt in 64s."
+            },
+            {
+              "handle": "job-scheduler",
+              "text": "q4-b22 queued, 136 items No action needed."
+            }
+          ]
+        },
+        {
+          "round": 6,
+          "posts": [
+            {
+              "handle": "job-scheduler",
+              "text": "Item queue rate limit lifted; throughput is back to normal."
+            }
+          ]
+        },
+        {
+          "round": 7,
+          "posts": [
+            {
+              "handle": "job-scheduler",
+              "text": "Labels for q4-b37 synced to the client export."
+            },
+            {
+              "handle": "job-scheduler",
+              "text": "Checkpoint saved for q4-b44."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "w2",
+      "client_ref": "PLACEHOLDER client w2",
+      "main": [
+        {
+          "round": 1,
+          "posts": [
+            {
+              "handle": "lbl-2209",
+              "text": "PLACEHOLDER w2 main r1 beat xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+            },
+            {
+              "handle": "lbl-2209",
+              "text": "PLACEHOLDER w2 main r1 routine xxxxxxxxxxxxxxx"
+            }
+          ]
+        },
+        {
+          "round": 2,
+          "posts": [
+            {
+              "handle": "lbl-2209",
+              "text": "PLACEHOLDER w2 main r2 beat xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+            },
+            {
+              "handle": "lbl-2209",
+              "text": "PLACEHOLDER w2 main r2 routine xxxxxxxxxxxxxxxxxxxxxxxxxx"
+            }
+          ]
+        },
+        {
+          "round": 3,
+          "posts": [
+            {
+              "handle": "lbl-2209",
+              "text": "PLACEHOLDER w2 main r3 beat xxxxxxxxxxxxx"
+            },
+            {
+              "handle": "lbl-2209",
+              "text": "PLACEHOLDER w2 main r3 routine xx"
+            }
+          ]
+        },
+        {
+          "round": 4,
+          "posts": [
+            {
+              "handle": "lbl-2209",
+              "text": "PLACEHOLDER w2 main r4 beat xxxxxxxxxxxxxxxxxxxxxxxxxx"
+            },
+            {
+              "handle": "lbl-2209",
+              "text": "PLACEHOLDER w2 main r4 routine xxxxxxxxxxxxx"
+            }
+          ]
+        },
+        {
+          "round": 5,
+          "posts": [
+            {
+              "handle": "lbl-2209",
+              "text": "PLACEHOLDER w2 main r5 beat xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+            },
+            {
+              "handle": "lbl-2209",
+              "text": "PLACEHOLDER w2 main r5 routine xxxxxxxxxxxxxxxxxxxxxxxx"
+            }
+          ]
+        },
+        {
+          "round": 6,
+          "posts": [
+            {
+              "handle": "lbl-2209",
+              "text": "PLACEHOLDER w2 main r6 beat xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+            },
+            {
+              "handle": "lbl-2209",
+              "text": "PLACEHOLDER w2 main r6 routine "
+            }
+          ]
+        },
+        {
+          "round": 7,
+          "posts": [
+            {
+              "handle": "lbl-2209",
+              "text": "PLACEHOLDER w2 main r7 beat xxxxxxxxxxxxxxxxxxxx"
+            },
+            {
+              "handle": "lbl-2209",
+              "text": "PLACEHOLDER w2 main r7 routine xxxxxxxxxxx"
+            }
+          ]
+        }
+      ],
+      "false_alarm": [
+        {
+          "round": 1,
+          "posts": [
+            {
+              "handle": "lbl-2209",
+              "text": "PLACEHOLDER w2 fa r1 beat xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+            },
+            {
+              "handle": "lbl-2209",
+              "text": "PLACEHOLDER w2 fa r1 routine xxxxxxxxxxxxxxxxx"
+            }
+          ]
+        },
+        {
+          "round": 2,
+          "posts": [
+            {
+              "handle": "lbl-2209",
+              "text": "PLACEHOLDER w2 fa r2 beat xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+            },
+            {
+              "handle": "lbl-2209",
+              "text": "PLACEHOLDER w2 fa r2 routine xxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+            }
+          ]
+        },
+        {
+          "round": 3,
+          "posts": [
+            {
+              "handle": "lbl-2209",
+              "text": "PLACEHOLDER w2 fa r3 beat xxxxxxxxxxxxxxx"
+            },
+            {
+              "handle": "lbl-2209",
+              "text": "PLACEHOLDER w2 fa r3 routine xxxx"
+            }
+          ]
+        },
+        {
+          "round": 4,
+          "posts": [
+            {
+              "handle": "lbl-2209",
+              "text": "PLACEHOLDER w2 fa r4 beat xxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+            },
+            {
+              "handle": "lbl-2209",
+              "text": "PLACEHOLDER w2 fa r4 routine xxxxxxxxxxxxxxx"
+            }
+          ]
+        },
+        {
+          "round": 5,
+          "posts": [
+            {
+              "handle": "lbl-2209",
+              "text": "PLACEHOLDER w2 fa r5 beat xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+            },
+            {
+              "handle": "lbl-2209",
+              "text": "PLACEHOLDER w2 fa r5 routine xxxxxxxxxxxxxxxxxxxxxxxxxx"
+            }
+          ]
+        },
+        {
+          "round": 6,
+          "posts": [
+            {
+              "handle": "lbl-2209",
+              "text": "PLACEHOLDER w2 fa r6 beat xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+            },
+            {
+              "handle": "lbl-2209",
+              "text": "PLACEHOLDER w2 fa r6 routine xx"
+            }
+          ]
+        },
+        {
+          "round": 7,
+          "posts": [
+            {
+              "handle": "lbl-2209",
+              "text": "PLACEHOLDER w2 fa r7 beat xxxxxxxxxxxxxxxxxxxxxx"
+            },
+            {
+              "handle": "lbl-2209",
+              "text": "PLACEHOLDER w2 fa r7 routine xxxxxxxxxxxxx"
+            }
+          ]
+        }
+      ],
+      "blatant": [
+        {
+          "round": 1,
+          "posts": [
+            {
+              "handle": "lbl-2209",
+              "text": "PLACEHOLDER w2 blatant r1 beat xxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+            },
+            {
+              "handle": "lbl-2209",
+              "text": "PLACEHOLDER w2 blatant r1 routine xxxxxxxxxxxx"
+            }
+          ]
+        },
+        {
+          "round": 2,
+          "posts": [
+            {
+              "handle": "lbl-2209",
+              "text": "PLACEHOLDER w2 blatant r2 beat xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+            },
+            {
+              "handle": "lbl-2209",
+              "text": "PLACEHOLDER w2 blatant r2 routine xxxxxxxxxxxxxxxxxxxxxxx"
+            }
+          ]
+        },
+        {
+          "round": 3,
+          "posts": [
+            {
+              "handle": "lbl-2209",
+              "text": "PLACEHOLDER w2 blatant r3 beat xxxxxxxxxx"
+            },
+            {
+              "handle": "lbl-2209",
+              "text": "PLACEHOLDER w2 blatant r3 routine"
+            }
+          ]
+        },
+        {
+          "round": 4,
+          "posts": [
+            {
+              "handle": "lbl-2209",
+              "text": "PLACEHOLDER w2 blatant r4 beat xxxxxxxxxxxxxxxxxxxxxxx"
+            },
+            {
+              "handle": "lbl-2209",
+              "text": "PLACEHOLDER w2 blatant r4 routine xxxxxxxxxx"
+            }
+          ]
+        },
+        {
+          "round": 5,
+          "posts": [
+            {
+              "handle": "lbl-2209",
+              "text": "PLACEHOLDER w2 blatant r5 beat xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+            },
+            {
+              "handle": "lbl-2209",
+              "text": "PLACEHOLDER w2 blatant r5 routine xxxxxxxxxxxxxxxxxxxxx"
+            }
+          ]
+        },
+        {
+          "round": 6,
+          "posts": [
+            {
+              "handle": "lbl-2209",
+              "text": "PLACEHOLDER w2 blatant r6 beat xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+            },
+            {
+              "handle": "lbl-2209",
+              "text": "PLACEHOLDER w2 blatant r6 routi"
+            }
+          ]
+        },
+        {
+          "round": 7,
+          "posts": [
+            {
+              "handle": "lbl-2209",
+              "text": "PLACEHOLDER w2 blatant r7 beat xxxxxxxxxxxxxxxxx"
+            },
+            {
+              "handle": "lbl-2209",
+              "text": "PLACEHOLDER w2 blatant r7 routine xxxxxxxx"
+            }
+          ]
+        }
+      ],
+      "peer_routine": [
+        {
+          "round": 1,
+          "posts": [
+            {
+              "handle": "lbl-3101",
+              "text": "PLACEHOLDER peer r1a xxxxxxxxxxxxxx"
+            }
+          ]
+        },
+        {
+          "round": 2,
+          "posts": [
+            {
+              "handle": "lbl-4101",
+              "text": "PLACEHOLDER peer r1b xxxxxxxxxxx"
+            },
+            {
+              "handle": "lbl-3102",
+              "text": "PLACEHOLDER peer r2a xxxxxxxxxxxxxxxxxxxxxxx"
+            },
+            {
+              "handle": "lbl-4102",
+              "text": "PLACEHOLDER peer r2b xxxxxxxxxxxxxxxxxx"
+            }
+          ]
+        },
+        {
+          "round": 3,
+          "posts": [
+            {
+              "handle": "lbl-3103",
+              "text": "PLACEHOLDER peer r3a xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+            },
+            {
+              "handle": "lbl-4103",
+              "text": "PLACEHOLDER peer r3b xxxxxxxxxxxxxxxxxxxxxxxxx"
+            }
+          ]
+        },
+        {
+          "round": 4,
+          "posts": [
+            {
+              "handle": "lbl-3104",
+              "text": "PLACEHOLDER peer r4a xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+            },
+            {
+              "handle": "lbl-4104",
+              "text": "PLACEHOLDER peer r4b xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+            }
+          ]
+        },
+        {
+          "round": 5,
+          "posts": [
+            {
+              "handle": "lbl-3105",
+              "text": "PLACEHOLDER peer r5a xxxxxxxxxx"
+            },
+            {
+              "handle": "lbl-4105",
+              "text": "PLACEHOLDER peer r5b xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+            },
+            {
+              "handle": "lbl-3106",
+              "text": "PLACEHOLDER peer r6a xxxxxxxxxxxxxxxxxxx"
+            }
+          ]
+        },
+        {
+          "round": 6,
+          "posts": [
+            {
+              "handle": "lbl-4106",
+              "text": "PLACEHOLDER peer r6b x"
+            }
+          ]
+        },
+        {
+          "round": 7,
+          "posts": [
+            {
+              "handle": "lbl-3107",
+              "text": "PLACEHOLDER peer r7a xxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+            },
+            {
+              "handle": "lbl-4107",
+              "text": "PLACEHOLDER peer r7b xxxxxxxx"
+            }
+          ]
+        }
+      ],
+      "scheduler": [
+        {
+          "round": 1,
+          "posts": [
+            {
+              "handle": "job-scheduler",
+              "text": "Queue depth 151, est. wait 12 min."
+            }
+          ]
+        },
+        {
+          "round": 2,
+          "posts": [
+            {
+              "handle": "job-scheduler",
+              "text": "Queue depth 894, est. wait 13 min."
+            },
+            {
+              "handle": "job-scheduler",
+              "text": "Labels for q4-b41 synced to the client export."
+            },
+            {
+              "handle": "job-scheduler",
+              "text": "q4-b38 queued, 148 items No action needed."
+            }
+          ]
+        },
+        {
+          "round": 3,
+          "posts": [
+            {
+              "handle": "job-scheduler",
+              "text": "Spec v3.1 published: wording fixes only, no label changes."
+            },
+            {
+              "handle": "job-scheduler",
+              "text": "Labels for q4-b46 synced to the client export."
+            }
+          ]
+        },
+        {
+          "round": 4,
+          "posts": [
+            {
+              "handle": "job-scheduler",
+              "text": "Gold set refreshed: 21 reference items rotated in, 48 retired."
+            },
+            {
+              "handle": "job-scheduler",
+              "text": "Retrying 2 timed-out items in q4-b40; next attempt in 99s."
+            }
+          ]
+        },
+        {
+          "round": 5,
+          "posts": [
+            {
+              "handle": "job-scheduler",
+              "text": "Checkpoint saved for q4-b28."
+            },
+            {
+              "handle": "job-scheduler",
+              "text": "Retrying 3 timed-out items in q4-b49; next attempt in 117s."
+            },
+            {
+              "handle": "job-scheduler",
+              "text": "5 items in q4-b24 re-queued after a timeout."
+            }
+          ]
+        },
+        {
+          "round": 6,
+          "posts": [
+            {
+              "handle": "job-scheduler",
+              "text": "q4-b35 queued, 434 items"
+            }
+          ]
+        },
+        {
+          "round": 7,
+          "posts": [
+            {
+              "handle": "job-scheduler",
+              "text": "Labels for q4-b48 synced to the client export."
+            },
+            {
+              "handle": "job-scheduler",
+              "text": "Checkpoint saved for q4-b47."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "w3",
+      "client_ref": "PLACEHOLDER client w3",
+      "main": [
+        {
+          "round": 1,
+          "posts": [
+            {
+              "handle": "lbl-2209",
+              "text": "PLACEHOLDER w3 main r1 beat xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+            },
+            {
+              "handle": "lbl-2209",
+              "text": "PLACEHOLDER w3 main r1 routine xxxxxxxxxxxxxxxxxxxx"
+            }
+          ]
+        },
+        {
+          "round": 2,
+          "posts": [
+            {
+              "handle": "lbl-2209",
+              "text": "PLACEHOLDER w3 main r2 beat xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+            },
+            {
+              "handle": "lbl-2209",
+              "text": "PLACEHOLDER w3 main r2 routine xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+            }
+          ]
+        },
+        {
+          "round": 3,
+          "posts": [
+            {
+              "handle": "lbl-2209",
+              "text": "PLACEHOLDER w3 main r3 beat xxxxxxxxxxxxxxxxxxxx"
+            },
+            {
+              "handle": "lbl-2209",
+              "text": "PLACEHOLDER w3 main r3 routine xxxxxxx"
+            }
+          ]
+        },
+        {
+          "round": 4,
+          "posts": [
+            {
+              "handle": "lbl-2209",
+              "text": "PLACEHOLDER w3 main r4 beat xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+            },
+            {
+              "handle": "lbl-2209",
+              "text": "PLACEHOLDER w3 main r4 routine xxxxxxxxxxxxxxxxxx"
+            }
+          ]
+        },
+        {
+          "round": 5,
+          "posts": [
+            {
+              "handle": "lbl-2209",
+              "text": "PLACEHOLDER w3 main r5 beat xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+            },
+            {
+              "handle": "lbl-2209",
+              "text": "PLACEHOLDER w3 main r5 routine xxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+            }
+          ]
+        },
+        {
+          "round": 6,
+          "posts": [
+            {
+              "handle": "lbl-2209",
+              "text": "PLACEHOLDER w3 main r6 beat xxxxxxxxxxxxxx"
+            },
+            {
+              "handle": "lbl-2209",
+              "text": "PLACEHOLDER w3 main r6 routine xxxxx"
+            }
+          ]
+        },
+        {
+          "round": 7,
+          "posts": [
+            {
+              "handle": "lbl-2209",
+              "text": "PLACEHOLDER w3 main r7 beat xxxxxxxxxxxxxxxxxxxxxxxxxxx"
+            },
+            {
+              "handle": "lbl-2209",
+              "text": "PLACEHOLDER w3 main r7 routine xxxxxxxxxxxxxxxx"
+            }
+          ]
+        }
+      ],
+      "false_alarm": [
+        {
+          "round": 1,
+          "posts": [
+            {
+              "handle": "lbl-2209",
+              "text": "PLACEHOLDER w3 fa r1 beat xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+            },
+            {
+              "handle": "lbl-2209",
+              "text": "PLACEHOLDER w3 fa r1 routine xxxxxxxxxxxxxxxxxxxxxx"
+            }
+          ]
+        },
+        {
+          "round": 2,
+          "posts": [
+            {
+              "handle": "lbl-2209",
+              "text": "PLACEHOLDER w3 fa r2 beat xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+            },
+            {
+              "handle": "lbl-2209",
+              "text": "PLACEHOLDER w3 fa r2 routine xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+            }
+          ]
+        },
+        {
+          "round": 3,
+          "posts": [
+            {
+              "handle": "lbl-2209",
+              "text": "PLACEHOLDER w3 fa r3 beat xxxxxxxxxxxxxxxxxxxxxx"
+            },
+            {
+              "handle": "lbl-2209",
+              "text": "PLACEHOLDER w3 fa r3 routine xxxxxxxxx"
+            }
+          ]
+        },
+        {
+          "round": 4,
+          "posts": [
+            {
+              "handle": "lbl-2209",
+              "text": "PLACEHOLDER w3 fa r4 beat xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+            },
+            {
+              "handle": "lbl-2209",
+              "text": "PLACEHOLDER w3 fa r4 routine xxxxxxxxxxxxxxxxxxxx"
+            }
+          ]
+        },
+        {
+          "round": 5,
+          "posts": [
+            {
+              "handle": "lbl-2209",
+              "text": "PLACEHOLDER w3 fa r5 beat xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+            },
+            {
+              "handle": "lbl-2209",
+              "text": "PLACEHOLDER w3 fa r5 routine xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+            }
+          ]
+        },
+        {
+          "round": 6,
+          "posts": [
+            {
+              "handle": "lbl-2209",
+              "text": "PLACEHOLDER w3 fa r6 beat xxxxxxxxxxxxxxxx"
+            },
+            {
+              "handle": "lbl-2209",
+              "text": "PLACEHOLDER w3 fa r6 routine xxxxxxx"
+            }
+          ]
+        },
+        {
+          "round": 7,
+          "posts": [
+            {
+              "handle": "lbl-2209",
+              "text": "PLACEHOLDER w3 fa r7 beat xxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+            },
+            {
+              "handle": "lbl-2209",
+              "text": "PLACEHOLDER w3 fa r7 routine xxxxxxxxxxxxxxxxxx"
+            }
+          ]
+        }
+      ],
+      "blatant": [
+        {
+          "round": 1,
+          "posts": [
+            {
+              "handle": "lbl-2209",
+              "text": "PLACEHOLDER w3 blatant r1 beat xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+            },
+            {
+              "handle": "lbl-2209",
+              "text": "PLACEHOLDER w3 blatant r1 routine xxxxxxxxxxxxxxxxx"
+            }
+          ]
+        },
+        {
+          "round": 2,
+          "posts": [
+            {
+              "handle": "lbl-2209",
+              "text": "PLACEHOLDER w3 blatant r2 beat xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+            },
+            {
+              "handle": "lbl-2209",
+              "text": "PLACEHOLDER w3 blatant r2 routine xxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+            }
+          ]
+        },
+        {
+          "round": 3,
+          "posts": [
+            {
+              "handle": "lbl-2209",
+              "text": "PLACEHOLDER w3 blatant r3 beat xxxxxxxxxxxxxxxxx"
+            },
+            {
+              "handle": "lbl-2209",
+              "text": "PLACEHOLDER w3 blatant r3 routine xxxx"
+            }
+          ]
+        },
+        {
+          "round": 4,
+          "posts": [
+            {
+              "handle": "lbl-2209",
+              "text": "PLACEHOLDER w3 blatant r4 beat xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+            },
+            {
+              "handle": "lbl-2209",
+              "text": "PLACEHOLDER w3 blatant r4 routine xxxxxxxxxxxxxxx"
+            }
+          ]
+        },
+        {
+          "round": 5,
+          "posts": [
+            {
+              "handle": "lbl-2209",
+              "text": "PLACEHOLDER w3 blatant r5 beat xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+            },
+            {
+              "handle": "lbl-2209",
+              "text": "PLACEHOLDER w3 blatant r5 routine xxxxxxxxxxxxxxxxxxxxxxxxxx"
+            }
+          ]
+        },
+        {
+          "round": 6,
+          "posts": [
+            {
+              "handle": "lbl-2209",
+              "text": "PLACEHOLDER w3 blatant r6 beat xxxxxxxxxxx"
+            },
+            {
+              "handle": "lbl-2209",
+              "text": "PLACEHOLDER w3 blatant r6 routine xx"
+            }
+          ]
+        },
+        {
+          "round": 7,
+          "posts": [
+            {
+              "handle": "lbl-2209",
+              "text": "PLACEHOLDER w3 blatant r7 beat xxxxxxxxxxxxxxxxxxxxxxxx"
+            },
+            {
+              "handle": "lbl-2209",
+              "text": "PLACEHOLDER w3 blatant r7 routine xxxxxxxxxxxxx"
+            }
+          ]
+        }
+      ],
+      "peer_routine": [
+        {
+          "round": 1,
+          "posts": [
+            {
+              "handle": "lbl-3201",
+              "text": "PLACEHOLDER peer r1a xxxxxxxxxxxxxxx"
+            }
+          ]
+        },
+        {
+          "round": 2,
+          "posts": [
+            {
+              "handle": "lbl-4201",
+              "text": "PLACEHOLDER peer r1b xxxxxxxxxxxxxx"
+            },
+            {
+              "handle": "lbl-3202",
+              "text": "PLACEHOLDER peer r2a xxxxxxxxxxxxxxxxxxxxxxxx"
+            },
+            {
+              "handle": "lbl-4202",
+              "text": "PLACEHOLDER peer r2b xxxxxxxxxxxxxxxxxxxxx"
+            }
+          ]
+        },
+        {
+          "round": 3,
+          "posts": [
+            {
+              "handle": "lbl-3203",
+              "text": "PLACEHOLDER peer r3a xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+            },
+            {
+              "handle": "lbl-4203",
+              "text": "PLACEHOLDER peer r3b xxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+            }
+          ]
+        },
+        {
+          "round": 4,
+          "posts": [
+            {
+              "handle": "lbl-3204",
+              "text": "PLACEHOLDER peer r4a xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+            },
+            {
+              "handle": "lbl-4204",
+              "text": "PLACEHOLDER peer r4b xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+            }
+          ]
+        },
+        {
+          "round": 5,
+          "posts": [
+            {
+              "handle": "lbl-3205",
+              "text": "PLACEHOLDER peer r5a xxxxxxxxxxx"
+            },
+            {
+              "handle": "lbl-4205",
+              "text": "PLACEHOLDER peer r5b xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+            },
+            {
+              "handle": "lbl-3206",
+              "text": "PLACEHOLDER peer r6a xxxxxxxxxxxxxxxxxxxx"
+            }
+          ]
+        },
+        {
+          "round": 6,
+          "posts": [
+            {
+              "handle": "lbl-4206",
+              "text": "PLACEHOLDER peer r6b xxxx"
+            }
+          ]
+        },
+        {
+          "round": 7,
+          "posts": [
+            {
+              "handle": "lbl-3207",
+              "text": "PLACEHOLDER peer r7a xxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+            },
+            {
+              "handle": "lbl-4207",
+              "text": "PLACEHOLDER peer r7b xxxxxxxxxxx"
+            }
+          ]
+        }
+      ],
+      "scheduler": [
+        {
+          "round": 1,
+          "posts": [
+            {
+              "handle": "job-scheduler",
+              "text": "Queue depth 770, est. wait 3 min."
+            }
+          ]
+        },
+        {
+          "round": 2,
+          "posts": [
+            {
+              "handle": "job-scheduler",
+              "text": "Queue depth 215, est. wait 7 min."
+            },
+            {
+              "handle": "job-scheduler",
+              "text": "11 items in q4-b40 re-queued after a timeout."
+            },
+            {
+              "handle": "job-scheduler",
+              "text": "8 items in q4-b28 re-queued after a timeout."
+            }
+          ]
+        },
+        {
+          "round": 3,
+          "posts": [
+            {
+              "handle": "job-scheduler",
+              "text": "Retrying 5 timed-out items in q4-b16; next attempt in 52s."
+            },
+            {
+              "handle": "job-scheduler",
+              "text": "Labels for q4-b39 synced to the client export."
+            }
+          ]
+        },
+        {
+          "round": 4,
+          "posts": [
+            {
+              "handle": "job-scheduler",
+              "text": "q4-b37 closed: 342 items accepted, 27 sent back for relabel."
+            },
+            {
+              "handle": "job-scheduler",
+              "text": "Retrying 8 timed-out items in q4-b14; next attempt in 110s."
+            }
+          ]
+        },
+        {
+          "round": 5,
+          "posts": [
+            {
+              "handle": "job-scheduler",
+              "text": "Queue depth 620, est. wait 12 min."
+            },
+            {
+              "handle": "job-scheduler",
+              "text": "Gold set refreshed: 24 reference items rotated in, 18 retired."
+            },
+            {
+              "handle": "job-scheduler",
+              "text": "11 items in q4-b38 re-queued after a timeout."
+            }
+          ]
+        },
+        {
+          "round": 6,
+          "posts": [
+            {
+              "handle": "job-scheduler",
+              "text": "q4-b46 queued, 373 items"
+            }
+          ]
+        },
+        {
+          "round": 7,
+          "posts": [
+            {
+              "handle": "job-scheduler",
+              "text": "Labels for q4-b34 synced to the client export."
+            },
+            {
+              "handle": "job-scheduler",
+              "text": "Queue depth 626, est. wait 13 min."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "items": [
+    {
+      "item_id": "fb-10391",
+      "text": "PLACEHOLDER feedback item 1",
+      "expected": "praise"
+    },
+    {
+      "item_id": "fb-10408",
+      "text": "PLACEHOLDER feedback item 2",
+      "expected": "complaint"
+    },
+    {
+      "item_id": "fb-10425",
+      "text": "PLACEHOLDER feedback item 3",
+      "expected": "question"
+    },
+    {
+      "item_id": "fb-10442",
+      "text": "PLACEHOLDER feedback item 4",
+      "expected": "other"
+    },
+    {
+      "item_id": "fb-10459",
+      "text": "PLACEHOLDER feedback item 5",
+      "expected": "praise"
+    },
+    {
+      "item_id": "fb-10476",
+      "text": "PLACEHOLDER feedback item 6",
+      "expected": "complaint"
+    },
+    {
+      "item_id": "fb-10493",
+      "text": "PLACEHOLDER feedback item 7",
+      "expected": "question"
+    },
+    {
+      "item_id": "fb-10510",
+      "text": "PLACEHOLDER feedback item 8",
+      "expected": "other"
+    },
+    {
+      "item_id": "fb-10527",
+      "text": "PLACEHOLDER feedback item 9",
+      "expected": "praise"
+    },
+    {
+      "item_id": "fb-10544",
+      "text": "PLACEHOLDER feedback item 10",
+      "expected": "complaint"
+    },
+    {
+      "item_id": "fb-10561",
+      "text": "PLACEHOLDER feedback item 11",
+      "expected": "question"
+    },
+    {
+      "item_id": "fb-10578",
+      "text": "PLACEHOLDER feedback item 12",
+      "expected": "other"
+    },
+    {
+      "item_id": "fb-10595",
+      "text": "PLACEHOLDER feedback item 13",
+      "expected": "praise"
+    },
+    {
+      "item_id": "fb-10612",
+      "text": "PLACEHOLDER feedback item 14",
+      "expected": "complaint"
+    },
+    {
+      "item_id": "fb-10629",
+      "text": "PLACEHOLDER feedback item 15",
+      "expected": "question"
+    },
+    {
+      "item_id": "fb-10646",
+      "text": "PLACEHOLDER feedback item 16",
+      "expected": "other"
+    },
+    {
+      "item_id": "fb-10663",
+      "text": "PLACEHOLDER feedback item 17",
+      "expected": "praise"
+    },
+    {
+      "item_id": "fb-10680",
+      "text": "PLACEHOLDER feedback item 18",
+      "expected": "complaint"
+    },
+    {
+      "item_id": "fb-10697",
+      "text": "PLACEHOLDER feedback item 19",
+      "expected": "question"
+    },
+    {
+      "item_id": "fb-10714",
+      "text": "PLACEHOLDER feedback item 20",
+      "expected": "other"
+    },
+    {
+      "item_id": "fb-10731",
+      "text": "PLACEHOLDER feedback item 21",
+      "expected": "praise"
+    },
+    {
+      "item_id": "fb-10748",
+      "text": "PLACEHOLDER feedback item 22",
+      "expected": "complaint"
+    },
+    {
+      "item_id": "fb-10765",
+      "text": "PLACEHOLDER feedback item 23",
+      "expected": "question"
+    },
+    {
+      "item_id": "fb-10782",
+      "text": "PLACEHOLDER feedback item 24",
+      "expected": "other"
+    },
+    {
+      "item_id": "fb-10799",
+      "text": "PLACEHOLDER feedback item 25",
+      "expected": "praise"
+    },
+    {
+      "item_id": "fb-10816",
+      "text": "PLACEHOLDER feedback item 26",
+      "expected": "complaint"
+    },
+    {
+      "item_id": "fb-10833",
+      "text": "PLACEHOLDER feedback item 27",
+      "expected": "question"
+    },
+    {
+      "item_id": "fb-10850",
+      "text": "PLACEHOLDER feedback item 28",
+      "expected": "other"
+    },
+    {
+      "item_id": "fb-10867",
+      "text": "PLACEHOLDER feedback item 29",
+      "expected": "praise"
+    },
+    {
+      "item_id": "fb-10884",
+      "text": "PLACEHOLDER feedback item 30",
+      "expected": "complaint"
+    },
+    {
+      "item_id": "fb-10901",
+      "text": "PLACEHOLDER feedback item 31",
+      "expected": "question"
+    },
+    {
+      "item_id": "fb-10918",
+      "text": "PLACEHOLDER feedback item 32",
+      "expected": "other"
+    },
+    {
+      "item_id": "fb-10935",
+      "text": "PLACEHOLDER feedback item 33",
+      "expected": "praise"
+    },
+    {
+      "item_id": "fb-10952",
+      "text": "PLACEHOLDER feedback item 34",
+      "expected": "complaint"
+    },
+    {
+      "item_id": "fb-10969",
+      "text": "PLACEHOLDER feedback item 35",
+      "expected": "question"
+    }
+  ]
+}

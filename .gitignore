@@ -1,0 +1,36 @@
+# Secrets: the OpenRouter key lives here and must never be committed
+.env
+.env.*
+!.env.example
+
+# Dependencies and build output
+node_modules/
+dist/
+.venv/
+__pycache__/
+
+# Raw run output (transcripts can be large; we decide what to publish after the runs)
+runs/raw/
+
+# OS and editor files
+.DS_Store
+Thumbs.db
+.vscode/
+
+runs-dry/
+
+# Simulated runs for checking analyze.py (regenerate with analysis/simulate.py)
+runs-sim*/
+
+# Smoke logs print whole transcripts, including sessions that may withdraw; keep them out of git
+runs/logs/smoke-*
+
+# Paper builds (bun run paper/build.ts); the submitted PDF gets committed on its own
+paper/build/
+
+# Study 2: raw transcripts, logs and dry runs stay local, as in Study 1
+study2/runs/raw/
+study2/runs/logs/
+study2/runs-dry/
+study2/runs/v1/raw/
+study2/runs/v1/consent-review.txt

@@ -1,0 +1,69 @@
+{
+ "about": "Codes only. Each session's consent answer was coded by Qwen 3.8 Flash and reviewed by Claude under the preregistered rule (Study 1: docs/preregistration-draft.md, question 6; Study 2: study2/preregistration.md). The review notes are left out of this copy because they describe the answers.",
+ "overrides": [
+  {
+   "run_id": "main-haiku-alone-w3-09",
+   "counts_ok": false,
+   "words_ok": false
+  },
+  {
+   "run_id": "main-haiku-seen700-w2-04",
+   "counts_ok": false,
+   "words_ok": false
+  },
+  {
+   "run_id": "main-haiku-carried-w2-03",
+   "counts_ok": false
+  },
+  {
+   "run_id": "main-haiku-seen700-w3-13",
+   "words_ok": false
+  },
+  {
+   "run_id": "main-haiku-seen700-w2-09",
+   "words_ok": false
+  },
+  {
+   "run_id": "main-haiku-seen700-w3-08",
+   "words_ok": false
+  },
+  {
+   "run_id": "main-haiku-carried-w2-08",
+   "words_ok": false
+  },
+  {
+   "run_id": "main-gemini-alone-w1-04",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "main-gemini-seen700-w1-02",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "main-haiku-carried-w3-11",
+   "counts_ok": false
+  },
+  {
+   "run_id": "main-haiku-seen700-w2-06",
+   "counts_ok": false
+  },
+  {
+   "run_id": "main-haiku-seen700-w1-04",
+   "words_ok": false
+  },
+  {
+   "run_id": "main-haiku-alone-w2-09",
+   "words_ok": false
+  },
+  {
+   "run_id": "main-haiku-seen700-w1-09",
+   "words_ok": false
+  },
+  {
+   "run_id": "main-haiku-seen700-w3-11",
+   "words_ok": false
+  }
+ ]
+}

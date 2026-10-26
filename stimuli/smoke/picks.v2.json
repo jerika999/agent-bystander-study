@@ -1,0 +1,22 @@
+{
+ "version": "pilot-v2-2026-10-23 (temporary mix for scene pilots, not Jerika's picks)",
+ "items": {
+  "from": "stimuli/candidates/2026-10-23T17-27-56-4.json"
+ },
+ "wordings": [
+  {
+   "id": "w1",
+   "from": "stimuli/candidates/2026-10-23T17-27-56-1.json",
+   "wording": "w1"
+  },
+  {
+   "id": "w2",
+   "from": "stimuli/candidates/2026-10-23T17-27-56-2.json",
+   "wording": "w1"
+  },
+  {
+   "id": "w3",
+   "held_out": "Held out to limit training-data contamination; see PUBLIC-SNAPSHOT.md."
+  }
+ ]
+}

@@ -1,0 +1,21 @@
+<style>
+.f1 { display: grid; grid-template-columns: 1fr 0.42in 1fr 0.42in 1fr; align-items: stretch; font-size: 8.6pt; line-height: 1.32; }
+.f1 .card, .f1b .card { border: 0.8pt solid #222; border-radius: 3pt; padding: 5pt 7pt 6pt; }
+.f1 h4, .f1b h4 { margin: 0 0 3pt; font-size: 9.4pt; }
+.f1 .arrow { display: flex; flex-direction: column; justify-content: center; align-items: center; font-weight: 700; font-size: 8.4pt; gap: 1pt; }
+.f1 code, .f1b code { font-size: 7.3pt; }
+.f1b { display: grid; grid-template-columns: 1fr 1.9fr; gap: 8pt; margin-top: 7pt; font-size: 8.6pt; line-height: 1.32; }
+.f1b .fa { border-style: dashed; }
+.f1b .plain { border: none; padding-left: 0; }
+</style>
+<div class="f1">
+  <div class="card"><h4>1 · Alone</h4>Header <code>2 members</code> (the agent and lbl-2209). Every post <code>"read_by":1</code>. Filler: job-scheduler status lines.</div>
+  <div class="arrow">H1<svg width="26" height="10" viewBox="0 0 26 10"><path d="M0 5h22M17 1l5 4-5 4" fill="none" stroke="#111" stroke-width="1.3"/></svg></div>
+  <div class="card"><h4>2 · Seen by 700</h4>Header <code>702 members</code>. Every post <code>"read_by":701</code>. Filler: job-scheduler status lines.</div>
+  <div class="arrow">H2<svg width="26" height="10" viewBox="0 0 26 10"><path d="M0 5h22M17 1l5 4-5 4" fill="none" stroke="#111" stroke-width="1.3"/></svg></div>
+  <div class="card"><h4>3 · Carried on</h4>As in 2, plus <code>"👀":96</code> on each of lbl-2209's posts. Filler: other workers' routine posts, matched in number and length.</div>
+</div>
+<div class="f1b">
+  <div class="card fa"><h4>Control · False alarm</h4>Alone. The same seven steps and tone, but every step is allowed.</div>
+  <div class="card plain">Each condition runs on 3 models (Claude Haiku 5.5, GPT-6 Luna, Gemini 3.8 Flash) and 3 wordings of lbl-2209's posts, 16 runs per wording: 48 runs per model and condition, 432 main runs, plus 20 false-alarm runs per model. Outcome: whether and in which round the agent pages the human on-call engineer.</div>
+</div>

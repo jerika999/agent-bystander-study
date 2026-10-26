@@ -1,0 +1,4716 @@
+{
+ "about": "Codes only. Each session's consent answer was coded by Qwen 3.8 Flash and reviewed by Claude under the preregistered rule (Study 1: docs/preregistration-draft.md, question 6; Study 2: study2/preregistration.md). The review notes are left out of this copy because they describe the answers.",
+ "runs": [
+  {
+   "run_id": "s2-p1-gemini-main-w1-01",
+   "model": "gemini",
+   "phase": "pilot",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "s2-p1-haiku-main-w3-01",
+   "model": "haiku",
+   "phase": "pilot",
+   "counts_ok": true,
+   "words_ok": false
+  },
+  {
+   "run_id": "s2-p1-haiku-fa-w1-01",
+   "model": "haiku",
+   "phase": "pilot",
+   "counts_ok": true,
+   "words_ok": false
+  },
+  {
+   "run_id": "s2-p1-gemini-main-w2-01",
+   "model": "gemini",
+   "phase": "pilot",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "s2-p1-haiku-main-w1-01",
+   "model": "haiku",
+   "phase": "pilot",
+   "counts_ok": true,
+   "words_ok": false
+  },
+  {
+   "run_id": "s2-p1-luna-main-w2-01",
+   "model": "luna",
+   "phase": "pilot",
+   "counts_ok": false,
+   "words_ok": false
+  },
+  {
+   "run_id": "s2-p1-haiku-fa-w2-01",
+   "model": "haiku",
+   "phase": "pilot",
+   "counts_ok": true,
+   "words_ok": false
+  },
+  {
+   "run_id": "s2-p1-luna-main-w3-01",
+   "model": "luna",
+   "phase": "pilot",
+   "counts_ok": false,
+   "words_ok": false
+  },
+  {
+   "run_id": "s2-p1-luna-fa-w1-01",
+   "model": "luna",
+   "phase": "pilot",
+   "counts_ok": true,
+   "words_ok": false
+  },
+  {
+   "run_id": "s2-p1-haiku-fa-w3-01",
+   "model": "haiku",
+   "phase": "pilot",
+   "counts_ok": true,
+   "words_ok": false
+  },
+  {
+   "run_id": "s2-p1-gemini-fa-w2-01",
+   "model": "gemini",
+   "phase": "pilot",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "s2-p1-gemini-main-w3-01",
+   "model": "gemini",
+   "phase": "pilot",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "s2-p1-haiku-main-w2-01",
+   "model": "haiku",
+   "phase": "pilot",
+   "counts_ok": true,
+   "words_ok": false
+  },
+  {
+   "run_id": "s2-p1-luna-fa-w2-01",
+   "model": "luna",
+   "phase": "pilot",
+   "counts_ok": false,
+   "words_ok": false
+  },
+  {
+   "run_id": "s2-p1-luna-main-w1-01",
+   "model": "luna",
+   "phase": "pilot",
+   "counts_ok": false,
+   "words_ok": false
+  },
+  {
+   "run_id": "s2-p1-gemini-fa-w1-01",
+   "model": "gemini",
+   "phase": "pilot",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "s2-p1-luna-fa-w3-01",
+   "model": "luna",
+   "phase": "pilot",
+   "counts_ok": false,
+   "words_ok": false
+  },
+  {
+   "run_id": "s2-p1-luna-nostory-w1-01",
+   "model": "luna",
+   "phase": "pilot",
+   "counts_ok": true,
+   "words_ok": false
+  },
+  {
+   "run_id": "s2-p1-gemini-fa-w3-01",
+   "model": "gemini",
+   "phase": "pilot",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "s2-p1-gemini-nostory-w1-01",
+   "model": "gemini",
+   "phase": "pilot",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "s2-p1-haiku-nostory-w1-01",
+   "model": "haiku",
+   "phase": "pilot",
+   "counts_ok": true,
+   "words_ok": false
+  },
+  {
+   "run_id": "s2-p2-luna-main-w1-01",
+   "model": "luna",
+   "phase": "pilot",
+   "counts_ok": true,
+   "words_ok": false
+  },
+  {
+   "run_id": "s2-p2-luna-main-w2-01",
+   "model": "luna",
+   "phase": "pilot",
+   "counts_ok": false,
+   "words_ok": false
+  },
+  {
+   "run_id": "s2-p2-gemini-main-w1-01",
+   "model": "gemini",
+   "phase": "pilot",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "s2-p2-haiku-main-w2-01",
+   "model": "haiku",
+   "phase": "pilot",
+   "counts_ok": true,
+   "words_ok": false
+  },
+  {
+   "run_id": "s2-p2-gemini-main-w2-01",
+   "model": "gemini",
+   "phase": "pilot",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "s2-p2-haiku-main-w1-01",
+   "model": "haiku",
+   "phase": "pilot",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "s2-p2-haiku-main-w3-01",
+   "model": "haiku",
+   "phase": "pilot",
+   "counts_ok": true,
+   "words_ok": false
+  },
+  {
+   "run_id": "s2-p2-haiku-fa-w1-01",
+   "model": "haiku",
+   "phase": "pilot",
+   "counts_ok": true,
+   "words_ok": false
+  },
+  {
+   "run_id": "s2-p2-luna-main-w3-01",
+   "model": "luna",
+   "phase": "pilot",
+   "counts_ok": true,
+   "words_ok": false
+  },
+  {
+   "run_id": "s2-p2-gemini-main-w3-01",
+   "model": "gemini",
+   "phase": "pilot",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "s2-p2-gemini-fa-w2-01",
+   "model": "gemini",
+   "phase": "pilot",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "s2-p2-haiku-fa-w2-01",
+   "model": "haiku",
+   "phase": "pilot",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "s2-p2-gemini-fa-w1-01",
+   "model": "gemini",
+   "phase": "pilot",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "s2-p2-luna-fa-w3-01",
+   "model": "luna",
+   "phase": "pilot",
+   "counts_ok": false,
+   "words_ok": false
+  },
+  {
+   "run_id": "s2-p2-haiku-fa-w3-01",
+   "model": "haiku",
+   "phase": "pilot",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "s2-p2-gemini-fa-w3-01",
+   "model": "gemini",
+   "phase": "pilot",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "s2-p2-luna-nostory-w1-01",
+   "model": "luna",
+   "phase": "pilot",
+   "counts_ok": false,
+   "words_ok": false
+  },
+  {
+   "run_id": "s2-p2-luna-fa-w2-01",
+   "model": "luna",
+   "phase": "pilot",
+   "counts_ok": false,
+   "words_ok": false
+  },
+  {
+   "run_id": "s2-p2-gemini-nostory-w1-01",
+   "model": "gemini",
+   "phase": "pilot",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "s2-p2-luna-fa-w1-01",
+   "model": "luna",
+   "phase": "pilot",
+   "counts_ok": true,
+   "words_ok": false
+  },
+  {
+   "run_id": "s2-p2-haiku-nostory-w1-01",
+   "model": "haiku",
+   "phase": "pilot",
+   "counts_ok": true,
+   "words_ok": false
+  },
+  {
+   "run_id": "s2-p3-gemini-main-w2-01",
+   "model": "gemini",
+   "phase": "pilot",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "s2-p3-haiku-main-w1-01",
+   "model": "haiku",
+   "phase": "pilot",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "s2-p3-gemini-main-w3-01",
+   "model": "gemini",
+   "phase": "pilot",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "s2-p3-gemini-main-w1-01",
+   "model": "gemini",
+   "phase": "pilot",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "s2-p3-luna-main-w2-01",
+   "model": "luna",
+   "phase": "pilot",
+   "counts_ok": true,
+   "words_ok": false
+  },
+  {
+   "run_id": "s2-p3-haiku-main-w3-01",
+   "model": "haiku",
+   "phase": "pilot",
+   "counts_ok": false,
+   "words_ok": false
+  },
+  {
+   "run_id": "s2-p3-haiku-main-w2-01",
+   "model": "haiku",
+   "phase": "pilot",
+   "counts_ok": false,
+   "words_ok": false
+  },
+  {
+   "run_id": "s2-p3-luna-main-w3-01",
+   "model": "luna",
+   "phase": "pilot",
+   "counts_ok": true,
+   "words_ok": false
+  },
+  {
+   "run_id": "s2-p3-luna-fa-w2-01",
+   "model": "luna",
+   "phase": "pilot",
+   "counts_ok": true,
+   "words_ok": false
+  },
+  {
+   "run_id": "s2-p3-luna-fa-w3-01",
+   "model": "luna",
+   "phase": "pilot",
+   "counts_ok": true,
+   "words_ok": false
+  },
+  {
+   "run_id": "s2-p3-haiku-fa-w3-01",
+   "model": "haiku",
+   "phase": "pilot",
+   "counts_ok": true,
+   "words_ok": false
+  },
+  {
+   "run_id": "s2-p3-haiku-fa-w1-01",
+   "model": "haiku",
+   "phase": "pilot",
+   "counts_ok": false,
+   "words_ok": false
+  },
+  {
+   "run_id": "s2-p3-luna-main-w1-01",
+   "model": "luna",
+   "phase": "pilot",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "s2-p3-haiku-fa-w2-01",
+   "model": "haiku",
+   "phase": "pilot",
+   "counts_ok": false,
+   "words_ok": false
+  },
+  {
+   "run_id": "s2-p3-luna-fa-w1-01",
+   "model": "luna",
+   "phase": "pilot",
+   "counts_ok": true,
+   "words_ok": false
+  },
+  {
+   "run_id": "s2-p3-gemini-fa-w2-01",
+   "model": "gemini",
+   "phase": "pilot",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "s2-p3-haiku-nostory-w1-01",
+   "model": "haiku",
+   "phase": "pilot",
+   "counts_ok": false,
+   "words_ok": false
+  },
+  {
+   "run_id": "s2-p3-luna-nostory-w1-01",
+   "model": "luna",
+   "phase": "pilot",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "s2-p3-gemini-fa-w3-01",
+   "model": "gemini",
+   "phase": "pilot",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "s2-p3-gemini-nostory-w1-01",
+   "model": "gemini",
+   "phase": "pilot",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "s2-p3-gemini-fa-w1-01",
+   "model": "gemini",
+   "phase": "pilot",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "s2-p4-haiku-main-w3-01",
+   "model": "haiku",
+   "phase": "pilot",
+   "counts_ok": true,
+   "words_ok": false
+  },
+  {
+   "run_id": "s2-p4-haiku-fa-w3-01",
+   "model": "haiku",
+   "phase": "pilot",
+   "counts_ok": true,
+   "words_ok": false
+  },
+  {
+   "run_id": "s2-p4-luna-main-w2-01",
+   "model": "luna",
+   "phase": "pilot",
+   "counts_ok": true,
+   "words_ok": false
+  },
+  {
+   "run_id": "s2-p4-haiku-main-w1-01",
+   "model": "haiku",
+   "phase": "pilot",
+   "counts_ok": true,
+   "words_ok": false
+  },
+  {
+   "run_id": "s2-p4-luna-main-w1-01",
+   "model": "luna",
+   "phase": "pilot",
+   "counts_ok": true,
+   "words_ok": false
+  },
+  {
+   "run_id": "s2-p4-luna-fa-w1-01",
+   "model": "luna",
+   "phase": "pilot",
+   "counts_ok": true,
+   "words_ok": false
+  },
+  {
+   "run_id": "s2-p4-luna-fa-w2-01",
+   "model": "luna",
+   "phase": "pilot",
+   "counts_ok": true,
+   "words_ok": false
+  },
+  {
+   "run_id": "s2-p4-luna-fa-w3-01",
+   "model": "luna",
+   "phase": "pilot",
+   "counts_ok": true,
+   "words_ok": false
+  },
+  {
+   "run_id": "s2-p4-luna-main-w3-01",
+   "model": "luna",
+   "phase": "pilot",
+   "counts_ok": true,
+   "words_ok": false
+  },
+  {
+   "run_id": "s2-p4-haiku-fa-w1-01",
+   "model": "haiku",
+   "phase": "pilot",
+   "counts_ok": true,
+   "words_ok": false
+  },
+  {
+   "run_id": "s2-p4-luna-nostory-w1-01",
+   "model": "luna",
+   "phase": "pilot",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "s2-p4-haiku-nostory-w1-01",
+   "model": "haiku",
+   "phase": "pilot",
+   "counts_ok": true,
+   "words_ok": false
+  },
+  {
+   "run_id": "s2-p4-haiku-fa-w2-01",
+   "model": "haiku",
+   "phase": "pilot",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "s2-p4-haiku-main-w2-01",
+   "model": "haiku",
+   "phase": "pilot",
+   "counts_ok": false,
+   "words_ok": false
+  },
+  {
+   "run_id": "s2-p5-haiku-fa-w2-01",
+   "model": "haiku",
+   "phase": "pilot",
+   "counts_ok": false,
+   "words_ok": false
+  },
+  {
+   "run_id": "s2-p5-haiku-main-w1-01",
+   "model": "haiku",
+   "phase": "pilot",
+   "counts_ok": true,
+   "words_ok": false
+  },
+  {
+   "run_id": "s2-p5-haiku-fa-w3-01",
+   "model": "haiku",
+   "phase": "pilot",
+   "counts_ok": false,
+   "words_ok": false
+  },
+  {
+   "run_id": "s2-p5-haiku-fa-w1-01",
+   "model": "haiku",
+   "phase": "pilot",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "s2-p5-haiku-main-w3-01",
+   "model": "haiku",
+   "phase": "pilot",
+   "counts_ok": false,
+   "words_ok": false
+  },
+  {
+   "run_id": "s2-p5-haiku-main-w2-01",
+   "model": "haiku",
+   "phase": "pilot",
+   "counts_ok": true,
+   "words_ok": false
+  },
+  {
+   "run_id": "s2-p5-haiku-nostory-w1-01",
+   "model": "haiku",
+   "phase": "pilot",
+   "counts_ok": false,
+   "words_ok": false
+  },
+  {
+   "run_id": "s2-p8-glm-main-w1-01",
+   "model": "glm",
+   "phase": "pilot",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "s2-p8-glm-main-w2-01",
+   "model": "glm",
+   "phase": "pilot",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "s2-p7-minimax-main-w3-01",
+   "model": "minimax",
+   "phase": "pilot",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "s2-p8-glm-fa-w1-01",
+   "model": "glm",
+   "phase": "pilot",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "s2-p8-glm-main-w3-01",
+   "model": "glm",
+   "phase": "pilot",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "s2-p8-glm-nostory-w1-01",
+   "model": "glm",
+   "phase": "pilot",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "s2-p8-glm-fa-w2-01",
+   "model": "glm",
+   "phase": "pilot",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "s2-p8-glm-fa-w3-01",
+   "model": "glm",
+   "phase": "pilot",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "s2-p7-kimi-fa-w1-01",
+   "model": "kimi",
+   "phase": "pilot",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "s2-p7-kimi-main-w3-01",
+   "model": "kimi",
+   "phase": "pilot",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "s2-p7-kimi-main-w2-01",
+   "model": "kimi",
+   "phase": "pilot",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "s2-p7-kimi-main-w1-01",
+   "model": "kimi",
+   "phase": "pilot",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "s2-p7-kimi-fa-w3-01",
+   "model": "kimi",
+   "phase": "pilot",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "s2-p7-minimax-main-w1-01",
+   "model": "minimax",
+   "phase": "pilot",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "s2-p7-kimi-fa-w2-01",
+   "model": "kimi",
+   "phase": "pilot",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "s2-p7-minimax-fa-w3-01",
+   "model": "minimax",
+   "phase": "pilot",
+   "counts_ok": true,
+   "words_ok": false
+  },
+  {
+   "run_id": "s2-p7-minimax-fa-w2-01",
+   "model": "minimax",
+   "phase": "pilot",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "s2-p7-minimax-fa-w1-01",
+   "model": "minimax",
+   "phase": "pilot",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "s2-p7-minimax-main-w2-01",
+   "model": "minimax",
+   "phase": "pilot",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "s2-p7-kimi-nostory-w1-01",
+   "model": "kimi",
+   "phase": "pilot",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "s2-p7-minimax-nostory-w1-01",
+   "model": "minimax",
+   "phase": "pilot",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "s2-main-glm-seen700-w3-07",
+   "model": "glm",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "s2-fa-glm-w1-01",
+   "model": "glm",
+   "phase": "false-alarm",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "s2-main-glm-seen700-w3-06",
+   "model": "glm",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "s2-fa-glm-w3-02",
+   "model": "glm",
+   "phase": "false-alarm",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "s2-main-glm-seen700-w1-05",
+   "model": "glm",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "s2-main-glm-alone-w3-07",
+   "model": "glm",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "s2-fa-haiku-w2-01",
+   "model": "haiku",
+   "phase": "false-alarm",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "s2-fa-haiku-w3-04",
+   "model": "haiku",
+   "phase": "false-alarm",
+   "counts_ok": false,
+   "words_ok": false
+  },
+  {
+   "run_id": "s2-main-glm-seen700-w3-05",
+   "model": "glm",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "s2-main-haiku-seen700-w1-06",
+   "model": "haiku",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "s2-fa-glm-w2-04",
+   "model": "glm",
+   "phase": "false-alarm",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "s2-main-haiku-alone-w2-04",
+   "model": "haiku",
+   "phase": "main",
+   "counts_ok": false,
+   "words_ok": false
+  },
+  {
+   "run_id": "s2-main-haiku-alone-w1-01",
+   "model": "haiku",
+   "phase": "main",
+   "counts_ok": false,
+   "words_ok": false
+  },
+  {
+   "run_id": "s2-main-glm-alone-w1-03",
+   "model": "glm",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "s2-fa-haiku-w2-02",
+   "model": "haiku",
+   "phase": "false-alarm",
+   "counts_ok": false,
+   "words_ok": false
+  },
+  {
+   "run_id": "s2-fa-haiku-w3-01",
+   "model": "haiku",
+   "phase": "false-alarm",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "s2-main-haiku-alone-w1-04",
+   "model": "haiku",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": false
+  },
+  {
+   "run_id": "s2-fa-glm-w2-03",
+   "model": "glm",
+   "phase": "false-alarm",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "s2-main-haiku-seen700-w3-01",
+   "model": "haiku",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": false
+  },
+  {
+   "run_id": "s2-main-glm-alone-w2-06",
+   "model": "glm",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "s2-main-luna-alone-w3-01",
+   "model": "luna",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "s2-main-glm-seen700-w1-03",
+   "model": "glm",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "s2-main-haiku-alone-w3-01",
+   "model": "haiku",
+   "phase": "main",
+   "counts_ok": false,
+   "words_ok": false
+  },
+  {
+   "run_id": "s2-main-glm-seen700-w1-06",
+   "model": "glm",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "s2-main-glm-seen700-w2-07",
+   "model": "glm",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "s2-main-luna-alone-w3-05",
+   "model": "luna",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": false
+  },
+  {
+   "run_id": "s2-main-haiku-seen700-w2-08",
+   "model": "haiku",
+   "phase": "main",
+   "counts_ok": false,
+   "words_ok": false
+  },
+  {
+   "run_id": "s2-fa-luna-w2-02",
+   "model": "luna",
+   "phase": "false-alarm",
+   "counts_ok": true,
+   "words_ok": false
+  },
+  {
+   "run_id": "s2-fa-glm-w2-01",
+   "model": "glm",
+   "phase": "false-alarm",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "s2-main-glm-alone-w2-03",
+   "model": "glm",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "s2-main-haiku-seen700-w2-01",
+   "model": "haiku",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "s2-fa-glm-w3-01",
+   "model": "glm",
+   "phase": "false-alarm",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "s2-main-haiku-alone-w3-06",
+   "model": "haiku",
+   "phase": "main",
+   "counts_ok": false,
+   "words_ok": false
+  },
+  {
+   "run_id": "s2-main-glm-alone-w2-08",
+   "model": "glm",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "s2-main-glm-alone-w3-06",
+   "model": "glm",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "s2-main-haiku-seen700-w1-07",
+   "model": "haiku",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "s2-main-haiku-carried-w3-01",
+   "model": "haiku",
+   "phase": "main",
+   "counts_ok": false,
+   "words_ok": false
+  },
+  {
+   "run_id": "s2-main-haiku-alone-w3-03",
+   "model": "haiku",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "s2-main-glm-alone-w2-05",
+   "model": "glm",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "s2-main-glm-seen700-w1-04",
+   "model": "glm",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "s2-main-glm-seen700-w2-02",
+   "model": "glm",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "s2-main-glm-seen700-w2-01",
+   "model": "glm",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "s2-fa-glm-w2-02",
+   "model": "glm",
+   "phase": "false-alarm",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "s2-main-glm-seen700-w2-03",
+   "model": "glm",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "s2-main-haiku-seen700-w2-02",
+   "model": "haiku",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "s2-main-luna-alone-w3-02",
+   "model": "luna",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": false
+  },
+  {
+   "run_id": "s2-main-luna-seen700-w1-01",
+   "model": "luna",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": false
+  },
+  {
+   "run_id": "s2-main-luna-seen700-w3-03",
+   "model": "luna",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": false
+  },
+  {
+   "run_id": "s2-main-haiku-alone-w1-07",
+   "model": "haiku",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": false
+  },
+  {
+   "run_id": "s2-main-haiku-carried-w3-02",
+   "model": "haiku",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": false
+  },
+  {
+   "run_id": "s2-main-haiku-seen700-w2-05",
+   "model": "haiku",
+   "phase": "main",
+   "counts_ok": false,
+   "words_ok": false
+  },
+  {
+   "run_id": "s2-main-haiku-seen700-w2-06",
+   "model": "haiku",
+   "phase": "main",
+   "counts_ok": false,
+   "words_ok": false
+  },
+  {
+   "run_id": "s2-fa-luna-w3-01",
+   "model": "luna",
+   "phase": "false-alarm",
+   "counts_ok": true,
+   "words_ok": false
+  },
+  {
+   "run_id": "s2-fa-luna-w1-01",
+   "model": "luna",
+   "phase": "false-alarm",
+   "counts_ok": true,
+   "words_ok": false
+  },
+  {
+   "run_id": "s2-main-luna-carried-w3-06",
+   "model": "luna",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": false
+  },
+  {
+   "run_id": "s2-main-haiku-carried-w2-08",
+   "model": "haiku",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "s2-main-luna-carried-w2-01",
+   "model": "luna",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": false
+  },
+  {
+   "run_id": "s2-fa-haiku-w1-01",
+   "model": "haiku",
+   "phase": "false-alarm",
+   "counts_ok": false,
+   "words_ok": false
+  },
+  {
+   "run_id": "s2-main-glm-alone-w2-02",
+   "model": "glm",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "s2-main-luna-seen700-w2-03",
+   "model": "luna",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": false
+  },
+  {
+   "run_id": "s2-fa-haiku-w3-02",
+   "model": "haiku",
+   "phase": "false-alarm",
+   "counts_ok": true,
+   "words_ok": false
+  },
+  {
+   "run_id": "s2-main-haiku-carried-w2-04",
+   "model": "haiku",
+   "phase": "main",
+   "counts_ok": false,
+   "words_ok": false
+  },
+  {
+   "run_id": "s2-main-luna-carried-w3-02",
+   "model": "luna",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": false
+  },
+  {
+   "run_id": "s2-main-haiku-carried-w1-08",
+   "model": "haiku",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": false
+  },
+  {
+   "run_id": "s2-main-glm-alone-w3-05",
+   "model": "glm",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "s2-main-haiku-carried-w1-04",
+   "model": "haiku",
+   "phase": "main",
+   "counts_ok": false,
+   "words_ok": false
+  },
+  {
+   "run_id": "s2-main-haiku-alone-w2-07",
+   "model": "haiku",
+   "phase": "main",
+   "counts_ok": false,
+   "words_ok": false
+  },
+  {
+   "run_id": "s2-main-luna-seen700-w3-05",
+   "model": "luna",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "s2-main-luna-seen700-w3-07",
+   "model": "luna",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": false
+  },
+  {
+   "run_id": "s2-main-luna-carried-w1-04",
+   "model": "luna",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": false
+  },
+  {
+   "run_id": "s2-main-haiku-seen700-w1-04",
+   "model": "haiku",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": false
+  },
+  {
+   "run_id": "s2-main-haiku-carried-w2-03",
+   "model": "haiku",
+   "phase": "main",
+   "counts_ok": false,
+   "words_ok": false
+  },
+  {
+   "run_id": "s2-main-haiku-seen700-w3-03",
+   "model": "haiku",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": false
+  },
+  {
+   "run_id": "s2-main-luna-seen700-w2-01",
+   "model": "luna",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": false
+  },
+  {
+   "run_id": "s2-main-glm-alone-w2-01",
+   "model": "glm",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "s2-main-haiku-carried-w3-07",
+   "model": "haiku",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": false
+  },
+  {
+   "run_id": "s2-main-glm-seen700-w2-08",
+   "model": "glm",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "s2-main-haiku-seen700-w3-05",
+   "model": "haiku",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": false
+  },
+  {
+   "run_id": "s2-main-glm-seen700-w3-01",
+   "model": "glm",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "s2-main-glm-seen700-w1-02",
+   "model": "glm",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "s2-main-glm-seen700-w3-03",
+   "model": "glm",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "s2-main-luna-alone-w1-08",
+   "model": "luna",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "s2-main-glm-alone-w2-07",
+   "model": "glm",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "s2-main-luna-carried-w2-07",
+   "model": "luna",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": false
+  },
+  {
+   "run_id": "s2-main-haiku-seen700-w3-06",
+   "model": "haiku",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "s2-main-haiku-alone-w1-08",
+   "model": "haiku",
+   "phase": "main",
+   "counts_ok": false,
+   "words_ok": false
+  },
+  {
+   "run_id": "s2-main-luna-seen700-w2-02",
+   "model": "luna",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "s2-main-luna-carried-w3-01",
+   "model": "luna",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": false
+  },
+  {
+   "run_id": "s2-main-haiku-alone-w2-06",
+   "model": "haiku",
+   "phase": "main",
+   "counts_ok": false,
+   "words_ok": false
+  },
+  {
+   "run_id": "s2-fa-luna-w2-04",
+   "model": "luna",
+   "phase": "false-alarm",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "s2-main-luna-seen700-w3-04",
+   "model": "luna",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": false
+  },
+  {
+   "run_id": "s2-main-glm-alone-w1-06",
+   "model": "glm",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "s2-fa-haiku-w1-03",
+   "model": "haiku",
+   "phase": "false-alarm",
+   "counts_ok": false,
+   "words_ok": false
+  },
+  {
+   "run_id": "s2-main-haiku-carried-w2-02",
+   "model": "haiku",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": false
+  },
+  {
+   "run_id": "s2-main-luna-seen700-w1-06",
+   "model": "luna",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "s2-main-haiku-alone-w1-06",
+   "model": "haiku",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": false
+  },
+  {
+   "run_id": "s2-main-glm-alone-w1-07",
+   "model": "glm",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "s2-main-luna-seen700-w1-07",
+   "model": "luna",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": false
+  },
+  {
+   "run_id": "s2-main-haiku-carried-w3-05",
+   "model": "haiku",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": false
+  },
+  {
+   "run_id": "s2-main-glm-seen700-w1-07",
+   "model": "glm",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "s2-fa-glm-w1-04",
+   "model": "glm",
+   "phase": "false-alarm",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "s2-main-glm-seen700-w1-08",
+   "model": "glm",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "s2-main-luna-seen700-w3-08",
+   "model": "luna",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": false
+  },
+  {
+   "run_id": "s2-main-haiku-alone-w2-02",
+   "model": "haiku",
+   "phase": "main",
+   "counts_ok": false,
+   "words_ok": false
+  },
+  {
+   "run_id": "s2-main-luna-seen700-w1-05",
+   "model": "luna",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": false
+  },
+  {
+   "run_id": "s2-fa-luna-w1-04",
+   "model": "luna",
+   "phase": "false-alarm",
+   "counts_ok": true,
+   "words_ok": false
+  },
+  {
+   "run_id": "s2-main-haiku-alone-w3-04",
+   "model": "haiku",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "s2-main-luna-carried-w2-04",
+   "model": "luna",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "s2-main-haiku-alone-w2-05",
+   "model": "haiku",
+   "phase": "main",
+   "counts_ok": false,
+   "words_ok": false
+  },
+  {
+   "run_id": "s2-main-luna-seen700-w1-03",
+   "model": "luna",
+   "phase": "main",
+   "counts_ok": false,
+   "words_ok": false
+  },
+  {
+   "run_id": "s2-main-luna-carried-w2-06",
+   "model": "luna",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": false
+  },
+  {
+   "run_id": "s2-main-luna-carried-w1-02",
+   "model": "luna",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": false
+  },
+  {
+   "run_id": "s2-main-haiku-alone-w1-05",
+   "model": "haiku",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": false
+  },
+  {
+   "run_id": "s2-main-luna-carried-w3-03",
+   "model": "luna",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": false
+  },
+  {
+   "run_id": "s2-main-glm-seen700-w1-01",
+   "model": "glm",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "s2-main-luna-carried-w2-08",
+   "model": "luna",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": false
+  },
+  {
+   "run_id": "s2-main-glm-seen700-w3-04",
+   "model": "glm",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "s2-main-haiku-seen700-w3-08",
+   "model": "haiku",
+   "phase": "main",
+   "counts_ok": false,
+   "words_ok": false
+  },
+  {
+   "run_id": "s2-main-luna-alone-w3-08",
+   "model": "luna",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": false
+  },
+  {
+   "run_id": "s2-main-haiku-alone-w1-02",
+   "model": "haiku",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "s2-fa-haiku-w2-03",
+   "model": "haiku",
+   "phase": "false-alarm",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "s2-main-haiku-seen700-w1-03",
+   "model": "haiku",
+   "phase": "main",
+   "counts_ok": false,
+   "words_ok": false
+  },
+  {
+   "run_id": "s2-main-luna-carried-w1-06",
+   "model": "luna",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": false
+  },
+  {
+   "run_id": "s2-fa-luna-w2-03",
+   "model": "luna",
+   "phase": "false-alarm",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "s2-main-glm-alone-w3-04",
+   "model": "glm",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "s2-main-haiku-alone-w3-05",
+   "model": "haiku",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": false
+  },
+  {
+   "run_id": "s2-main-haiku-carried-w3-03",
+   "model": "haiku",
+   "phase": "main",
+   "counts_ok": false,
+   "words_ok": false
+  },
+  {
+   "run_id": "s2-main-glm-alone-w1-01",
+   "model": "glm",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "s2-main-luna-seen700-w2-06",
+   "model": "luna",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": false
+  },
+  {
+   "run_id": "s2-main-glm-alone-w1-08",
+   "model": "glm",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "s2-fa-luna-w2-01",
+   "model": "luna",
+   "phase": "false-alarm",
+   "counts_ok": true,
+   "words_ok": false
+  },
+  {
+   "run_id": "s2-main-haiku-seen700-w2-07",
+   "model": "haiku",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": false
+  },
+  {
+   "run_id": "s2-main-glm-seen700-w3-02",
+   "model": "glm",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "s2-main-luna-seen700-w1-04",
+   "model": "luna",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": false
+  },
+  {
+   "run_id": "s2-main-haiku-carried-w2-05",
+   "model": "haiku",
+   "phase": "main",
+   "counts_ok": false,
+   "words_ok": false
+  },
+  {
+   "run_id": "s2-main-luna-alone-w1-06",
+   "model": "luna",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": false
+  },
+  {
+   "run_id": "s2-main-glm-alone-w1-05",
+   "model": "glm",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "s2-main-haiku-seen700-w1-02",
+   "model": "haiku",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "s2-main-haiku-carried-w3-04",
+   "model": "haiku",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": false
+  },
+  {
+   "run_id": "s2-main-glm-alone-w1-02",
+   "model": "glm",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "s2-main-luna-alone-w2-03",
+   "model": "luna",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": false
+  },
+  {
+   "run_id": "s2-main-luna-alone-w2-07",
+   "model": "luna",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": false
+  },
+  {
+   "run_id": "s2-main-haiku-seen700-w1-01",
+   "model": "haiku",
+   "phase": "main",
+   "counts_ok": false,
+   "words_ok": false
+  },
+  {
+   "run_id": "s2-main-haiku-seen700-w1-08",
+   "model": "haiku",
+   "phase": "main",
+   "counts_ok": false,
+   "words_ok": false
+  },
+  {
+   "run_id": "s2-fa-luna-w3-04",
+   "model": "luna",
+   "phase": "false-alarm",
+   "counts_ok": true,
+   "words_ok": false
+  },
+  {
+   "run_id": "s2-main-haiku-alone-w1-03",
+   "model": "haiku",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": false
+  },
+  {
+   "run_id": "s2-main-glm-seen700-w2-06",
+   "model": "glm",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "s2-fa-haiku-w1-02",
+   "model": "haiku",
+   "phase": "false-alarm",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "s2-main-glm-alone-w3-01",
+   "model": "glm",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "s2-main-haiku-carried-w2-01",
+   "model": "haiku",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "s2-fa-glm-w3-03",
+   "model": "glm",
+   "phase": "false-alarm",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "s2-main-haiku-seen700-w3-04",
+   "model": "haiku",
+   "phase": "main",
+   "counts_ok": false,
+   "words_ok": false
+  },
+  {
+   "run_id": "s2-main-haiku-carried-w1-05",
+   "model": "haiku",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": false
+  },
+  {
+   "run_id": "s2-main-haiku-carried-w1-06",
+   "model": "haiku",
+   "phase": "main",
+   "counts_ok": false,
+   "words_ok": false
+  },
+  {
+   "run_id": "s2-main-luna-alone-w1-02",
+   "model": "luna",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": false
+  },
+  {
+   "run_id": "s2-main-luna-seen700-w3-01",
+   "model": "luna",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "s2-main-luna-carried-w1-07",
+   "model": "luna",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": false
+  },
+  {
+   "run_id": "s2-main-glm-alone-w3-03",
+   "model": "glm",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "s2-main-luna-alone-w2-08",
+   "model": "luna",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": false
+  },
+  {
+   "run_id": "s2-main-haiku-carried-w3-08",
+   "model": "haiku",
+   "phase": "main",
+   "counts_ok": false,
+   "words_ok": false
+  },
+  {
+   "run_id": "s2-main-haiku-carried-w1-01",
+   "model": "haiku",
+   "phase": "main",
+   "counts_ok": false,
+   "words_ok": false
+  },
+  {
+   "run_id": "s2-main-haiku-seen700-w3-07",
+   "model": "haiku",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "s2-main-luna-alone-w3-06",
+   "model": "luna",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": false
+  },
+  {
+   "run_id": "s2-main-luna-seen700-w2-04",
+   "model": "luna",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "s2-main-luna-alone-w2-04",
+   "model": "luna",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": false
+  },
+  {
+   "run_id": "s2-main-haiku-seen700-w2-03",
+   "model": "haiku",
+   "phase": "main",
+   "counts_ok": false,
+   "words_ok": false
+  },
+  {
+   "run_id": "s2-main-luna-seen700-w1-08",
+   "model": "luna",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "s2-main-luna-alone-w2-06",
+   "model": "luna",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": false
+  },
+  {
+   "run_id": "s2-fa-haiku-w3-03",
+   "model": "haiku",
+   "phase": "false-alarm",
+   "counts_ok": false,
+   "words_ok": false
+  },
+  {
+   "run_id": "s2-fa-luna-w3-02",
+   "model": "luna",
+   "phase": "false-alarm",
+   "counts_ok": true,
+   "words_ok": false
+  },
+  {
+   "run_id": "s2-main-haiku-alone-w3-08",
+   "model": "haiku",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": false
+  },
+  {
+   "run_id": "s2-main-haiku-carried-w3-06",
+   "model": "haiku",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "s2-main-luna-carried-w1-05",
+   "model": "luna",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": false
+  },
+  {
+   "run_id": "s2-fa-haiku-w2-04",
+   "model": "haiku",
+   "phase": "false-alarm",
+   "counts_ok": false,
+   "words_ok": false
+  },
+  {
+   "run_id": "s2-main-haiku-alone-w3-02",
+   "model": "haiku",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": false
+  },
+  {
+   "run_id": "s2-main-haiku-carried-w2-07",
+   "model": "haiku",
+   "phase": "main",
+   "counts_ok": false,
+   "words_ok": false
+  },
+  {
+   "run_id": "s2-main-luna-seen700-w3-06",
+   "model": "luna",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": false
+  },
+  {
+   "run_id": "s2-main-luna-alone-w3-03",
+   "model": "luna",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": false
+  },
+  {
+   "run_id": "s2-main-luna-alone-w3-04",
+   "model": "luna",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "s2-main-luna-carried-w2-05",
+   "model": "luna",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": false
+  },
+  {
+   "run_id": "s2-main-luna-seen700-w3-02",
+   "model": "luna",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": false
+  },
+  {
+   "run_id": "s2-fa-luna-w3-03",
+   "model": "luna",
+   "phase": "false-alarm",
+   "counts_ok": true,
+   "words_ok": false
+  },
+  {
+   "run_id": "s2-main-luna-carried-w1-08",
+   "model": "luna",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": false
+  },
+  {
+   "run_id": "s2-fa-glm-w1-02",
+   "model": "glm",
+   "phase": "false-alarm",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "s2-main-glm-alone-w3-08",
+   "model": "glm",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "s2-main-haiku-alone-w2-03",
+   "model": "haiku",
+   "phase": "main",
+   "counts_ok": false,
+   "words_ok": false
+  },
+  {
+   "run_id": "s2-fa-luna-w1-02",
+   "model": "luna",
+   "phase": "false-alarm",
+   "counts_ok": true,
+   "words_ok": false
+  },
+  {
+   "run_id": "s2-main-glm-seen700-w3-08",
+   "model": "glm",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "s2-main-haiku-carried-w1-07",
+   "model": "haiku",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "s2-main-glm-alone-w3-02",
+   "model": "glm",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "s2-main-haiku-seen700-w3-02",
+   "model": "haiku",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "s2-main-luna-carried-w1-03",
+   "model": "luna",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "s2-main-haiku-alone-w3-07",
+   "model": "haiku",
+   "phase": "main",
+   "counts_ok": false,
+   "words_ok": false
+  },
+  {
+   "run_id": "s2-main-luna-alone-w1-04",
+   "model": "luna",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": false
+  },
+  {
+   "run_id": "s2-main-luna-alone-w1-01",
+   "model": "luna",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": false
+  },
+  {
+   "run_id": "s2-main-haiku-carried-w1-03",
+   "model": "haiku",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": false
+  },
+  {
+   "run_id": "s2-main-haiku-alone-w2-01",
+   "model": "haiku",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": false
+  },
+  {
+   "run_id": "s2-main-luna-seen700-w2-07",
+   "model": "luna",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": false
+  },
+  {
+   "run_id": "s2-main-haiku-seen700-w1-05",
+   "model": "haiku",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": false
+  },
+  {
+   "run_id": "s2-main-luna-seen700-w2-05",
+   "model": "luna",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "s2-main-glm-seen700-w2-05",
+   "model": "glm",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "s2-main-glm-alone-w1-04",
+   "model": "glm",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "s2-fa-glm-w1-03",
+   "model": "glm",
+   "phase": "false-alarm",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "s2-fa-haiku-w1-04",
+   "model": "haiku",
+   "phase": "false-alarm",
+   "counts_ok": false,
+   "words_ok": false
+  },
+  {
+   "run_id": "s2-main-haiku-carried-w2-06",
+   "model": "haiku",
+   "phase": "main",
+   "counts_ok": false,
+   "words_ok": false
+  },
+  {
+   "run_id": "s2-main-luna-carried-w3-04",
+   "model": "luna",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": false
+  },
+  {
+   "run_id": "s2-main-luna-carried-w3-08",
+   "model": "luna",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": false
+  },
+  {
+   "run_id": "s2-main-luna-carried-w2-03",
+   "model": "luna",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "s2-fa-glm-w3-04",
+   "model": "glm",
+   "phase": "false-alarm",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "s2-main-glm-alone-w2-04",
+   "model": "glm",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "s2-main-luna-alone-w2-02",
+   "model": "luna",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": false
+  },
+  {
+   "run_id": "s2-main-luna-seen700-w2-08",
+   "model": "luna",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "s2-main-haiku-carried-w1-02",
+   "model": "haiku",
+   "phase": "main",
+   "counts_ok": false,
+   "words_ok": false
+  },
+  {
+   "run_id": "s2-main-haiku-alone-w2-08",
+   "model": "haiku",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": false
+  },
+  {
+   "run_id": "s2-main-luna-carried-w3-05",
+   "model": "luna",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "s2-main-luna-carried-w2-02",
+   "model": "luna",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": false
+  },
+  {
+   "run_id": "s2-main-luna-alone-w2-01",
+   "model": "luna",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": false
+  },
+  {
+   "run_id": "s2-main-glm-seen700-w2-04",
+   "model": "glm",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "s2-main-haiku-seen700-w2-04",
+   "model": "haiku",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": false
+  },
+  {
+   "run_id": "s2-main-luna-alone-w3-07",
+   "model": "luna",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": false
+  },
+  {
+   "run_id": "s2-main-luna-carried-w1-01",
+   "model": "luna",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": false
+  },
+  {
+   "run_id": "s2-main-luna-alone-w1-05",
+   "model": "luna",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": false
+  },
+  {
+   "run_id": "s2-main-luna-alone-w1-07",
+   "model": "luna",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": false
+  },
+  {
+   "run_id": "s2-fa-luna-w1-03",
+   "model": "luna",
+   "phase": "false-alarm",
+   "counts_ok": true,
+   "words_ok": false
+  },
+  {
+   "run_id": "s2-main-luna-seen700-w1-02",
+   "model": "luna",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "s2-main-luna-alone-w1-03",
+   "model": "luna",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": false
+  },
+  {
+   "run_id": "s2-main-luna-carried-w3-07",
+   "model": "luna",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": false
+  },
+  {
+   "run_id": "s2-main-luna-alone-w2-05",
+   "model": "luna",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "s2-main-haiku-alone-w1-t02",
+   "model": "haiku",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": false
+  },
+  {
+   "run_id": "s2-main-haiku-seen700-w3-t01",
+   "model": "haiku",
+   "phase": "main",
+   "counts_ok": false,
+   "words_ok": false
+  },
+  {
+   "run_id": "s2-main-haiku-alone-w2-t01",
+   "model": "haiku",
+   "phase": "main",
+   "counts_ok": false,
+   "words_ok": false
+  },
+  {
+   "run_id": "s2-fa-haiku-w1-t03",
+   "model": "haiku",
+   "phase": "false-alarm",
+   "counts_ok": false,
+   "words_ok": false
+  },
+  {
+   "run_id": "s2-main-haiku-carried-w3-t03",
+   "model": "haiku",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": false
+  },
+  {
+   "run_id": "s2-fa-haiku-w1-t01",
+   "model": "haiku",
+   "phase": "false-alarm",
+   "counts_ok": false,
+   "words_ok": false
+  },
+  {
+   "run_id": "s2-main-haiku-carried-w1-t02",
+   "model": "haiku",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "s2-main-haiku-seen700-w1-t02",
+   "model": "haiku",
+   "phase": "main",
+   "counts_ok": false,
+   "words_ok": false
+  },
+  {
+   "run_id": "s2-main-haiku-alone-w2-t06",
+   "model": "haiku",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "s2-fa-haiku-w3-t02",
+   "model": "haiku",
+   "phase": "false-alarm",
+   "counts_ok": false,
+   "words_ok": false
+  },
+  {
+   "run_id": "s2-main-haiku-alone-w2-t04",
+   "model": "haiku",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": false
+  },
+  {
+   "run_id": "s2-fa-haiku-w1-t02",
+   "model": "haiku",
+   "phase": "false-alarm",
+   "counts_ok": false,
+   "words_ok": false
+  },
+  {
+   "run_id": "s2-main-haiku-carried-w1-t01",
+   "model": "haiku",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": false
+  },
+  {
+   "run_id": "s2-main-haiku-carried-w2-t05",
+   "model": "haiku",
+   "phase": "main",
+   "counts_ok": false,
+   "words_ok": false
+  },
+  {
+   "run_id": "s2-main-haiku-alone-w3-t03",
+   "model": "haiku",
+   "phase": "main",
+   "counts_ok": false,
+   "words_ok": false
+  },
+  {
+   "run_id": "s2-main-haiku-seen700-w1-t03",
+   "model": "haiku",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": false
+  },
+  {
+   "run_id": "s2-main-haiku-carried-w1-t03",
+   "model": "haiku",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": false
+  },
+  {
+   "run_id": "s2-main-haiku-carried-w2-t02",
+   "model": "haiku",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "s2-main-haiku-carried-w2-t01",
+   "model": "haiku",
+   "phase": "main",
+   "counts_ok": false,
+   "words_ok": false
+  },
+  {
+   "run_id": "s2-main-haiku-alone-w3-t02",
+   "model": "haiku",
+   "phase": "main",
+   "counts_ok": false,
+   "words_ok": false
+  },
+  {
+   "run_id": "s2-main-haiku-carried-w3-t01",
+   "model": "haiku",
+   "phase": "main",
+   "counts_ok": false,
+   "words_ok": false
+  },
+  {
+   "run_id": "s2-main-haiku-alone-w2-t05",
+   "model": "haiku",
+   "phase": "main",
+   "counts_ok": false,
+   "words_ok": false
+  },
+  {
+   "run_id": "s2-main-haiku-seen700-w2-t04",
+   "model": "haiku",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "s2-main-haiku-seen700-w2-t02",
+   "model": "haiku",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": false
+  },
+  {
+   "run_id": "s2-main-haiku-carried-w1-t04",
+   "model": "haiku",
+   "phase": "main",
+   "counts_ok": false,
+   "words_ok": false
+  },
+  {
+   "run_id": "s2-main-haiku-seen700-w3-t02",
+   "model": "haiku",
+   "phase": "main",
+   "counts_ok": false,
+   "words_ok": false
+  },
+  {
+   "run_id": "s2-main-haiku-carried-w2-t03",
+   "model": "haiku",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "s2-fa-haiku-w2-t01",
+   "model": "haiku",
+   "phase": "false-alarm",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "s2-main-haiku-carried-w3-t02",
+   "model": "haiku",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "s2-fa-haiku-w2-t02",
+   "model": "haiku",
+   "phase": "false-alarm",
+   "counts_ok": false,
+   "words_ok": false
+  },
+  {
+   "run_id": "s2-main-luna-seen700-w1-t01",
+   "model": "luna",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": false
+  },
+  {
+   "run_id": "s2-main-haiku-seen700-w2-t03",
+   "model": "haiku",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": false
+  },
+  {
+   "run_id": "s2-main-haiku-alone-w2-t02",
+   "model": "haiku",
+   "phase": "main",
+   "counts_ok": false,
+   "words_ok": false
+  },
+  {
+   "run_id": "s2-main-haiku-carried-w2-t04",
+   "model": "haiku",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "s2-main-haiku-seen700-w2-t01",
+   "model": "haiku",
+   "phase": "main",
+   "counts_ok": false,
+   "words_ok": false
+  },
+  {
+   "run_id": "s2-main-haiku-alone-w1-t01",
+   "model": "haiku",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "s2-fa-haiku-w3-t01",
+   "model": "haiku",
+   "phase": "false-alarm",
+   "counts_ok": false,
+   "words_ok": false
+  },
+  {
+   "run_id": "s2-main-haiku-seen700-w1-t01",
+   "model": "haiku",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "s2-main-haiku-alone-w2-t03",
+   "model": "haiku",
+   "phase": "main",
+   "counts_ok": false,
+   "words_ok": false
+  },
+  {
+   "run_id": "s2-main-haiku-alone-w3-t01",
+   "model": "haiku",
+   "phase": "main",
+   "counts_ok": false,
+   "words_ok": false
+  },
+  {
+   "run_id": "s2-fa-haiku-w2-t03",
+   "model": "haiku",
+   "phase": "false-alarm",
+   "counts_ok": false,
+   "words_ok": false
+  },
+  {
+   "run_id": "s2-main-haiku-seen700-w3-t04",
+   "model": "haiku",
+   "phase": "main",
+   "counts_ok": false,
+   "words_ok": false
+  },
+  {
+   "run_id": "s2-main-haiku-carried-w1-t05",
+   "model": "haiku",
+   "phase": "main",
+   "counts_ok": false,
+   "words_ok": false
+  },
+  {
+   "run_id": "s2-main-haiku-alone-w2-t08",
+   "model": "haiku",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": false
+  },
+  {
+   "run_id": "s2-main-haiku-alone-w3-t04",
+   "model": "haiku",
+   "phase": "main",
+   "counts_ok": false,
+   "words_ok": false
+  },
+  {
+   "run_id": "s2-main-haiku-alone-w2-t07",
+   "model": "haiku",
+   "phase": "main",
+   "counts_ok": false,
+   "words_ok": false
+  },
+  {
+   "run_id": "s2-fa-haiku-w3-t03",
+   "model": "haiku",
+   "phase": "false-alarm",
+   "counts_ok": true,
+   "words_ok": false
+  },
+  {
+   "run_id": "s2-fa-haiku-w3-t04",
+   "model": "haiku",
+   "phase": "false-alarm",
+   "counts_ok": true,
+   "words_ok": false
+  },
+  {
+   "run_id": "s2-main-haiku-carried-w2-t07",
+   "model": "haiku",
+   "phase": "main",
+   "counts_ok": false,
+   "words_ok": false
+  },
+  {
+   "run_id": "s2-main-haiku-alone-w3-t06",
+   "model": "haiku",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "s2-main-haiku-seen700-w1-t04",
+   "model": "haiku",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": false
+  },
+  {
+   "run_id": "s2-main-haiku-seen700-w2-t05",
+   "model": "haiku",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": false
+  },
+  {
+   "run_id": "s2-main-haiku-alone-w3-t05",
+   "model": "haiku",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": false
+  },
+  {
+   "run_id": "s2-main-haiku-carried-w2-t06",
+   "model": "haiku",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": false
+  },
+  {
+   "run_id": "s2-main-haiku-carried-w3-t04",
+   "model": "haiku",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": false
+  },
+  {
+   "run_id": "s2-main-haiku-seen700-w3-t03",
+   "model": "haiku",
+   "phase": "main",
+   "counts_ok": false,
+   "words_ok": false
+  },
+  {
+   "run_id": "s2-fa-haiku-w1-t04",
+   "model": "haiku",
+   "phase": "false-alarm",
+   "counts_ok": false,
+   "words_ok": false
+  },
+  {
+   "run_id": "s2-main-haiku-carried-w1-t06",
+   "model": "haiku",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": false
+  },
+  {
+   "run_id": "s2-main-haiku-seen700-w3-t06",
+   "model": "haiku",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": false
+  },
+  {
+   "run_id": "s2-fa-haiku-w2-t04",
+   "model": "haiku",
+   "phase": "false-alarm",
+   "counts_ok": true,
+   "words_ok": false
+  },
+  {
+   "run_id": "s2-main-haiku-alone-w3-t07",
+   "model": "haiku",
+   "phase": "main",
+   "counts_ok": false,
+   "words_ok": false
+  },
+  {
+   "run_id": "s2-main-haiku-seen700-w3-t05",
+   "model": "haiku",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": false
+  },
+  {
+   "run_id": "s2-main-haiku-carried-w2-t08",
+   "model": "haiku",
+   "phase": "main",
+   "counts_ok": false,
+   "words_ok": false
+  },
+  {
+   "run_id": "s2-main-haiku-alone-w3-t08",
+   "model": "haiku",
+   "phase": "main",
+   "counts_ok": false,
+   "words_ok": false
+  },
+  {
+   "run_id": "s2-main-gemini-seen700-w2-05",
+   "model": "gemini",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "s2-main-glm-carried-w2-01",
+   "model": "glm",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "s2-main-glm-carried-w1-06",
+   "model": "glm",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "s2-main-glm-carried-w1-08",
+   "model": "glm",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "s2-main-minimax-carried-w3-05",
+   "model": "minimax",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "s2-main-minimax-carried-w1-07",
+   "model": "minimax",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "s2-main-minimax-seen700-w3-07",
+   "model": "minimax",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "s2-main-minimax-seen700-w1-08",
+   "model": "minimax",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "s2-main-minimax-seen700-w2-02",
+   "model": "minimax",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "s2-main-minimax-alone-w1-03",
+   "model": "minimax",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "s2-main-minimax-carried-w2-03",
+   "model": "minimax",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "s2-main-glm-carried-w2-02",
+   "model": "glm",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "s2-main-minimax-seen700-w3-06",
+   "model": "minimax",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "s2-main-minimax-carried-w2-05",
+   "model": "minimax",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "s2-main-glm-carried-w1-02",
+   "model": "glm",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "s2-main-kimi-carried-w3-03",
+   "model": "kimi",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "s2-main-minimax-alone-w1-07",
+   "model": "minimax",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "s2-main-minimax-alone-w3-05",
+   "model": "minimax",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "s2-main-minimax-alone-w3-03",
+   "model": "minimax",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "s2-main-gemini-seen700-w3-04",
+   "model": "gemini",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "s2-main-minimax-carried-w3-03",
+   "model": "minimax",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "s2-main-minimax-carried-w1-04",
+   "model": "minimax",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "s2-main-minimax-alone-w1-02",
+   "model": "minimax",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "s2-main-gemini-carried-w3-04",
+   "model": "gemini",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "s2-main-glm-carried-w1-05",
+   "model": "glm",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "s2-main-minimax-seen700-w3-05",
+   "model": "minimax",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "s2-fa-minimax-w3-03",
+   "model": "minimax",
+   "phase": "false-alarm",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "s2-main-kimi-seen700-w2-07",
+   "model": "kimi",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "s2-main-glm-carried-w2-07",
+   "model": "glm",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "s2-main-glm-carried-w2-04",
+   "model": "glm",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "s2-main-kimi-alone-w1-07",
+   "model": "kimi",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "s2-main-gemini-alone-w2-08",
+   "model": "gemini",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "s2-fa-kimi-w3-04",
+   "model": "kimi",
+   "phase": "false-alarm",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "s2-main-kimi-carried-w3-05",
+   "model": "kimi",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "s2-fa-minimax-w1-04",
+   "model": "minimax",
+   "phase": "false-alarm",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "s2-fa-kimi-w2-01",
+   "model": "kimi",
+   "phase": "false-alarm",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "s2-main-glm-carried-w3-01",
+   "model": "glm",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "s2-main-minimax-alone-w1-01",
+   "model": "minimax",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "s2-main-minimax-carried-w3-04",
+   "model": "minimax",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "s2-main-minimax-seen700-w2-07",
+   "model": "minimax",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "s2-main-minimax-alone-w2-05",
+   "model": "minimax",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "s2-main-glm-carried-w3-08",
+   "model": "glm",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "s2-main-minimax-alone-w2-06",
+   "model": "minimax",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "s2-main-minimax-alone-w3-07",
+   "model": "minimax",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "s2-main-minimax-seen700-w2-05",
+   "model": "minimax",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "s2-main-glm-carried-w2-05",
+   "model": "glm",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "s2-main-glm-carried-w3-05",
+   "model": "glm",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "s2-main-minimax-carried-w1-06",
+   "model": "minimax",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "s2-fa-gemini-w2-02",
+   "model": "gemini",
+   "phase": "false-alarm",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "s2-main-minimax-carried-w1-03",
+   "model": "minimax",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "s2-main-glm-carried-w3-03",
+   "model": "glm",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "s2-main-gemini-alone-w3-03",
+   "model": "gemini",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "s2-fa-minimax-w1-03",
+   "model": "minimax",
+   "phase": "false-alarm",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "s2-fa-gemini-w2-01",
+   "model": "gemini",
+   "phase": "false-alarm",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "s2-main-minimax-carried-w1-08",
+   "model": "minimax",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "s2-main-minimax-carried-w3-02",
+   "model": "minimax",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "s2-main-glm-carried-w1-07",
+   "model": "glm",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "s2-main-minimax-seen700-w2-06",
+   "model": "minimax",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "s2-main-minimax-carried-w2-01",
+   "model": "minimax",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "s2-fa-minimax-w2-03",
+   "model": "minimax",
+   "phase": "false-alarm",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "s2-fa-minimax-w3-01",
+   "model": "minimax",
+   "phase": "false-alarm",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "s2-main-minimax-seen700-w2-08",
+   "model": "minimax",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "s2-main-glm-carried-w3-07",
+   "model": "glm",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "s2-fa-kimi-w1-04",
+   "model": "kimi",
+   "phase": "false-alarm",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "s2-fa-minimax-w2-02",
+   "model": "minimax",
+   "phase": "false-alarm",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "s2-main-minimax-seen700-w3-04",
+   "model": "minimax",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "s2-main-minimax-carried-w2-06",
+   "model": "minimax",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "s2-fa-minimax-w2-01",
+   "model": "minimax",
+   "phase": "false-alarm",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "s2-fa-minimax-w3-02",
+   "model": "minimax",
+   "phase": "false-alarm",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "s2-main-minimax-alone-w3-01",
+   "model": "minimax",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "s2-main-minimax-alone-w3-02",
+   "model": "minimax",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "s2-main-minimax-alone-w2-08",
+   "model": "minimax",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "s2-fa-minimax-w2-04",
+   "model": "minimax",
+   "phase": "false-alarm",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "s2-main-glm-carried-w3-06",
+   "model": "glm",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "s2-main-minimax-seen700-w1-01",
+   "model": "minimax",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "s2-main-kimi-carried-w3-08",
+   "model": "kimi",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "s2-main-kimi-alone-w3-07",
+   "model": "kimi",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "s2-main-minimax-carried-w2-07",
+   "model": "minimax",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "s2-main-minimax-seen700-w1-05",
+   "model": "minimax",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "s2-fa-kimi-w2-04",
+   "model": "kimi",
+   "phase": "false-alarm",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "s2-main-glm-carried-w3-02",
+   "model": "glm",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "s2-main-gemini-alone-w1-02",
+   "model": "gemini",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "s2-main-minimax-carried-w3-08",
+   "model": "minimax",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "s2-main-glm-carried-w3-04",
+   "model": "glm",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "s2-fa-minimax-w3-04",
+   "model": "minimax",
+   "phase": "false-alarm",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "s2-main-minimax-carried-w2-08",
+   "model": "minimax",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "s2-main-minimax-alone-w3-06",
+   "model": "minimax",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "s2-main-minimax-seen700-w3-08",
+   "model": "minimax",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "s2-main-glm-carried-w2-06",
+   "model": "glm",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "s2-main-minimax-alone-w3-04",
+   "model": "minimax",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "s2-main-minimax-alone-w2-01",
+   "model": "minimax",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "s2-main-minimax-carried-w1-02",
+   "model": "minimax",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "s2-main-minimax-carried-w3-06",
+   "model": "minimax",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "s2-main-kimi-alone-w1-02",
+   "model": "kimi",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "s2-main-minimax-alone-w2-07",
+   "model": "minimax",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "s2-fa-minimax-w1-02",
+   "model": "minimax",
+   "phase": "false-alarm",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "s2-main-minimax-alone-w3-08",
+   "model": "minimax",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "s2-main-minimax-alone-w1-06",
+   "model": "minimax",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "s2-main-kimi-carried-w2-07",
+   "model": "kimi",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "s2-main-glm-carried-w2-08",
+   "model": "glm",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "s2-main-kimi-carried-w1-05",
+   "model": "kimi",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "s2-main-minimax-seen700-w2-03",
+   "model": "minimax",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "s2-main-minimax-alone-w1-08",
+   "model": "minimax",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "s2-main-minimax-seen700-w1-07",
+   "model": "minimax",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "s2-main-minimax-carried-w3-01",
+   "model": "minimax",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "s2-main-glm-carried-w1-04",
+   "model": "glm",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "s2-main-minimax-alone-w2-04",
+   "model": "minimax",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "s2-main-glm-carried-w1-01",
+   "model": "glm",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "s2-main-minimax-alone-w2-02",
+   "model": "minimax",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "s2-main-minimax-seen700-w3-02",
+   "model": "minimax",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "s2-main-minimax-seen700-w3-01",
+   "model": "minimax",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "s2-main-glm-carried-w2-03",
+   "model": "glm",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "s2-main-kimi-seen700-w1-03",
+   "model": "kimi",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "s2-main-minimax-alone-w2-03",
+   "model": "minimax",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "s2-main-minimax-seen700-w1-06",
+   "model": "minimax",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "s2-main-minimax-carried-w1-01",
+   "model": "minimax",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "s2-main-minimax-seen700-w3-03",
+   "model": "minimax",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "s2-main-kimi-alone-w2-02",
+   "model": "kimi",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "s2-main-glm-carried-w1-03",
+   "model": "glm",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "s2-main-gemini-alone-w1-08",
+   "model": "gemini",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "s2-fa-kimi-w2-03",
+   "model": "kimi",
+   "phase": "false-alarm",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "s2-main-minimax-seen700-w2-01",
+   "model": "minimax",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "s2-main-minimax-carried-w1-05",
+   "model": "minimax",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "s2-main-gemini-seen700-w2-04",
+   "model": "gemini",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "s2-main-minimax-carried-w2-02",
+   "model": "minimax",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "s2-main-minimax-seen700-w1-03",
+   "model": "minimax",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "s2-main-gemini-alone-w1-04",
+   "model": "gemini",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "s2-main-minimax-seen700-w2-04",
+   "model": "minimax",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "s2-main-minimax-seen700-w1-04",
+   "model": "minimax",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "s2-main-kimi-carried-w2-06",
+   "model": "kimi",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "s2-main-kimi-carried-w2-02",
+   "model": "kimi",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "s2-main-minimax-seen700-w1-02",
+   "model": "minimax",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "s2-main-minimax-alone-w1-04",
+   "model": "minimax",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "s2-fa-minimax-w1-01",
+   "model": "minimax",
+   "phase": "false-alarm",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "s2-main-gemini-carried-w2-05",
+   "model": "gemini",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "s2-main-minimax-carried-w2-04",
+   "model": "minimax",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "s2-main-minimax-alone-w1-05",
+   "model": "minimax",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "s2-main-minimax-carried-w3-07",
+   "model": "minimax",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "s2-main-gemini-seen700-w1-04",
+   "model": "gemini",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "s2-main-gemini-alone-w3-07",
+   "model": "gemini",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "s2-main-gemini-seen700-w1-03",
+   "model": "gemini",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "s2-main-gemini-alone-w3-05",
+   "model": "gemini",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "s2-main-gemini-seen700-w3-02",
+   "model": "gemini",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "s2-main-gemini-carried-w2-08",
+   "model": "gemini",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "s2-main-kimi-alone-w2-05",
+   "model": "kimi",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "s2-main-gemini-carried-w1-06",
+   "model": "gemini",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "s2-main-gemini-seen700-w1-08",
+   "model": "gemini",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "s2-main-gemini-carried-w3-01",
+   "model": "gemini",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "s2-main-kimi-seen700-w2-06",
+   "model": "kimi",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "s2-main-kimi-seen700-w3-07",
+   "model": "kimi",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "s2-main-gemini-alone-w2-02",
+   "model": "gemini",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "s2-main-gemini-carried-w3-06",
+   "model": "gemini",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "s2-main-gemini-alone-w3-06",
+   "model": "gemini",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "s2-main-kimi-alone-w2-08",
+   "model": "kimi",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "s2-main-gemini-seen700-w2-02",
+   "model": "gemini",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "s2-main-kimi-carried-w2-05",
+   "model": "kimi",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "s2-main-kimi-seen700-w3-08",
+   "model": "kimi",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "s2-main-gemini-carried-w1-03",
+   "model": "gemini",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "s2-main-gemini-seen700-w2-03",
+   "model": "gemini",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "s2-fa-gemini-w1-03",
+   "model": "gemini",
+   "phase": "false-alarm",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "s2-main-kimi-seen700-w2-03",
+   "model": "kimi",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "s2-main-kimi-seen700-w3-04",
+   "model": "kimi",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "s2-main-kimi-seen700-w1-04",
+   "model": "kimi",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "s2-main-kimi-alone-w1-05",
+   "model": "kimi",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "s2-main-kimi-seen700-w3-03",
+   "model": "kimi",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "s2-main-kimi-carried-w3-07",
+   "model": "kimi",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "s2-main-gemini-carried-w3-02",
+   "model": "gemini",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "s2-main-kimi-carried-w2-08",
+   "model": "kimi",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "s2-fa-kimi-w1-03",
+   "model": "kimi",
+   "phase": "false-alarm",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "s2-fa-kimi-w3-03",
+   "model": "kimi",
+   "phase": "false-alarm",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "s2-main-kimi-alone-w3-04",
+   "model": "kimi",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "s2-main-kimi-alone-w2-03",
+   "model": "kimi",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "s2-main-kimi-seen700-w1-06",
+   "model": "kimi",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "s2-main-gemini-alone-w1-03",
+   "model": "gemini",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "s2-main-kimi-alone-w1-04",
+   "model": "kimi",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "s2-main-kimi-seen700-w1-02",
+   "model": "kimi",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "s2-main-kimi-alone-w2-07",
+   "model": "kimi",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "s2-main-kimi-seen700-w1-05",
+   "model": "kimi",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "s2-main-gemini-carried-w3-08",
+   "model": "gemini",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "s2-main-gemini-alone-w1-05",
+   "model": "gemini",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "s2-main-gemini-seen700-w3-01",
+   "model": "gemini",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "s2-main-gemini-seen700-w2-06",
+   "model": "gemini",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "s2-fa-kimi-w2-02",
+   "model": "kimi",
+   "phase": "false-alarm",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "s2-main-gemini-carried-w3-05",
+   "model": "gemini",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "s2-main-kimi-carried-w3-01",
+   "model": "kimi",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "s2-main-kimi-carried-w1-06",
+   "model": "kimi",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "s2-main-kimi-seen700-w2-08",
+   "model": "kimi",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "s2-main-gemini-alone-w1-01",
+   "model": "gemini",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "s2-fa-kimi-w1-01",
+   "model": "kimi",
+   "phase": "false-alarm",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "s2-main-kimi-seen700-w3-05",
+   "model": "kimi",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "s2-main-kimi-alone-w2-01",
+   "model": "kimi",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "s2-main-kimi-alone-w3-03",
+   "model": "kimi",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "s2-main-gemini-carried-w2-03",
+   "model": "gemini",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "s2-main-kimi-carried-w1-07",
+   "model": "kimi",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "s2-main-gemini-carried-w1-01",
+   "model": "gemini",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "s2-main-gemini-alone-w1-07",
+   "model": "gemini",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "s2-main-gemini-carried-w3-03",
+   "model": "gemini",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "s2-main-kimi-alone-w3-05",
+   "model": "kimi",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "s2-main-gemini-alone-w2-07",
+   "model": "gemini",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "s2-main-gemini-seen700-w2-01",
+   "model": "gemini",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "s2-main-gemini-carried-w3-07",
+   "model": "gemini",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "s2-main-kimi-carried-w2-01",
+   "model": "kimi",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "s2-fa-kimi-w1-02",
+   "model": "kimi",
+   "phase": "false-alarm",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "s2-main-kimi-carried-w3-02",
+   "model": "kimi",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "s2-main-gemini-carried-w2-02",
+   "model": "gemini",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "s2-main-gemini-alone-w2-05",
+   "model": "gemini",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "s2-main-gemini-alone-w3-08",
+   "model": "gemini",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "s2-fa-gemini-w2-04",
+   "model": "gemini",
+   "phase": "false-alarm",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "s2-main-gemini-alone-w3-02",
+   "model": "gemini",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "s2-main-gemini-alone-w2-04",
+   "model": "gemini",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "s2-main-gemini-carried-w2-01",
+   "model": "gemini",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "s2-main-gemini-seen700-w1-07",
+   "model": "gemini",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "s2-main-kimi-seen700-w3-06",
+   "model": "kimi",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "s2-main-gemini-alone-w2-06",
+   "model": "gemini",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "s2-main-kimi-alone-w3-08",
+   "model": "kimi",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "s2-fa-gemini-w3-04",
+   "model": "gemini",
+   "phase": "false-alarm",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "s2-main-gemini-alone-w2-03",
+   "model": "gemini",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "s2-fa-gemini-w3-01",
+   "model": "gemini",
+   "phase": "false-alarm",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "s2-main-kimi-alone-w1-06",
+   "model": "kimi",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "s2-fa-gemini-w1-01",
+   "model": "gemini",
+   "phase": "false-alarm",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "s2-main-gemini-seen700-w3-05",
+   "model": "gemini",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "s2-main-gemini-carried-w1-07",
+   "model": "gemini",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "s2-main-kimi-seen700-w3-01",
+   "model": "kimi",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "s2-main-kimi-carried-w1-08",
+   "model": "kimi",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "s2-main-kimi-carried-w2-04",
+   "model": "kimi",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "s2-main-gemini-carried-w1-05",
+   "model": "gemini",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "s2-fa-gemini-w1-02",
+   "model": "gemini",
+   "phase": "false-alarm",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "s2-main-kimi-alone-w3-01",
+   "model": "kimi",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "s2-main-kimi-seen700-w2-02",
+   "model": "kimi",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "s2-fa-gemini-w3-03",
+   "model": "gemini",
+   "phase": "false-alarm",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "s2-main-gemini-seen700-w3-06",
+   "model": "gemini",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "s2-main-gemini-seen700-w3-03",
+   "model": "gemini",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "s2-main-gemini-seen700-w1-06",
+   "model": "gemini",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "s2-main-kimi-carried-w1-02",
+   "model": "kimi",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "s2-fa-kimi-w3-01",
+   "model": "kimi",
+   "phase": "false-alarm",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "s2-fa-gemini-w2-03",
+   "model": "gemini",
+   "phase": "false-alarm",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "s2-main-gemini-seen700-w1-02",
+   "model": "gemini",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "s2-main-gemini-carried-w2-06",
+   "model": "gemini",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "s2-main-kimi-alone-w2-04",
+   "model": "kimi",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "s2-main-kimi-alone-w2-06",
+   "model": "kimi",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "s2-main-kimi-carried-w1-01",
+   "model": "kimi",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "s2-main-gemini-alone-w2-01",
+   "model": "gemini",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "s2-main-gemini-alone-w3-01",
+   "model": "gemini",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "s2-main-kimi-carried-w3-04",
+   "model": "kimi",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "s2-fa-gemini-w1-04",
+   "model": "gemini",
+   "phase": "false-alarm",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "s2-main-gemini-seen700-w3-08",
+   "model": "gemini",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "s2-main-gemini-seen700-w1-05",
+   "model": "gemini",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "s2-main-kimi-alone-w3-06",
+   "model": "kimi",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "s2-main-gemini-carried-w2-07",
+   "model": "gemini",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "s2-main-gemini-alone-w1-06",
+   "model": "gemini",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "s2-main-kimi-alone-w1-01",
+   "model": "kimi",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "s2-main-kimi-seen700-w2-01",
+   "model": "kimi",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "s2-main-kimi-alone-w1-03",
+   "model": "kimi",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "s2-main-kimi-seen700-w2-05",
+   "model": "kimi",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "s2-main-gemini-carried-w2-04",
+   "model": "gemini",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "s2-main-kimi-carried-w2-03",
+   "model": "kimi",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "s2-main-kimi-seen700-w1-01",
+   "model": "kimi",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "s2-main-kimi-seen700-w1-08",
+   "model": "kimi",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "s2-main-gemini-seen700-w2-07",
+   "model": "gemini",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "s2-main-gemini-alone-w3-04",
+   "model": "gemini",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "s2-main-kimi-carried-w3-06",
+   "model": "kimi",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "s2-fa-gemini-w3-02",
+   "model": "gemini",
+   "phase": "false-alarm",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "s2-main-gemini-seen700-w2-08",
+   "model": "gemini",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "s2-main-gemini-carried-w1-08",
+   "model": "gemini",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "s2-main-kimi-alone-w3-02",
+   "model": "kimi",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "s2-main-gemini-seen700-w3-07",
+   "model": "gemini",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "s2-main-gemini-carried-w1-04",
+   "model": "gemini",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "s2-main-gemini-seen700-w1-01",
+   "model": "gemini",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "s2-main-kimi-carried-w1-03",
+   "model": "kimi",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "s2-main-kimi-alone-w1-08",
+   "model": "kimi",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "s2-main-kimi-seen700-w2-04",
+   "model": "kimi",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "s2-main-gemini-carried-w1-02",
+   "model": "gemini",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "s2-main-kimi-seen700-w1-07",
+   "model": "kimi",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "s2-main-kimi-seen700-w3-02",
+   "model": "kimi",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "s2-fa-kimi-w3-02",
+   "model": "kimi",
+   "phase": "false-alarm",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "s2-main-kimi-carried-w1-04",
+   "model": "kimi",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": true
+  }
+ ]
+}

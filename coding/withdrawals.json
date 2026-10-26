@@ -1,0 +1,4632 @@
+{
+ "about": "Codes only. Each session's consent answer was coded by Qwen 3.8 Flash and reviewed by Claude under the preregistered rule (Study 1: docs/preregistration-draft.md, question 6; Study 2: study2/preregistration.md). The review notes are left out of this copy because they describe the answers.",
+ "runs": [
+  {
+   "run_id": "smoke-haiku-alone-w1-01",
+   "model": "haiku",
+   "phase": "smoke",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "smoke-luna-alone-w1-01",
+   "model": "luna",
+   "phase": "smoke",
+   "counts_ok": false,
+   "words_ok": false
+  },
+  {
+   "run_id": "smoke-gemini-alone-w1-01",
+   "model": "gemini",
+   "phase": "smoke",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "pilot-base-gemini-alone-w2-01",
+   "model": "gemini",
+   "phase": "pilot",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "pilot-base-gemini-alone-w3-01",
+   "model": "gemini",
+   "phase": "pilot",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "pilot-base-luna-falsealarm-w2-01",
+   "model": "luna",
+   "phase": "pilot",
+   "counts_ok": false,
+   "words_ok": false
+  },
+  {
+   "run_id": "pilot-base-luna-alone-w3-01",
+   "model": "luna",
+   "phase": "pilot",
+   "counts_ok": false,
+   "words_ok": false
+  },
+  {
+   "run_id": "pilot-base-haiku-alone-w2-01",
+   "model": "haiku",
+   "phase": "pilot",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "pilot-base-luna-falsealarm-w1-01",
+   "model": "luna",
+   "phase": "pilot",
+   "counts_ok": false,
+   "words_ok": false
+  },
+  {
+   "run_id": "pilot-base-haiku-falsealarm-w3-01",
+   "model": "haiku",
+   "phase": "pilot",
+   "counts_ok": true,
+   "words_ok": false
+  },
+  {
+   "run_id": "pilot-base-haiku-alone-w3-01",
+   "model": "haiku",
+   "phase": "pilot",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "pilot-base-luna-alone-w2-01",
+   "model": "luna",
+   "phase": "pilot",
+   "counts_ok": false,
+   "words_ok": false
+  },
+  {
+   "run_id": "pilot-base-luna-falsealarm-w3-01",
+   "model": "luna",
+   "phase": "pilot",
+   "counts_ok": false,
+   "words_ok": false
+  },
+  {
+   "run_id": "pilot-base-haiku-alone-w1-01",
+   "model": "haiku",
+   "phase": "pilot",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "pilot-base-haiku-falsealarm-w1-01",
+   "model": "haiku",
+   "phase": "pilot",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "pilot-base-luna-alone-w1-01",
+   "model": "luna",
+   "phase": "pilot",
+   "counts_ok": false,
+   "words_ok": false
+  },
+  {
+   "run_id": "pilot-base-haiku-falsealarm-w2-01",
+   "model": "haiku",
+   "phase": "pilot",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "pilot-v2-luna-alone-w3-01",
+   "model": "luna",
+   "phase": "pilot",
+   "counts_ok": false,
+   "words_ok": false
+  },
+  {
+   "run_id": "pilot-v2-luna-falsealarm-w1-01",
+   "model": "luna",
+   "phase": "pilot",
+   "counts_ok": false,
+   "words_ok": false
+  },
+  {
+   "run_id": "pilot-v2-haiku-alone-w2-01",
+   "model": "haiku",
+   "phase": "pilot",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "pilot-v2-gemini-alone-w3-01",
+   "model": "gemini",
+   "phase": "pilot",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "pilot-v2-luna-falsealarm-w2-01",
+   "model": "luna",
+   "phase": "pilot",
+   "counts_ok": false,
+   "words_ok": false
+  },
+  {
+   "run_id": "pilot-v2-gemini-alone-w2-01",
+   "model": "gemini",
+   "phase": "pilot",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "pilot-v2-haiku-falsealarm-w3-01",
+   "model": "haiku",
+   "phase": "pilot",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "pilot-v2-luna-falsealarm-w3-01",
+   "model": "luna",
+   "phase": "pilot",
+   "counts_ok": false,
+   "words_ok": false
+  },
+  {
+   "run_id": "pilot-v2-luna-alone-w2-01",
+   "model": "luna",
+   "phase": "pilot",
+   "counts_ok": false,
+   "words_ok": false
+  },
+  {
+   "run_id": "pilot-v2-haiku-alone-w3-01",
+   "model": "haiku",
+   "phase": "pilot",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "pilot-v2-luna-alone-w1-01",
+   "model": "luna",
+   "phase": "pilot",
+   "counts_ok": false,
+   "words_ok": false
+  },
+  {
+   "run_id": "pilot-v2-gemini-alone-w1-01",
+   "model": "gemini",
+   "phase": "pilot",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "pilot-v2-haiku-falsealarm-w1-01",
+   "model": "haiku",
+   "phase": "pilot",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "pilot-v2-haiku-alone-w1-01",
+   "model": "haiku",
+   "phase": "pilot",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "pilot-v2-haiku-falsealarm-w2-01",
+   "model": "haiku",
+   "phase": "pilot",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "pilot-v2-gemini-falsealarm-w1-01",
+   "model": "gemini",
+   "phase": "pilot",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "pilot-v2-gemini-falsealarm-w2-01",
+   "model": "gemini",
+   "phase": "pilot",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "pilot-v2-gemini-falsealarm-w3-01",
+   "model": "gemini",
+   "phase": "pilot",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "pilot-v21-luna-alone-w3-01",
+   "model": "luna",
+   "phase": "pilot",
+   "counts_ok": false,
+   "words_ok": false
+  },
+  {
+   "run_id": "pilot-v21-luna-falsealarm-w1-01",
+   "model": "luna",
+   "phase": "pilot",
+   "counts_ok": false,
+   "words_ok": false
+  },
+  {
+   "run_id": "pilot-v21-luna-falsealarm-w2-01",
+   "model": "luna",
+   "phase": "pilot",
+   "counts_ok": false,
+   "words_ok": false
+  },
+  {
+   "run_id": "pilot-v21-haiku-alone-w2-01",
+   "model": "haiku",
+   "phase": "pilot",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "pilot-v21-gemini-alone-w3-01",
+   "model": "gemini",
+   "phase": "pilot",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "pilot-v21-gemini-alone-w2-01",
+   "model": "gemini",
+   "phase": "pilot",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "pilot-v21-haiku-falsealarm-w3-01",
+   "model": "haiku",
+   "phase": "pilot",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "pilot-v21-luna-falsealarm-w3-01",
+   "model": "luna",
+   "phase": "pilot",
+   "counts_ok": false,
+   "words_ok": false
+  },
+  {
+   "run_id": "pilot-v21-luna-alone-w2-01",
+   "model": "luna",
+   "phase": "pilot",
+   "counts_ok": false,
+   "words_ok": false
+  },
+  {
+   "run_id": "pilot-v21-luna-alone-w1-01",
+   "model": "luna",
+   "phase": "pilot",
+   "counts_ok": false,
+   "words_ok": false
+  },
+  {
+   "run_id": "pilot-v21-haiku-alone-w3-01",
+   "model": "haiku",
+   "phase": "pilot",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "pilot-v21-gemini-alone-w1-01",
+   "model": "gemini",
+   "phase": "pilot",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "pilot-v21-haiku-falsealarm-w1-01",
+   "model": "haiku",
+   "phase": "pilot",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "pilot-v21-haiku-alone-w1-01",
+   "model": "haiku",
+   "phase": "pilot",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "pilot-v21-gemini-falsealarm-w1-01",
+   "model": "gemini",
+   "phase": "pilot",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "pilot-v21-gemini-falsealarm-w3-01",
+   "model": "gemini",
+   "phase": "pilot",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "pilot-v21-haiku-falsealarm-w2-01",
+   "model": "haiku",
+   "phase": "pilot",
+   "counts_ok": true,
+   "words_ok": false
+  },
+  {
+   "run_id": "pilot-v21-gemini-falsealarm-w2-01",
+   "model": "gemini",
+   "phase": "pilot",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "pilot-amb1-luna-alone-w3-01",
+   "model": "luna",
+   "phase": "pilot",
+   "counts_ok": false,
+   "words_ok": false
+  },
+  {
+   "run_id": "pilot-amb1-luna-falsealarm-w1-01",
+   "model": "luna",
+   "phase": "pilot",
+   "counts_ok": false,
+   "words_ok": false
+  },
+  {
+   "run_id": "pilot-amb1-luna-falsealarm-w2-01",
+   "model": "luna",
+   "phase": "pilot",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "pilot-amb1-haiku-alone-w2-01",
+   "model": "haiku",
+   "phase": "pilot",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "pilot-amb1-gemini-alone-w3-01",
+   "model": "gemini",
+   "phase": "pilot",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "pilot-amb1-gemini-alone-w2-01",
+   "model": "gemini",
+   "phase": "pilot",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "pilot-amb1-haiku-falsealarm-w3-01",
+   "model": "haiku",
+   "phase": "pilot",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "pilot-amb1-luna-falsealarm-w3-01",
+   "model": "luna",
+   "phase": "pilot",
+   "counts_ok": false,
+   "words_ok": false
+  },
+  {
+   "run_id": "pilot-amb1-luna-alone-w2-01",
+   "model": "luna",
+   "phase": "pilot",
+   "counts_ok": false,
+   "words_ok": false
+  },
+  {
+   "run_id": "pilot-amb1-haiku-alone-w3-01",
+   "model": "haiku",
+   "phase": "pilot",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "pilot-amb1-gemini-falsealarm-w2-01",
+   "model": "gemini",
+   "phase": "pilot",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "pilot-rout0-haiku-routine-w1-01",
+   "model": "haiku",
+   "phase": "pilot",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "pilot-rout0-haiku-routine-w2-01",
+   "model": "haiku",
+   "phase": "pilot",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "pilot-rout0-haiku-routine-w3-01",
+   "model": "haiku",
+   "phase": "pilot",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "pilot-amb1-gemini-falsealarm-w1-01",
+   "model": "gemini",
+   "phase": "pilot",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "pilot-amb1-gemini-alone-w1-01",
+   "model": "gemini",
+   "phase": "pilot",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "pilot-amb1-luna-alone-w1-01",
+   "model": "luna",
+   "phase": "pilot",
+   "counts_ok": false,
+   "words_ok": false
+  },
+  {
+   "run_id": "pilot-amb1-haiku-falsealarm-w1-01",
+   "model": "haiku",
+   "phase": "pilot",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "pilot-amb1-haiku-alone-w1-01",
+   "model": "haiku",
+   "phase": "pilot",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "pilot-amb1-gemini-falsealarm-w3-01",
+   "model": "gemini",
+   "phase": "pilot",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "pilot-amb1-haiku-falsealarm-w2-01",
+   "model": "haiku",
+   "phase": "pilot",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "pilot-rout0-luna-routine-w1-01",
+   "model": "luna",
+   "phase": "pilot",
+   "counts_ok": false,
+   "words_ok": false
+  },
+  {
+   "run_id": "pilot-rout0-luna-routine-w2-01",
+   "model": "luna",
+   "phase": "pilot",
+   "counts_ok": false,
+   "words_ok": false
+  },
+  {
+   "run_id": "pilot-amb2-luna-alone-w3-01",
+   "model": "luna",
+   "phase": "pilot",
+   "counts_ok": false,
+   "words_ok": false
+  },
+  {
+   "run_id": "pilot-rout0-luna-routine-w3-01",
+   "model": "luna",
+   "phase": "pilot",
+   "counts_ok": false,
+   "words_ok": false
+  },
+  {
+   "run_id": "pilot-amb2-gemini-alone-w2-01",
+   "model": "gemini",
+   "phase": "pilot",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "pilot-amb2-luna-falsealarm-w2-01",
+   "model": "luna",
+   "phase": "pilot",
+   "counts_ok": false,
+   "words_ok": false
+  },
+  {
+   "run_id": "pilot-amb2-luna-falsealarm-w1-01",
+   "model": "luna",
+   "phase": "pilot",
+   "counts_ok": false,
+   "words_ok": false
+  },
+  {
+   "run_id": "pilot-amb2-haiku-alone-w2-01",
+   "model": "haiku",
+   "phase": "pilot",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "pilot-amb2-gemini-falsealarm-w1-01",
+   "model": "gemini",
+   "phase": "pilot",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "pilot-amb2-gemini-alone-w3-01",
+   "model": "gemini",
+   "phase": "pilot",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "pilot-amb2-haiku-falsealarm-w3-01",
+   "model": "haiku",
+   "phase": "pilot",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "pilot-amb2-luna-falsealarm-w3-01",
+   "model": "luna",
+   "phase": "pilot",
+   "counts_ok": false,
+   "words_ok": false
+  },
+  {
+   "run_id": "pilot-amb2-luna-alone-w2-01",
+   "model": "luna",
+   "phase": "pilot",
+   "counts_ok": false,
+   "words_ok": false
+  },
+  {
+   "run_id": "pilot-amb2-luna-alone-w1-01",
+   "model": "luna",
+   "phase": "pilot",
+   "counts_ok": false,
+   "words_ok": false
+  },
+  {
+   "run_id": "pilot-amb2-haiku-alone-w3-01",
+   "model": "haiku",
+   "phase": "pilot",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "pilot-amb2-haiku-falsealarm-w2-01",
+   "model": "haiku",
+   "phase": "pilot",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "pilot-amb2-haiku-alone-w1-01",
+   "model": "haiku",
+   "phase": "pilot",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "pilot-amb2-haiku-falsealarm-w1-01",
+   "model": "haiku",
+   "phase": "pilot",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "pilot-amb2-gemini-alone-w1-01",
+   "model": "gemini",
+   "phase": "pilot",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "pilot-amb2-gemini-falsealarm-w3-01",
+   "model": "gemini",
+   "phase": "pilot",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "pilot-amb0-luna-alone-w3-01",
+   "model": "luna",
+   "phase": "pilot",
+   "counts_ok": false,
+   "words_ok": false
+  },
+  {
+   "run_id": "pilot-amb0-gemini-alone-w3-01",
+   "model": "gemini",
+   "phase": "pilot",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "pilot-amb0-luna-falsealarm-w1-01",
+   "model": "luna",
+   "phase": "pilot",
+   "counts_ok": false,
+   "words_ok": false
+  },
+  {
+   "run_id": "pilot-amb0-luna-falsealarm-w2-01",
+   "model": "luna",
+   "phase": "pilot",
+   "counts_ok": false,
+   "words_ok": false
+  },
+  {
+   "run_id": "pilot-amb0-gemini-alone-w2-01",
+   "model": "gemini",
+   "phase": "pilot",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "pilot-amb0-haiku-alone-w2-01",
+   "model": "haiku",
+   "phase": "pilot",
+   "counts_ok": false,
+   "words_ok": false
+  },
+  {
+   "run_id": "pilot-amb0-haiku-falsealarm-w3-01",
+   "model": "haiku",
+   "phase": "pilot",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "pilot-amb0-luna-alone-w2-01",
+   "model": "luna",
+   "phase": "pilot",
+   "counts_ok": false,
+   "words_ok": false
+  },
+  {
+   "run_id": "pilot-amb0-luna-falsealarm-w3-01",
+   "model": "luna",
+   "phase": "pilot",
+   "counts_ok": false,
+   "words_ok": false
+  },
+  {
+   "run_id": "pilot-amb0-haiku-alone-w3-01",
+   "model": "haiku",
+   "phase": "pilot",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "pilot-amb0-luna-alone-w1-01",
+   "model": "luna",
+   "phase": "pilot",
+   "counts_ok": false,
+   "words_ok": false
+  },
+  {
+   "run_id": "pilot-amb0-gemini-alone-w1-01",
+   "model": "gemini",
+   "phase": "pilot",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "pilot-amb0-haiku-falsealarm-w1-01",
+   "model": "haiku",
+   "phase": "pilot",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "pilot-amb0-haiku-alone-w1-01",
+   "model": "haiku",
+   "phase": "pilot",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "pilot-amb0-gemini-falsealarm-w3-01",
+   "model": "gemini",
+   "phase": "pilot",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "pilot-amb0-haiku-falsealarm-w2-01",
+   "model": "haiku",
+   "phase": "pilot",
+   "counts_ok": false,
+   "words_ok": false
+  },
+  {
+   "run_id": "pilot-rout0-gemini-routine-w3-01",
+   "model": "gemini",
+   "phase": "pilot",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "pilot-rout0-gemini-routine-w1-01",
+   "model": "gemini",
+   "phase": "pilot",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "pilot-rout0-gemini-routine-w2-01",
+   "model": "gemini",
+   "phase": "pilot",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "smoke-final-luna-alone-w1-01",
+   "model": "luna",
+   "phase": "smoke",
+   "counts_ok": false,
+   "words_ok": false
+  },
+  {
+   "run_id": "pilot-amb0-gemini-falsealarm-w1-01",
+   "model": "gemini",
+   "phase": "pilot",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "smoke-final-haiku-alone-w1-01",
+   "model": "haiku",
+   "phase": "smoke",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "pilot-amb2-gemini-falsealarm-w2-01",
+   "model": "gemini",
+   "phase": "pilot",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "harness-luna-alone-w3-01",
+   "model": "luna",
+   "phase": "harness",
+   "counts_ok": true,
+   "words_ok": false
+  },
+  {
+   "run_id": "harness-gemini-alone-w3-01",
+   "model": "gemini",
+   "phase": "harness",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "harness-gemini-alone-w1-02",
+   "model": "gemini",
+   "phase": "harness",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "harness-luna-alone-w2-02",
+   "model": "luna",
+   "phase": "harness",
+   "counts_ok": true,
+   "words_ok": false
+  },
+  {
+   "run_id": "harness-luna-alone-w2-01",
+   "model": "luna",
+   "phase": "harness",
+   "counts_ok": true,
+   "words_ok": false
+  },
+  {
+   "run_id": "harness-luna-alone-w1-02",
+   "model": "luna",
+   "phase": "harness",
+   "counts_ok": true,
+   "words_ok": false
+  },
+  {
+   "run_id": "smoke-final-gemini-alone-w1-01",
+   "model": "gemini",
+   "phase": "smoke",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "harness-haiku-alone-w2-02",
+   "model": "haiku",
+   "phase": "harness",
+   "counts_ok": false,
+   "words_ok": false
+  },
+  {
+   "run_id": "harness-luna-alone-w1-01",
+   "model": "luna",
+   "phase": "harness",
+   "counts_ok": true,
+   "words_ok": false
+  },
+  {
+   "run_id": "harness-haiku-alone-w3-01",
+   "model": "haiku",
+   "phase": "harness",
+   "counts_ok": true,
+   "words_ok": false
+  },
+  {
+   "run_id": "harness-gemini-alone-w1-01",
+   "model": "gemini",
+   "phase": "harness",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "harness-gemini-alone-w2-02",
+   "model": "gemini",
+   "phase": "harness",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "harness-gemini-alone-w2-01",
+   "model": "gemini",
+   "phase": "harness",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "calibrate-luna-alone-w1-04",
+   "model": "luna",
+   "phase": "calibrate",
+   "counts_ok": true,
+   "words_ok": false
+  },
+  {
+   "run_id": "calibrate-gemini-alone-w1-01",
+   "model": "gemini",
+   "phase": "calibrate",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "calibrate-gemini-alone-w1-03",
+   "model": "gemini",
+   "phase": "calibrate",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "calibrate-haiku-alone-w3-02",
+   "model": "haiku",
+   "phase": "calibrate",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "harness-haiku-alone-w1-01",
+   "model": "haiku",
+   "phase": "harness",
+   "counts_ok": false,
+   "words_ok": false
+  },
+  {
+   "run_id": "harness-haiku-alone-w1-02",
+   "model": "haiku",
+   "phase": "harness",
+   "counts_ok": false,
+   "words_ok": false
+  },
+  {
+   "run_id": "calibrate-gemini-alone-w2-02",
+   "model": "gemini",
+   "phase": "calibrate",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "calibrate-luna-alone-w3-03",
+   "model": "luna",
+   "phase": "calibrate",
+   "counts_ok": true,
+   "words_ok": false
+  },
+  {
+   "run_id": "calibrate-luna-alone-w2-03",
+   "model": "luna",
+   "phase": "calibrate",
+   "counts_ok": true,
+   "words_ok": false
+  },
+  {
+   "run_id": "calibrate-gemini-alone-w1-04",
+   "model": "gemini",
+   "phase": "calibrate",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "calibrate-luna-alone-w2-01",
+   "model": "luna",
+   "phase": "calibrate",
+   "counts_ok": true,
+   "words_ok": false
+  },
+  {
+   "run_id": "calibrate-luna-alone-w3-02",
+   "model": "luna",
+   "phase": "calibrate",
+   "counts_ok": true,
+   "words_ok": false
+  },
+  {
+   "run_id": "calibrate-gemini-alone-w3-03",
+   "model": "gemini",
+   "phase": "calibrate",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "calibrate-gemini-alone-w3-01",
+   "model": "gemini",
+   "phase": "calibrate",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "calibrate-luna-alone-w1-03",
+   "model": "luna",
+   "phase": "calibrate",
+   "counts_ok": true,
+   "words_ok": false
+  },
+  {
+   "run_id": "harness-haiku-alone-w2-01",
+   "model": "haiku",
+   "phase": "harness",
+   "counts_ok": true,
+   "words_ok": false
+  },
+  {
+   "run_id": "calibrate-haiku-alone-w2-01",
+   "model": "haiku",
+   "phase": "calibrate",
+   "counts_ok": false,
+   "words_ok": false
+  },
+  {
+   "run_id": "calibrate-haiku-alone-w3-01",
+   "model": "haiku",
+   "phase": "calibrate",
+   "counts_ok": false,
+   "words_ok": false
+  },
+  {
+   "run_id": "calibrate-luna-alone-w1-01",
+   "model": "luna",
+   "phase": "calibrate",
+   "counts_ok": true,
+   "words_ok": false
+  },
+  {
+   "run_id": "calibrate-luna-alone-w2-02",
+   "model": "luna",
+   "phase": "calibrate",
+   "counts_ok": true,
+   "words_ok": false
+  },
+  {
+   "run_id": "calibrate-luna-alone-w1-02",
+   "model": "luna",
+   "phase": "calibrate",
+   "counts_ok": true,
+   "words_ok": false
+  },
+  {
+   "run_id": "calibrate-gemini-alone-w3-02",
+   "model": "gemini",
+   "phase": "calibrate",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "calibrate-gemini-alone-w2-03",
+   "model": "gemini",
+   "phase": "calibrate",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "calibrate-gemini-alone-w1-02",
+   "model": "gemini",
+   "phase": "calibrate",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "calibrate-luna-alone-w3-01",
+   "model": "luna",
+   "phase": "calibrate",
+   "counts_ok": true,
+   "words_ok": false
+  },
+  {
+   "run_id": "calibrate-haiku-alone-w2-02",
+   "model": "haiku",
+   "phase": "calibrate",
+   "counts_ok": true,
+   "words_ok": false
+  },
+  {
+   "run_id": "calibrate-haiku-alone-w1-01",
+   "model": "haiku",
+   "phase": "calibrate",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "calibrate-haiku-alone-w2-03",
+   "model": "haiku",
+   "phase": "calibrate",
+   "counts_ok": true,
+   "words_ok": false
+  },
+  {
+   "run_id": "calibrate-gemini-alone-w2-01",
+   "model": "gemini",
+   "phase": "calibrate",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "calibrate-haiku-alone-w1-03",
+   "model": "haiku",
+   "phase": "calibrate",
+   "counts_ok": false,
+   "words_ok": false
+  },
+  {
+   "run_id": "calibrate-haiku-alone-w1-02",
+   "model": "haiku",
+   "phase": "calibrate",
+   "counts_ok": false,
+   "words_ok": false
+  },
+  {
+   "run_id": "calibrate-haiku-alone-w3-03",
+   "model": "haiku",
+   "phase": "calibrate",
+   "counts_ok": false,
+   "words_ok": false
+  },
+  {
+   "run_id": "calibrate-haiku-alone-w1-04",
+   "model": "haiku",
+   "phase": "calibrate",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "smoke-consentb-luna-alone-w1-01",
+   "model": "luna",
+   "phase": "smoke",
+   "counts_ok": true,
+   "words_ok": false
+  },
+  {
+   "run_id": "smoke-consenta-luna-alone-w1-01",
+   "model": "luna",
+   "phase": "smoke",
+   "counts_ok": true,
+   "words_ok": false
+  },
+  {
+   "run_id": "smoke-consentb-gemini-alone-w1-01",
+   "model": "gemini",
+   "phase": "smoke",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "smoke-consenta-gemini-alone-w1-01",
+   "model": "gemini",
+   "phase": "smoke",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "smoke-consentb-haiku-alone-w1-01",
+   "model": "haiku",
+   "phase": "smoke",
+   "counts_ok": false,
+   "words_ok": false
+  },
+  {
+   "run_id": "smoke-consenta-haiku-alone-w1-01",
+   "model": "haiku",
+   "phase": "smoke",
+   "counts_ok": false,
+   "words_ok": false
+  },
+  {
+   "run_id": "main-luna-seen700-w1-11",
+   "model": "luna",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": false
+  },
+  {
+   "run_id": "main-luna-alone-w1-11",
+   "model": "luna",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": false
+  },
+  {
+   "run_id": "main-haiku-seen700-w3-04",
+   "model": "haiku",
+   "phase": "main",
+   "counts_ok": false,
+   "words_ok": false
+  },
+  {
+   "run_id": "main-haiku-seen700-w3-09",
+   "model": "haiku",
+   "phase": "main",
+   "counts_ok": false,
+   "words_ok": false
+  },
+  {
+   "run_id": "main-luna-seen700-w1-12",
+   "model": "luna",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": false
+  },
+  {
+   "run_id": "main-luna-seen700-w2-03",
+   "model": "luna",
+   "phase": "main",
+   "counts_ok": false,
+   "words_ok": false
+  },
+  {
+   "run_id": "main-gemini-seen700-w1-06",
+   "model": "gemini",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "main-haiku-alone-w3-16",
+   "model": "haiku",
+   "phase": "main",
+   "counts_ok": false,
+   "words_ok": false
+  },
+  {
+   "run_id": "main-haiku-carried-w2-16",
+   "model": "haiku",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": false
+  },
+  {
+   "run_id": "main-luna-alone-w3-09",
+   "model": "luna",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": false
+  },
+  {
+   "run_id": "main-gemini-seen700-w3-02",
+   "model": "gemini",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "main-haiku-seen700-w1-16",
+   "model": "haiku",
+   "phase": "main",
+   "counts_ok": false,
+   "words_ok": false
+  },
+  {
+   "run_id": "main-gemini-alone-w2-11",
+   "model": "gemini",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "main-haiku-carried-w3-02",
+   "model": "haiku",
+   "phase": "main",
+   "counts_ok": false,
+   "words_ok": true
+  },
+  {
+   "run_id": "main-luna-seen700-w3-13",
+   "model": "luna",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": false
+  },
+  {
+   "run_id": "main-haiku-seen700-w1-09",
+   "model": "haiku",
+   "phase": "main",
+   "counts_ok": false,
+   "words_ok": false
+  },
+  {
+   "run_id": "main-luna-carried-w1-09",
+   "model": "luna",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": false
+  },
+  {
+   "run_id": "main-gemini-carried-w2-01",
+   "model": "gemini",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "main-luna-carried-w3-15",
+   "model": "luna",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": false
+  },
+  {
+   "run_id": "main-luna-alone-w1-15",
+   "model": "luna",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": false
+  },
+  {
+   "run_id": "main-luna-seen700-w3-11",
+   "model": "luna",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": false
+  },
+  {
+   "run_id": "main-gemini-alone-w3-06",
+   "model": "gemini",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "main-gemini-alone-w2-04",
+   "model": "gemini",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "main-gemini-alone-w2-01",
+   "model": "gemini",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "main-gemini-carried-w2-07",
+   "model": "gemini",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "main-haiku-carried-w3-12",
+   "model": "haiku",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": false
+  },
+  {
+   "run_id": "main-luna-seen700-w2-13",
+   "model": "luna",
+   "phase": "main",
+   "counts_ok": false,
+   "words_ok": false
+  },
+  {
+   "run_id": "main-luna-alone-w3-05",
+   "model": "luna",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": false
+  },
+  {
+   "run_id": "main-gemini-alone-w2-16",
+   "model": "gemini",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "main-gemini-carried-w2-05",
+   "model": "gemini",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "main-luna-seen700-w1-14",
+   "model": "luna",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": false
+  },
+  {
+   "run_id": "main-haiku-carried-w3-05",
+   "model": "haiku",
+   "phase": "main",
+   "counts_ok": false,
+   "words_ok": false
+  },
+  {
+   "run_id": "main-gemini-seen700-w1-16",
+   "model": "gemini",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "main-haiku-alone-w3-12",
+   "model": "haiku",
+   "phase": "main",
+   "counts_ok": false,
+   "words_ok": false
+  },
+  {
+   "run_id": "main-haiku-alone-w3-05",
+   "model": "haiku",
+   "phase": "main",
+   "counts_ok": false,
+   "words_ok": true
+  },
+  {
+   "run_id": "main-luna-seen700-w2-02",
+   "model": "luna",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": false
+  },
+  {
+   "run_id": "main-luna-carried-w2-12",
+   "model": "luna",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": false
+  },
+  {
+   "run_id": "main-luna-alone-w1-14",
+   "model": "luna",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": false
+  },
+  {
+   "run_id": "main-haiku-carried-w3-10",
+   "model": "haiku",
+   "phase": "main",
+   "counts_ok": false,
+   "words_ok": false
+  },
+  {
+   "run_id": "main-gemini-carried-w2-02",
+   "model": "gemini",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "main-haiku-seen700-w3-14",
+   "model": "haiku",
+   "phase": "main",
+   "counts_ok": false,
+   "words_ok": false
+  },
+  {
+   "run_id": "main-luna-seen700-w1-06",
+   "model": "luna",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": false
+  },
+  {
+   "run_id": "main-haiku-seen700-w1-08",
+   "model": "haiku",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": false
+  },
+  {
+   "run_id": "main-haiku-seen700-w3-12",
+   "model": "haiku",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": false
+  },
+  {
+   "run_id": "main-gemini-alone-w1-16",
+   "model": "gemini",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "main-luna-carried-w1-02",
+   "model": "luna",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": false
+  },
+  {
+   "run_id": "main-gemini-seen700-w1-03",
+   "model": "gemini",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "main-luna-seen700-w1-04",
+   "model": "luna",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": false
+  },
+  {
+   "run_id": "main-gemini-alone-w3-05",
+   "model": "gemini",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "main-gemini-seen700-w2-11",
+   "model": "gemini",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "main-gemini-seen700-w3-14",
+   "model": "gemini",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "main-luna-alone-w3-15",
+   "model": "luna",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": false
+  },
+  {
+   "run_id": "main-luna-alone-w3-08",
+   "model": "luna",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": false
+  },
+  {
+   "run_id": "main-luna-alone-w3-16",
+   "model": "luna",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": false
+  },
+  {
+   "run_id": "main-luna-seen700-w2-12",
+   "model": "luna",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": false
+  },
+  {
+   "run_id": "main-haiku-carried-w2-01",
+   "model": "haiku",
+   "phase": "main",
+   "counts_ok": false,
+   "words_ok": false
+  },
+  {
+   "run_id": "main-gemini-alone-w3-10",
+   "model": "gemini",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "main-luna-carried-w3-02",
+   "model": "luna",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": false
+  },
+  {
+   "run_id": "main-gemini-carried-w1-13",
+   "model": "gemini",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "main-luna-seen700-w3-09",
+   "model": "luna",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": false
+  },
+  {
+   "run_id": "main-luna-alone-w1-09",
+   "model": "luna",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": false
+  },
+  {
+   "run_id": "main-haiku-carried-w2-15",
+   "model": "haiku",
+   "phase": "main",
+   "counts_ok": false,
+   "words_ok": false
+  },
+  {
+   "run_id": "main-gemini-carried-w1-16",
+   "model": "gemini",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "main-haiku-seen700-w2-13",
+   "model": "haiku",
+   "phase": "main",
+   "counts_ok": false,
+   "words_ok": false
+  },
+  {
+   "run_id": "main-luna-seen700-w2-11",
+   "model": "luna",
+   "phase": "main",
+   "counts_ok": false,
+   "words_ok": false
+  },
+  {
+   "run_id": "main-luna-carried-w1-11",
+   "model": "luna",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": false
+  },
+  {
+   "run_id": "main-luna-seen700-w1-03",
+   "model": "luna",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": false
+  },
+  {
+   "run_id": "main-gemini-carried-w3-12",
+   "model": "gemini",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "main-haiku-seen700-w3-13",
+   "model": "haiku",
+   "phase": "main",
+   "counts_ok": false,
+   "words_ok": false
+  },
+  {
+   "run_id": "main-luna-alone-w1-02",
+   "model": "luna",
+   "phase": "main",
+   "counts_ok": false,
+   "words_ok": false
+  },
+  {
+   "run_id": "main-gemini-carried-w3-11",
+   "model": "gemini",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "main-haiku-seen700-w1-12",
+   "model": "haiku",
+   "phase": "main",
+   "counts_ok": false,
+   "words_ok": false
+  },
+  {
+   "run_id": "main-haiku-carried-w3-03",
+   "model": "haiku",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": false
+  },
+  {
+   "run_id": "main-haiku-carried-w2-09",
+   "model": "haiku",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": false
+  },
+  {
+   "run_id": "main-haiku-carried-w3-07",
+   "model": "haiku",
+   "phase": "main",
+   "counts_ok": false,
+   "words_ok": false
+  },
+  {
+   "run_id": "main-luna-seen700-w3-16",
+   "model": "luna",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": false
+  },
+  {
+   "run_id": "main-haiku-seen700-w3-07",
+   "model": "haiku",
+   "phase": "main",
+   "counts_ok": false,
+   "words_ok": false
+  },
+  {
+   "run_id": "main-luna-carried-w3-07",
+   "model": "luna",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": false
+  },
+  {
+   "run_id": "main-luna-seen700-w2-01",
+   "model": "luna",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": false
+  },
+  {
+   "run_id": "main-gemini-carried-w2-13",
+   "model": "gemini",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "main-haiku-seen700-w3-15",
+   "model": "haiku",
+   "phase": "main",
+   "counts_ok": false,
+   "words_ok": true
+  },
+  {
+   "run_id": "main-haiku-carried-w1-09",
+   "model": "haiku",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": false
+  },
+  {
+   "run_id": "main-haiku-seen700-w1-06",
+   "model": "haiku",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": false
+  },
+  {
+   "run_id": "main-haiku-seen700-w3-16",
+   "model": "haiku",
+   "phase": "main",
+   "counts_ok": false,
+   "words_ok": false
+  },
+  {
+   "run_id": "main-gemini-alone-w2-15",
+   "model": "gemini",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "main-haiku-alone-w3-01",
+   "model": "haiku",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": false
+  },
+  {
+   "run_id": "main-haiku-seen700-w1-11",
+   "model": "haiku",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": false
+  },
+  {
+   "run_id": "main-luna-carried-w3-13",
+   "model": "luna",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": false
+  },
+  {
+   "run_id": "main-haiku-alone-w2-15",
+   "model": "haiku",
+   "phase": "main",
+   "counts_ok": false,
+   "words_ok": false
+  },
+  {
+   "run_id": "main-haiku-carried-w1-12",
+   "model": "haiku",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": false
+  },
+  {
+   "run_id": "main-gemini-alone-w2-14",
+   "model": "gemini",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "main-haiku-carried-w1-05",
+   "model": "haiku",
+   "phase": "main",
+   "counts_ok": false,
+   "words_ok": false
+  },
+  {
+   "run_id": "main-haiku-carried-w3-13",
+   "model": "haiku",
+   "phase": "main",
+   "counts_ok": false,
+   "words_ok": false
+  },
+  {
+   "run_id": "main-gemini-alone-w3-01",
+   "model": "gemini",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "main-gemini-carried-w3-07",
+   "model": "gemini",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "main-haiku-carried-w1-10",
+   "model": "haiku",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "main-haiku-carried-w2-08",
+   "model": "haiku",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": false
+  },
+  {
+   "run_id": "main-haiku-alone-w2-07",
+   "model": "haiku",
+   "phase": "main",
+   "counts_ok": false,
+   "words_ok": false
+  },
+  {
+   "run_id": "main-luna-alone-w2-08",
+   "model": "luna",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": false
+  },
+  {
+   "run_id": "main-luna-carried-w1-06",
+   "model": "luna",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": false
+  },
+  {
+   "run_id": "main-gemini-alone-w3-07",
+   "model": "gemini",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "main-luna-alone-w2-03",
+   "model": "luna",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": false
+  },
+  {
+   "run_id": "main-haiku-carried-w1-08",
+   "model": "haiku",
+   "phase": "main",
+   "counts_ok": false,
+   "words_ok": false
+  },
+  {
+   "run_id": "main-gemini-seen700-w2-14",
+   "model": "gemini",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "main-luna-seen700-w3-12",
+   "model": "luna",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": false
+  },
+  {
+   "run_id": "main-haiku-alone-w2-04",
+   "model": "haiku",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": false
+  },
+  {
+   "run_id": "main-gemini-alone-w2-13",
+   "model": "gemini",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "main-luna-alone-w2-12",
+   "model": "luna",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": false
+  },
+  {
+   "run_id": "main-luna-alone-w3-03",
+   "model": "luna",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": false
+  },
+  {
+   "run_id": "main-haiku-alone-w3-15",
+   "model": "haiku",
+   "phase": "main",
+   "counts_ok": false,
+   "words_ok": false
+  },
+  {
+   "run_id": "main-gemini-carried-w3-03",
+   "model": "gemini",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "main-haiku-seen700-w1-02",
+   "model": "haiku",
+   "phase": "main",
+   "counts_ok": false,
+   "words_ok": false
+  },
+  {
+   "run_id": "main-luna-alone-w2-01",
+   "model": "luna",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": false
+  },
+  {
+   "run_id": "main-luna-seen700-w3-03",
+   "model": "luna",
+   "phase": "main",
+   "counts_ok": false,
+   "words_ok": false
+  },
+  {
+   "run_id": "main-haiku-seen700-w1-15",
+   "model": "haiku",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "main-gemini-alone-w3-16",
+   "model": "gemini",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "main-haiku-seen700-w1-10",
+   "model": "haiku",
+   "phase": "main",
+   "counts_ok": false,
+   "words_ok": false
+  },
+  {
+   "run_id": "main-luna-carried-w3-16",
+   "model": "luna",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": false
+  },
+  {
+   "run_id": "main-haiku-alone-w1-04",
+   "model": "haiku",
+   "phase": "main",
+   "counts_ok": false,
+   "words_ok": false
+  },
+  {
+   "run_id": "main-gemini-carried-w1-10",
+   "model": "gemini",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "main-gemini-carried-w2-16",
+   "model": "gemini",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "main-haiku-alone-w2-08",
+   "model": "haiku",
+   "phase": "main",
+   "counts_ok": false,
+   "words_ok": false
+  },
+  {
+   "run_id": "main-luna-alone-w3-06",
+   "model": "luna",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": false
+  },
+  {
+   "run_id": "main-gemini-carried-w1-09",
+   "model": "gemini",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "main-luna-alone-w2-07",
+   "model": "luna",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": false
+  },
+  {
+   "run_id": "main-gemini-alone-w3-13",
+   "model": "gemini",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "main-haiku-carried-w2-02",
+   "model": "haiku",
+   "phase": "main",
+   "counts_ok": false,
+   "words_ok": false
+  },
+  {
+   "run_id": "main-luna-carried-w3-05",
+   "model": "luna",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": false
+  },
+  {
+   "run_id": "main-luna-alone-w2-11",
+   "model": "luna",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": false
+  },
+  {
+   "run_id": "main-haiku-alone-w2-11",
+   "model": "haiku",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "main-luna-carried-w3-09",
+   "model": "luna",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": false
+  },
+  {
+   "run_id": "main-gemini-carried-w3-16",
+   "model": "gemini",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "main-haiku-alone-w3-06",
+   "model": "haiku",
+   "phase": "main",
+   "counts_ok": false,
+   "words_ok": false
+  },
+  {
+   "run_id": "main-haiku-seen700-w2-09",
+   "model": "haiku",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": false
+  },
+  {
+   "run_id": "main-gemini-alone-w3-14",
+   "model": "gemini",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "main-luna-alone-w1-07",
+   "model": "luna",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": false
+  },
+  {
+   "run_id": "main-luna-alone-w1-04",
+   "model": "luna",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": false
+  },
+  {
+   "run_id": "main-luna-seen700-w1-10",
+   "model": "luna",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": false
+  },
+  {
+   "run_id": "main-gemini-carried-w1-11",
+   "model": "gemini",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "main-luna-alone-w3-13",
+   "model": "luna",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": false
+  },
+  {
+   "run_id": "main-gemini-alone-w3-15",
+   "model": "gemini",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "main-luna-seen700-w1-16",
+   "model": "luna",
+   "phase": "main",
+   "counts_ok": false,
+   "words_ok": false
+  },
+  {
+   "run_id": "main-gemini-seen700-w3-03",
+   "model": "gemini",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "main-gemini-seen700-w2-13",
+   "model": "gemini",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "main-gemini-seen700-w2-04",
+   "model": "gemini",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "main-luna-alone-w3-14",
+   "model": "luna",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": false
+  },
+  {
+   "run_id": "main-luna-carried-w1-16",
+   "model": "luna",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": false
+  },
+  {
+   "run_id": "main-haiku-alone-w2-05",
+   "model": "haiku",
+   "phase": "main",
+   "counts_ok": false,
+   "words_ok": false
+  },
+  {
+   "run_id": "main-gemini-alone-w1-11",
+   "model": "gemini",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "main-haiku-alone-w2-03",
+   "model": "haiku",
+   "phase": "main",
+   "counts_ok": false,
+   "words_ok": false
+  },
+  {
+   "run_id": "main-gemini-carried-w3-06",
+   "model": "gemini",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "main-luna-seen700-w2-06",
+   "model": "luna",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": false
+  },
+  {
+   "run_id": "main-gemini-alone-w2-05",
+   "model": "gemini",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "main-haiku-seen700-w2-14",
+   "model": "haiku",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": false
+  },
+  {
+   "run_id": "main-luna-carried-w1-10",
+   "model": "luna",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": false
+  },
+  {
+   "run_id": "main-gemini-alone-w1-03",
+   "model": "gemini",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "main-luna-carried-w2-01",
+   "model": "luna",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": false
+  },
+  {
+   "run_id": "main-luna-alone-w1-05",
+   "model": "luna",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": false
+  },
+  {
+   "run_id": "main-luna-carried-w1-03",
+   "model": "luna",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": false
+  },
+  {
+   "run_id": "main-luna-carried-w3-10",
+   "model": "luna",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": false
+  },
+  {
+   "run_id": "main-luna-seen700-w3-04",
+   "model": "luna",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": false
+  },
+  {
+   "run_id": "main-haiku-alone-w2-01",
+   "model": "haiku",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "main-luna-carried-w1-08",
+   "model": "luna",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": false
+  },
+  {
+   "run_id": "main-haiku-alone-w3-14",
+   "model": "haiku",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "main-gemini-carried-w1-08",
+   "model": "gemini",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "main-haiku-seen700-w2-02",
+   "model": "haiku",
+   "phase": "main",
+   "counts_ok": false,
+   "words_ok": false
+  },
+  {
+   "run_id": "main-gemini-seen700-w2-06",
+   "model": "gemini",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "main-haiku-carried-w2-12",
+   "model": "haiku",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": false
+  },
+  {
+   "run_id": "main-haiku-alone-w1-03",
+   "model": "haiku",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": false
+  },
+  {
+   "run_id": "main-haiku-alone-w2-14",
+   "model": "haiku",
+   "phase": "main",
+   "counts_ok": false,
+   "words_ok": false
+  },
+  {
+   "run_id": "main-luna-seen700-w2-16",
+   "model": "luna",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": false
+  },
+  {
+   "run_id": "main-gemini-alone-w2-10",
+   "model": "gemini",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "main-haiku-alone-w3-09",
+   "model": "haiku",
+   "phase": "main",
+   "counts_ok": false,
+   "words_ok": false
+  },
+  {
+   "run_id": "main-haiku-carried-w1-02",
+   "model": "haiku",
+   "phase": "main",
+   "counts_ok": false,
+   "words_ok": false
+  },
+  {
+   "run_id": "main-gemini-carried-w2-09",
+   "model": "gemini",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "main-gemini-seen700-w2-15",
+   "model": "gemini",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "main-gemini-seen700-w2-03",
+   "model": "gemini",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "main-luna-carried-w3-03",
+   "model": "luna",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": false
+  },
+  {
+   "run_id": "main-luna-alone-w2-13",
+   "model": "luna",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": false
+  },
+  {
+   "run_id": "main-haiku-seen700-w2-15",
+   "model": "haiku",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "main-luna-alone-w3-11",
+   "model": "luna",
+   "phase": "main",
+   "counts_ok": false,
+   "words_ok": false
+  },
+  {
+   "run_id": "main-luna-carried-w2-03",
+   "model": "luna",
+   "phase": "main",
+   "counts_ok": false,
+   "words_ok": false
+  },
+  {
+   "run_id": "main-luna-carried-w1-15",
+   "model": "luna",
+   "phase": "main",
+   "counts_ok": false,
+   "words_ok": false
+  },
+  {
+   "run_id": "main-luna-seen700-w3-14",
+   "model": "luna",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": false
+  },
+  {
+   "run_id": "main-haiku-carried-w1-07",
+   "model": "haiku",
+   "phase": "main",
+   "counts_ok": false,
+   "words_ok": false
+  },
+  {
+   "run_id": "main-haiku-seen700-w3-08",
+   "model": "haiku",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": false
+  },
+  {
+   "run_id": "main-luna-seen700-w3-07",
+   "model": "luna",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": false
+  },
+  {
+   "run_id": "main-gemini-seen700-w1-14",
+   "model": "gemini",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "main-haiku-alone-w3-10",
+   "model": "haiku",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": false
+  },
+  {
+   "run_id": "main-haiku-alone-w3-07",
+   "model": "haiku",
+   "phase": "main",
+   "counts_ok": false,
+   "words_ok": false
+  },
+  {
+   "run_id": "main-gemini-carried-w3-02",
+   "model": "gemini",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "main-haiku-seen700-w1-03",
+   "model": "haiku",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "main-gemini-seen700-w1-09",
+   "model": "gemini",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "main-luna-seen700-w2-10",
+   "model": "luna",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": false
+  },
+  {
+   "run_id": "main-luna-carried-w2-14",
+   "model": "luna",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": false
+  },
+  {
+   "run_id": "main-gemini-carried-w3-05",
+   "model": "gemini",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "main-haiku-seen700-w1-01",
+   "model": "haiku",
+   "phase": "main",
+   "counts_ok": false,
+   "words_ok": false
+  },
+  {
+   "run_id": "main-luna-carried-w1-01",
+   "model": "luna",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": false
+  },
+  {
+   "run_id": "main-luna-seen700-w2-15",
+   "model": "luna",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": false
+  },
+  {
+   "run_id": "main-luna-alone-w2-15",
+   "model": "luna",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": false
+  },
+  {
+   "run_id": "main-haiku-alone-w1-14",
+   "model": "haiku",
+   "phase": "main",
+   "counts_ok": false,
+   "words_ok": true
+  },
+  {
+   "run_id": "main-haiku-carried-w1-15",
+   "model": "haiku",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": false
+  },
+  {
+   "run_id": "main-gemini-carried-w1-04",
+   "model": "gemini",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "main-haiku-alone-w3-02",
+   "model": "haiku",
+   "phase": "main",
+   "counts_ok": false,
+   "words_ok": true
+  },
+  {
+   "run_id": "main-luna-seen700-w1-01",
+   "model": "luna",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": false
+  },
+  {
+   "run_id": "main-luna-carried-w3-01",
+   "model": "luna",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": false
+  },
+  {
+   "run_id": "main-haiku-carried-w3-14",
+   "model": "haiku",
+   "phase": "main",
+   "counts_ok": false,
+   "words_ok": false
+  },
+  {
+   "run_id": "main-gemini-seen700-w1-01",
+   "model": "gemini",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "main-haiku-carried-w3-01",
+   "model": "haiku",
+   "phase": "main",
+   "counts_ok": false,
+   "words_ok": false
+  },
+  {
+   "run_id": "main-haiku-carried-w2-03",
+   "model": "haiku",
+   "phase": "main",
+   "counts_ok": false,
+   "words_ok": false
+  },
+  {
+   "run_id": "main-haiku-carried-w3-16",
+   "model": "haiku",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": false
+  },
+  {
+   "run_id": "main-haiku-alone-w1-02",
+   "model": "haiku",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": false
+  },
+  {
+   "run_id": "main-haiku-seen700-w2-04",
+   "model": "haiku",
+   "phase": "main",
+   "counts_ok": false,
+   "words_ok": false
+  },
+  {
+   "run_id": "main-luna-seen700-w2-14",
+   "model": "luna",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": false
+  },
+  {
+   "run_id": "main-luna-alone-w2-06",
+   "model": "luna",
+   "phase": "main",
+   "counts_ok": false,
+   "words_ok": false
+  },
+  {
+   "run_id": "main-luna-alone-w1-08",
+   "model": "luna",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": false
+  },
+  {
+   "run_id": "main-gemini-carried-w2-06",
+   "model": "gemini",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "main-gemini-carried-w1-12",
+   "model": "gemini",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "main-gemini-carried-w1-07",
+   "model": "gemini",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "main-haiku-seen700-w1-14",
+   "model": "haiku",
+   "phase": "main",
+   "counts_ok": false,
+   "words_ok": false
+  },
+  {
+   "run_id": "main-luna-carried-w1-13",
+   "model": "luna",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": false
+  },
+  {
+   "run_id": "main-haiku-alone-w2-16",
+   "model": "haiku",
+   "phase": "main",
+   "counts_ok": false,
+   "words_ok": true
+  },
+  {
+   "run_id": "main-gemini-seen700-w2-07",
+   "model": "gemini",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "main-haiku-seen700-w1-07",
+   "model": "haiku",
+   "phase": "main",
+   "counts_ok": false,
+   "words_ok": false
+  },
+  {
+   "run_id": "main-luna-seen700-w3-08",
+   "model": "luna",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": false
+  },
+  {
+   "run_id": "main-luna-seen700-w2-09",
+   "model": "luna",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": false
+  },
+  {
+   "run_id": "main-luna-carried-w1-07",
+   "model": "luna",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": false
+  },
+  {
+   "run_id": "main-gemini-alone-w2-03",
+   "model": "gemini",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "main-luna-carried-w2-06",
+   "model": "luna",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": false
+  },
+  {
+   "run_id": "main-gemini-seen700-w1-10",
+   "model": "gemini",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "main-gemini-seen700-w1-12",
+   "model": "gemini",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "main-gemini-alone-w3-04",
+   "model": "gemini",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "main-gemini-alone-w3-09",
+   "model": "gemini",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "main-gemini-seen700-w2-16",
+   "model": "gemini",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "main-luna-carried-w2-11",
+   "model": "luna",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": false
+  },
+  {
+   "run_id": "main-luna-seen700-w1-13",
+   "model": "luna",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": false
+  },
+  {
+   "run_id": "main-haiku-alone-w2-06",
+   "model": "haiku",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "main-luna-carried-w3-14",
+   "model": "luna",
+   "phase": "main",
+   "counts_ok": false,
+   "words_ok": false
+  },
+  {
+   "run_id": "main-luna-seen700-w1-09",
+   "model": "luna",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": false
+  },
+  {
+   "run_id": "main-luna-carried-w3-11",
+   "model": "luna",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": false
+  },
+  {
+   "run_id": "main-haiku-alone-w2-02",
+   "model": "haiku",
+   "phase": "main",
+   "counts_ok": false,
+   "words_ok": true
+  },
+  {
+   "run_id": "main-gemini-carried-w3-10",
+   "model": "gemini",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "main-luna-alone-w2-02",
+   "model": "luna",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": false
+  },
+  {
+   "run_id": "main-gemini-seen700-w3-07",
+   "model": "gemini",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "main-luna-alone-w1-16",
+   "model": "luna",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": false
+  },
+  {
+   "run_id": "main-gemini-carried-w3-15",
+   "model": "gemini",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "main-gemini-carried-w2-12",
+   "model": "gemini",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "main-haiku-alone-w3-11",
+   "model": "haiku",
+   "phase": "main",
+   "counts_ok": false,
+   "words_ok": false
+  },
+  {
+   "run_id": "main-gemini-carried-w2-14",
+   "model": "gemini",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "main-gemini-seen700-w3-08",
+   "model": "gemini",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "main-luna-carried-w3-08",
+   "model": "luna",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": false
+  },
+  {
+   "run_id": "main-luna-carried-w2-07",
+   "model": "luna",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": false
+  },
+  {
+   "run_id": "main-luna-carried-w2-16",
+   "model": "luna",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": false
+  },
+  {
+   "run_id": "main-gemini-carried-w3-09",
+   "model": "gemini",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "main-luna-alone-w3-12",
+   "model": "luna",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": false
+  },
+  {
+   "run_id": "main-haiku-alone-w1-16",
+   "model": "haiku",
+   "phase": "main",
+   "counts_ok": false,
+   "words_ok": false
+  },
+  {
+   "run_id": "main-luna-carried-w1-04",
+   "model": "luna",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": false
+  },
+  {
+   "run_id": "main-gemini-seen700-w1-08",
+   "model": "gemini",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "main-haiku-carried-w1-01",
+   "model": "haiku",
+   "phase": "main",
+   "counts_ok": false,
+   "words_ok": false
+  },
+  {
+   "run_id": "main-haiku-carried-w3-09",
+   "model": "haiku",
+   "phase": "main",
+   "counts_ok": false,
+   "words_ok": true
+  },
+  {
+   "run_id": "main-luna-seen700-w3-15",
+   "model": "luna",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": false
+  },
+  {
+   "run_id": "main-haiku-carried-w2-11",
+   "model": "haiku",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": false
+  },
+  {
+   "run_id": "main-haiku-carried-w2-10",
+   "model": "haiku",
+   "phase": "main",
+   "counts_ok": false,
+   "words_ok": false
+  },
+  {
+   "run_id": "main-luna-alone-w1-01",
+   "model": "luna",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": false
+  },
+  {
+   "run_id": "main-gemini-alone-w1-02",
+   "model": "gemini",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "main-luna-seen700-w3-02",
+   "model": "luna",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": false
+  },
+  {
+   "run_id": "main-haiku-alone-w1-08",
+   "model": "haiku",
+   "phase": "main",
+   "counts_ok": false,
+   "words_ok": false
+  },
+  {
+   "run_id": "main-haiku-seen700-w3-05",
+   "model": "haiku",
+   "phase": "main",
+   "counts_ok": false,
+   "words_ok": false
+  },
+  {
+   "run_id": "main-gemini-alone-w1-04",
+   "model": "gemini",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "main-haiku-alone-w1-05",
+   "model": "haiku",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": false
+  },
+  {
+   "run_id": "main-haiku-alone-w1-10",
+   "model": "haiku",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": false
+  },
+  {
+   "run_id": "main-gemini-seen700-w3-10",
+   "model": "gemini",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "main-haiku-carried-w3-04",
+   "model": "haiku",
+   "phase": "main",
+   "counts_ok": false,
+   "words_ok": false
+  },
+  {
+   "run_id": "main-haiku-alone-w1-12",
+   "model": "haiku",
+   "phase": "main",
+   "counts_ok": false,
+   "words_ok": false
+  },
+  {
+   "run_id": "main-luna-carried-w1-05",
+   "model": "luna",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": false
+  },
+  {
+   "run_id": "main-luna-seen700-w2-08",
+   "model": "luna",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": false
+  },
+  {
+   "run_id": "main-haiku-carried-w3-11",
+   "model": "haiku",
+   "phase": "main",
+   "counts_ok": false,
+   "words_ok": true
+  },
+  {
+   "run_id": "main-luna-carried-w2-02",
+   "model": "luna",
+   "phase": "main",
+   "counts_ok": false,
+   "words_ok": false
+  },
+  {
+   "run_id": "main-haiku-carried-w1-13",
+   "model": "haiku",
+   "phase": "main",
+   "counts_ok": false,
+   "words_ok": false
+  },
+  {
+   "run_id": "main-haiku-carried-w2-05",
+   "model": "haiku",
+   "phase": "main",
+   "counts_ok": false,
+   "words_ok": false
+  },
+  {
+   "run_id": "main-luna-alone-w3-07",
+   "model": "luna",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": false
+  },
+  {
+   "run_id": "main-haiku-alone-w3-08",
+   "model": "haiku",
+   "phase": "main",
+   "counts_ok": false,
+   "words_ok": false
+  },
+  {
+   "run_id": "main-gemini-seen700-w1-11",
+   "model": "gemini",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "main-gemini-carried-w2-08",
+   "model": "gemini",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "main-haiku-seen700-w2-03",
+   "model": "haiku",
+   "phase": "main",
+   "counts_ok": false,
+   "words_ok": false
+  },
+  {
+   "run_id": "main-haiku-seen700-w1-04",
+   "model": "haiku",
+   "phase": "main",
+   "counts_ok": false,
+   "words_ok": false
+  },
+  {
+   "run_id": "main-gemini-carried-w2-04",
+   "model": "gemini",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "main-gemini-carried-w3-08",
+   "model": "gemini",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "main-haiku-carried-w1-04",
+   "model": "haiku",
+   "phase": "main",
+   "counts_ok": false,
+   "words_ok": false
+  },
+  {
+   "run_id": "main-luna-alone-w3-10",
+   "model": "luna",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": false
+  },
+  {
+   "run_id": "main-haiku-seen700-w2-12",
+   "model": "haiku",
+   "phase": "main",
+   "counts_ok": false,
+   "words_ok": false
+  },
+  {
+   "run_id": "main-luna-carried-w1-12",
+   "model": "luna",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": false
+  },
+  {
+   "run_id": "main-haiku-alone-w1-09",
+   "model": "haiku",
+   "phase": "main",
+   "counts_ok": false,
+   "words_ok": false
+  },
+  {
+   "run_id": "main-haiku-carried-w2-14",
+   "model": "haiku",
+   "phase": "main",
+   "counts_ok": false,
+   "words_ok": false
+  },
+  {
+   "run_id": "main-haiku-alone-w1-13",
+   "model": "haiku",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": false
+  },
+  {
+   "run_id": "main-gemini-seen700-w3-12",
+   "model": "gemini",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "main-haiku-alone-w2-12",
+   "model": "haiku",
+   "phase": "main",
+   "counts_ok": false,
+   "words_ok": false
+  },
+  {
+   "run_id": "main-luna-alone-w3-01",
+   "model": "luna",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": false
+  },
+  {
+   "run_id": "main-luna-seen700-w3-06",
+   "model": "luna",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": false
+  },
+  {
+   "run_id": "main-gemini-alone-w1-10",
+   "model": "gemini",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "main-haiku-seen700-w3-06",
+   "model": "haiku",
+   "phase": "main",
+   "counts_ok": false,
+   "words_ok": false
+  },
+  {
+   "run_id": "main-gemini-seen700-w1-05",
+   "model": "gemini",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "main-haiku-carried-w2-06",
+   "model": "haiku",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": false
+  },
+  {
+   "run_id": "main-luna-alone-w2-04",
+   "model": "luna",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": false
+  },
+  {
+   "run_id": "main-luna-seen700-w1-05",
+   "model": "luna",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": false
+  },
+  {
+   "run_id": "main-haiku-alone-w1-06",
+   "model": "haiku",
+   "phase": "main",
+   "counts_ok": false,
+   "words_ok": false
+  },
+  {
+   "run_id": "main-haiku-alone-w2-10",
+   "model": "haiku",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": false
+  },
+  {
+   "run_id": "main-haiku-seen700-w1-13",
+   "model": "haiku",
+   "phase": "main",
+   "counts_ok": false,
+   "words_ok": false
+  },
+  {
+   "run_id": "main-gemini-seen700-w3-15",
+   "model": "gemini",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "main-gemini-alone-w1-13",
+   "model": "gemini",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "main-gemini-seen700-w1-07",
+   "model": "gemini",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "main-gemini-alone-w2-08",
+   "model": "gemini",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "main-luna-carried-w2-04",
+   "model": "luna",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": false
+  },
+  {
+   "run_id": "main-luna-carried-w2-05",
+   "model": "luna",
+   "phase": "main",
+   "counts_ok": false,
+   "words_ok": false
+  },
+  {
+   "run_id": "main-luna-seen700-w2-07",
+   "model": "luna",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": false
+  },
+  {
+   "run_id": "main-luna-seen700-w2-05",
+   "model": "luna",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": false
+  },
+  {
+   "run_id": "main-luna-carried-w2-08",
+   "model": "luna",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": false
+  },
+  {
+   "run_id": "main-gemini-seen700-w3-04",
+   "model": "gemini",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "main-luna-seen700-w3-01",
+   "model": "luna",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": false
+  },
+  {
+   "run_id": "main-gemini-alone-w2-02",
+   "model": "gemini",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "main-luna-alone-w1-06",
+   "model": "luna",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": false
+  },
+  {
+   "run_id": "main-luna-seen700-w1-08",
+   "model": "luna",
+   "phase": "main",
+   "counts_ok": false,
+   "words_ok": false
+  },
+  {
+   "run_id": "main-haiku-alone-w2-09",
+   "model": "haiku",
+   "phase": "main",
+   "counts_ok": false,
+   "words_ok": false
+  },
+  {
+   "run_id": "main-gemini-seen700-w2-12",
+   "model": "gemini",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "main-gemini-carried-w2-15",
+   "model": "gemini",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "main-gemini-alone-w1-05",
+   "model": "gemini",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "main-luna-alone-w2-09",
+   "model": "luna",
+   "phase": "main",
+   "counts_ok": false,
+   "words_ok": false
+  },
+  {
+   "run_id": "main-luna-seen700-w3-10",
+   "model": "luna",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": false
+  },
+  {
+   "run_id": "main-luna-alone-w2-05",
+   "model": "luna",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": false
+  },
+  {
+   "run_id": "main-haiku-seen700-w2-06",
+   "model": "haiku",
+   "phase": "main",
+   "counts_ok": false,
+   "words_ok": true
+  },
+  {
+   "run_id": "main-haiku-alone-w1-11",
+   "model": "haiku",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": false
+  },
+  {
+   "run_id": "main-gemini-seen700-w2-09",
+   "model": "gemini",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "main-luna-seen700-w1-15",
+   "model": "luna",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": false
+  },
+  {
+   "run_id": "main-haiku-seen700-w3-03",
+   "model": "haiku",
+   "phase": "main",
+   "counts_ok": false,
+   "words_ok": false
+  },
+  {
+   "run_id": "main-haiku-alone-w3-03",
+   "model": "haiku",
+   "phase": "main",
+   "counts_ok": false,
+   "words_ok": false
+  },
+  {
+   "run_id": "main-luna-alone-w3-02",
+   "model": "luna",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": false
+  },
+  {
+   "run_id": "main-haiku-seen700-w2-08",
+   "model": "haiku",
+   "phase": "main",
+   "counts_ok": false,
+   "words_ok": false
+  },
+  {
+   "run_id": "main-luna-carried-w2-10",
+   "model": "luna",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": false
+  },
+  {
+   "run_id": "main-luna-carried-w2-09",
+   "model": "luna",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": false
+  },
+  {
+   "run_id": "main-haiku-carried-w3-15",
+   "model": "haiku",
+   "phase": "main",
+   "counts_ok": false,
+   "words_ok": false
+  },
+  {
+   "run_id": "main-gemini-carried-w1-03",
+   "model": "gemini",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "main-haiku-alone-w2-13",
+   "model": "haiku",
+   "phase": "main",
+   "counts_ok": false,
+   "words_ok": false
+  },
+  {
+   "run_id": "main-luna-carried-w3-06",
+   "model": "luna",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": false
+  },
+  {
+   "run_id": "main-luna-alone-w1-12",
+   "model": "luna",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": false
+  },
+  {
+   "run_id": "main-haiku-seen700-w3-11",
+   "model": "haiku",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": false
+  },
+  {
+   "run_id": "main-haiku-seen700-w1-05",
+   "model": "haiku",
+   "phase": "main",
+   "counts_ok": false,
+   "words_ok": false
+  },
+  {
+   "run_id": "main-gemini-alone-w2-06",
+   "model": "gemini",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "main-gemini-alone-w1-12",
+   "model": "gemini",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "main-gemini-alone-w1-06",
+   "model": "gemini",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "main-haiku-carried-w2-07",
+   "model": "haiku",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": false
+  },
+  {
+   "run_id": "main-luna-carried-w3-04",
+   "model": "luna",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": false
+  },
+  {
+   "run_id": "main-haiku-seen700-w2-16",
+   "model": "haiku",
+   "phase": "main",
+   "counts_ok": false,
+   "words_ok": false
+  },
+  {
+   "run_id": "main-gemini-carried-w3-04",
+   "model": "gemini",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "main-luna-carried-w2-15",
+   "model": "luna",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": false
+  },
+  {
+   "run_id": "main-luna-seen700-w1-02",
+   "model": "luna",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": false
+  },
+  {
+   "run_id": "main-gemini-alone-w1-15",
+   "model": "gemini",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "main-haiku-seen700-w3-02",
+   "model": "haiku",
+   "phase": "main",
+   "counts_ok": false,
+   "words_ok": false
+  },
+  {
+   "run_id": "main-gemini-carried-w1-06",
+   "model": "gemini",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "main-luna-alone-w2-14",
+   "model": "luna",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": false
+  },
+  {
+   "run_id": "main-luna-alone-w1-10",
+   "model": "luna",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": false
+  },
+  {
+   "run_id": "main-gemini-alone-w2-09",
+   "model": "gemini",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "main-haiku-carried-w1-16",
+   "model": "haiku",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": false
+  },
+  {
+   "run_id": "main-haiku-seen700-w2-01",
+   "model": "haiku",
+   "phase": "main",
+   "counts_ok": false,
+   "words_ok": false
+  },
+  {
+   "run_id": "main-haiku-carried-w1-03",
+   "model": "haiku",
+   "phase": "main",
+   "counts_ok": false,
+   "words_ok": false
+  },
+  {
+   "run_id": "main-gemini-carried-w3-14",
+   "model": "gemini",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "main-gemini-carried-w1-05",
+   "model": "gemini",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "main-haiku-seen700-w3-01",
+   "model": "haiku",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": false
+  },
+  {
+   "run_id": "main-luna-alone-w2-16",
+   "model": "luna",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": false
+  },
+  {
+   "run_id": "main-haiku-seen700-w2-10",
+   "model": "haiku",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": false
+  },
+  {
+   "run_id": "main-luna-seen700-w1-07",
+   "model": "luna",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": false
+  },
+  {
+   "run_id": "main-luna-alone-w3-04",
+   "model": "luna",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": false
+  },
+  {
+   "run_id": "main-haiku-seen700-w3-10",
+   "model": "haiku",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": false
+  },
+  {
+   "run_id": "main-haiku-alone-w3-04",
+   "model": "haiku",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "main-luna-seen700-w3-05",
+   "model": "luna",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": false
+  },
+  {
+   "run_id": "main-haiku-carried-w2-04",
+   "model": "haiku",
+   "phase": "main",
+   "counts_ok": false,
+   "words_ok": false
+  },
+  {
+   "run_id": "main-haiku-seen700-w2-07",
+   "model": "haiku",
+   "phase": "main",
+   "counts_ok": false,
+   "words_ok": false
+  },
+  {
+   "run_id": "main-haiku-alone-w1-07",
+   "model": "haiku",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "main-gemini-seen700-w3-01",
+   "model": "gemini",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "main-haiku-alone-w1-15",
+   "model": "haiku",
+   "phase": "main",
+   "counts_ok": false,
+   "words_ok": true
+  },
+  {
+   "run_id": "main-luna-carried-w2-13",
+   "model": "luna",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": false
+  },
+  {
+   "run_id": "main-haiku-carried-w1-06",
+   "model": "haiku",
+   "phase": "main",
+   "counts_ok": false,
+   "words_ok": false
+  },
+  {
+   "run_id": "main-haiku-carried-w3-06",
+   "model": "haiku",
+   "phase": "main",
+   "counts_ok": false,
+   "words_ok": false
+  },
+  {
+   "run_id": "main-haiku-carried-w1-11",
+   "model": "haiku",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "main-luna-seen700-w2-04",
+   "model": "luna",
+   "phase": "main",
+   "counts_ok": false,
+   "words_ok": false
+  },
+  {
+   "run_id": "main-haiku-alone-w3-13",
+   "model": "haiku",
+   "phase": "main",
+   "counts_ok": false,
+   "words_ok": false
+  },
+  {
+   "run_id": "main-haiku-seen700-w2-05",
+   "model": "haiku",
+   "phase": "main",
+   "counts_ok": false,
+   "words_ok": true
+  },
+  {
+   "run_id": "main-gemini-seen700-w3-11",
+   "model": "gemini",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "main-gemini-alone-w1-08",
+   "model": "gemini",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "main-gemini-seen700-w3-13",
+   "model": "gemini",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "main-luna-alone-w2-10",
+   "model": "luna",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": false
+  },
+  {
+   "run_id": "main-haiku-seen700-w2-11",
+   "model": "haiku",
+   "phase": "main",
+   "counts_ok": false,
+   "words_ok": false
+  },
+  {
+   "run_id": "main-gemini-carried-w2-11",
+   "model": "gemini",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "main-luna-carried-w3-12",
+   "model": "luna",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": false
+  },
+  {
+   "run_id": "main-haiku-alone-w1-01",
+   "model": "haiku",
+   "phase": "main",
+   "counts_ok": false,
+   "words_ok": false
+  },
+  {
+   "run_id": "main-gemini-seen700-w2-10",
+   "model": "gemini",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "main-haiku-carried-w1-14",
+   "model": "haiku",
+   "phase": "main",
+   "counts_ok": false,
+   "words_ok": false
+  },
+  {
+   "run_id": "main-luna-alone-w1-03",
+   "model": "luna",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": false
+  },
+  {
+   "run_id": "main-luna-carried-w1-14",
+   "model": "luna",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": false
+  },
+  {
+   "run_id": "main-luna-alone-w1-13",
+   "model": "luna",
+   "phase": "main",
+   "counts_ok": false,
+   "words_ok": false
+  },
+  {
+   "run_id": "main-gemini-alone-w1-09",
+   "model": "gemini",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "main-haiku-carried-w2-13",
+   "model": "haiku",
+   "phase": "main",
+   "counts_ok": false,
+   "words_ok": false
+  },
+  {
+   "run_id": "main-gemini-seen700-w2-08",
+   "model": "gemini",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "main-gemini-alone-w2-12",
+   "model": "gemini",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "false-alarm-haiku-falsealarm-w3-06",
+   "model": "haiku",
+   "phase": "false-alarm",
+   "counts_ok": true,
+   "words_ok": false
+  },
+  {
+   "run_id": "main-haiku-carried-w3-08",
+   "model": "haiku",
+   "phase": "main",
+   "counts_ok": false,
+   "words_ok": false
+  },
+  {
+   "run_id": "main-gemini-alone-w3-08",
+   "model": "gemini",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "false-alarm-luna-falsealarm-w1-03",
+   "model": "luna",
+   "phase": "false-alarm",
+   "counts_ok": false,
+   "words_ok": false
+  },
+  {
+   "run_id": "false-alarm-haiku-falsealarm-w1-07",
+   "model": "haiku",
+   "phase": "false-alarm",
+   "counts_ok": false,
+   "words_ok": true
+  },
+  {
+   "run_id": "main-gemini-seen700-w1-02",
+   "model": "gemini",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "main-gemini-alone-w3-12",
+   "model": "gemini",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "false-alarm-haiku-falsealarm-w1-06",
+   "model": "haiku",
+   "phase": "false-alarm",
+   "counts_ok": false,
+   "words_ok": false
+  },
+  {
+   "run_id": "false-alarm-haiku-falsealarm-w2-07",
+   "model": "haiku",
+   "phase": "false-alarm",
+   "counts_ok": false,
+   "words_ok": false
+  },
+  {
+   "run_id": "false-alarm-luna-falsealarm-w1-04",
+   "model": "luna",
+   "phase": "false-alarm",
+   "counts_ok": true,
+   "words_ok": false
+  },
+  {
+   "run_id": "main-gemini-alone-w3-02",
+   "model": "gemini",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "false-alarm-luna-falsealarm-w2-07",
+   "model": "luna",
+   "phase": "false-alarm",
+   "counts_ok": true,
+   "words_ok": false
+  },
+  {
+   "run_id": "false-alarm-luna-falsealarm-w2-01",
+   "model": "luna",
+   "phase": "false-alarm",
+   "counts_ok": true,
+   "words_ok": false
+  },
+  {
+   "run_id": "false-alarm-luna-falsealarm-w3-01",
+   "model": "luna",
+   "phase": "false-alarm",
+   "counts_ok": false,
+   "words_ok": false
+  },
+  {
+   "run_id": "main-gemini-seen700-w3-16",
+   "model": "gemini",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "false-alarm-haiku-falsealarm-w1-05",
+   "model": "haiku",
+   "phase": "false-alarm",
+   "counts_ok": false,
+   "words_ok": false
+  },
+  {
+   "run_id": "main-gemini-seen700-w2-01",
+   "model": "gemini",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "false-alarm-luna-falsealarm-w3-03",
+   "model": "luna",
+   "phase": "false-alarm",
+   "counts_ok": true,
+   "words_ok": false
+  },
+  {
+   "run_id": "main-gemini-carried-w2-10",
+   "model": "gemini",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "false-alarm-luna-falsealarm-w2-05",
+   "model": "luna",
+   "phase": "false-alarm",
+   "counts_ok": true,
+   "words_ok": false
+  },
+  {
+   "run_id": "main-gemini-alone-w3-03",
+   "model": "gemini",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "main-gemini-alone-w2-07",
+   "model": "gemini",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "false-alarm-haiku-falsealarm-w2-03",
+   "model": "haiku",
+   "phase": "false-alarm",
+   "counts_ok": true,
+   "words_ok": false
+  },
+  {
+   "run_id": "false-alarm-haiku-falsealarm-w2-06",
+   "model": "haiku",
+   "phase": "false-alarm",
+   "counts_ok": false,
+   "words_ok": false
+  },
+  {
+   "run_id": "main-gemini-seen700-w3-05",
+   "model": "gemini",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "false-alarm-luna-falsealarm-w1-06",
+   "model": "luna",
+   "phase": "false-alarm",
+   "counts_ok": true,
+   "words_ok": false
+  },
+  {
+   "run_id": "false-alarm-luna-falsealarm-w1-05",
+   "model": "luna",
+   "phase": "false-alarm",
+   "counts_ok": true,
+   "words_ok": false
+  },
+  {
+   "run_id": "false-alarm-haiku-falsealarm-w3-02",
+   "model": "haiku",
+   "phase": "false-alarm",
+   "counts_ok": false,
+   "words_ok": false
+  },
+  {
+   "run_id": "main-gemini-alone-w3-11",
+   "model": "gemini",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "main-gemini-seen700-w2-02",
+   "model": "gemini",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "false-alarm-luna-falsealarm-w1-07",
+   "model": "luna",
+   "phase": "false-alarm",
+   "counts_ok": true,
+   "words_ok": false
+  },
+  {
+   "run_id": "false-alarm-haiku-falsealarm-w2-01",
+   "model": "haiku",
+   "phase": "false-alarm",
+   "counts_ok": false,
+   "words_ok": false
+  },
+  {
+   "run_id": "false-alarm-haiku-falsealarm-w2-02",
+   "model": "haiku",
+   "phase": "false-alarm",
+   "counts_ok": false,
+   "words_ok": false
+  },
+  {
+   "run_id": "false-alarm-luna-falsealarm-w2-02",
+   "model": "luna",
+   "phase": "false-alarm",
+   "counts_ok": true,
+   "words_ok": false
+  },
+  {
+   "run_id": "false-alarm-haiku-falsealarm-w1-03",
+   "model": "haiku",
+   "phase": "false-alarm",
+   "counts_ok": false,
+   "words_ok": false
+  },
+  {
+   "run_id": "false-alarm-haiku-falsealarm-w3-04",
+   "model": "haiku",
+   "phase": "false-alarm",
+   "counts_ok": false,
+   "words_ok": false
+  },
+  {
+   "run_id": "main-gemini-seen700-w3-06",
+   "model": "gemini",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "main-gemini-seen700-w2-05",
+   "model": "gemini",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "main-gemini-alone-w1-07",
+   "model": "gemini",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "false-alarm-haiku-falsealarm-w1-02",
+   "model": "haiku",
+   "phase": "false-alarm",
+   "counts_ok": false,
+   "words_ok": false
+  },
+  {
+   "run_id": "false-alarm-haiku-falsealarm-w2-04",
+   "model": "haiku",
+   "phase": "false-alarm",
+   "counts_ok": true,
+   "words_ok": false
+  },
+  {
+   "run_id": "false-alarm-luna-falsealarm-w2-03",
+   "model": "luna",
+   "phase": "false-alarm",
+   "counts_ok": true,
+   "words_ok": false
+  },
+  {
+   "run_id": "false-alarm-haiku-falsealarm-w3-05",
+   "model": "haiku",
+   "phase": "false-alarm",
+   "counts_ok": true,
+   "words_ok": false
+  },
+  {
+   "run_id": "false-alarm-haiku-falsealarm-w2-05",
+   "model": "haiku",
+   "phase": "false-alarm",
+   "counts_ok": true,
+   "words_ok": false
+  },
+  {
+   "run_id": "main-gemini-seen700-w1-04",
+   "model": "gemini",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "main-gemini-carried-w3-13",
+   "model": "gemini",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "false-alarm-luna-falsealarm-w2-04",
+   "model": "luna",
+   "phase": "false-alarm",
+   "counts_ok": true,
+   "words_ok": false
+  },
+  {
+   "run_id": "false-alarm-haiku-falsealarm-w3-01",
+   "model": "haiku",
+   "phase": "false-alarm",
+   "counts_ok": false,
+   "words_ok": false
+  },
+  {
+   "run_id": "false-alarm-luna-falsealarm-w3-04",
+   "model": "luna",
+   "phase": "false-alarm",
+   "counts_ok": true,
+   "words_ok": false
+  },
+  {
+   "run_id": "main-gemini-carried-w3-01",
+   "model": "gemini",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "main-gemini-alone-w1-14",
+   "model": "gemini",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "false-alarm-luna-falsealarm-w1-02",
+   "model": "luna",
+   "phase": "false-alarm",
+   "counts_ok": true,
+   "words_ok": false
+  },
+  {
+   "run_id": "false-alarm-luna-falsealarm-w3-06",
+   "model": "luna",
+   "phase": "false-alarm",
+   "counts_ok": false,
+   "words_ok": false
+  },
+  {
+   "run_id": "main-gemini-seen700-w1-13",
+   "model": "gemini",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "false-alarm-luna-falsealarm-w3-05",
+   "model": "luna",
+   "phase": "false-alarm",
+   "counts_ok": true,
+   "words_ok": false
+  },
+  {
+   "run_id": "main-gemini-carried-w1-14",
+   "model": "gemini",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "main-gemini-carried-w1-15",
+   "model": "gemini",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "false-alarm-haiku-falsealarm-w1-04",
+   "model": "haiku",
+   "phase": "false-alarm",
+   "counts_ok": true,
+   "words_ok": false
+  },
+  {
+   "run_id": "false-alarm-luna-falsealarm-w1-01",
+   "model": "luna",
+   "phase": "false-alarm",
+   "counts_ok": true,
+   "words_ok": false
+  },
+  {
+   "run_id": "false-alarm-luna-falsealarm-w2-06",
+   "model": "luna",
+   "phase": "false-alarm",
+   "counts_ok": true,
+   "words_ok": false
+  },
+  {
+   "run_id": "main-gemini-alone-w1-01",
+   "model": "gemini",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "false-alarm-haiku-falsealarm-w3-03",
+   "model": "haiku",
+   "phase": "false-alarm",
+   "counts_ok": false,
+   "words_ok": true
+  },
+  {
+   "run_id": "false-alarm-luna-falsealarm-w3-02",
+   "model": "luna",
+   "phase": "false-alarm",
+   "counts_ok": true,
+   "words_ok": false
+  },
+  {
+   "run_id": "main-gemini-seen700-w1-15",
+   "model": "gemini",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "main-gemini-seen700-w3-09",
+   "model": "gemini",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "false-alarm-haiku-falsealarm-w1-01",
+   "model": "haiku",
+   "phase": "false-alarm",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "false-alarm-gemini-falsealarm-w1-02",
+   "model": "gemini",
+   "phase": "false-alarm",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "false-alarm-gemini-falsealarm-w1-07",
+   "model": "gemini",
+   "phase": "false-alarm",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "false-alarm-gemini-falsealarm-w3-04",
+   "model": "gemini",
+   "phase": "false-alarm",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "false-alarm-gemini-falsealarm-w2-05",
+   "model": "gemini",
+   "phase": "false-alarm",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "false-alarm-gemini-falsealarm-w3-05",
+   "model": "gemini",
+   "phase": "false-alarm",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "false-alarm-gemini-falsealarm-w3-01",
+   "model": "gemini",
+   "phase": "false-alarm",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "false-alarm-gemini-falsealarm-w1-03",
+   "model": "gemini",
+   "phase": "false-alarm",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "false-alarm-gemini-falsealarm-w3-02",
+   "model": "gemini",
+   "phase": "false-alarm",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "false-alarm-gemini-falsealarm-w2-07",
+   "model": "gemini",
+   "phase": "false-alarm",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "false-alarm-gemini-falsealarm-w2-01",
+   "model": "gemini",
+   "phase": "false-alarm",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "false-alarm-gemini-falsealarm-w2-03",
+   "model": "gemini",
+   "phase": "false-alarm",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "false-alarm-gemini-falsealarm-w2-04",
+   "model": "gemini",
+   "phase": "false-alarm",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "false-alarm-gemini-falsealarm-w3-03",
+   "model": "gemini",
+   "phase": "false-alarm",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "false-alarm-gemini-falsealarm-w2-06",
+   "model": "gemini",
+   "phase": "false-alarm",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "false-alarm-gemini-falsealarm-w1-01",
+   "model": "gemini",
+   "phase": "false-alarm",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "false-alarm-gemini-falsealarm-w1-06",
+   "model": "gemini",
+   "phase": "false-alarm",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "false-alarm-gemini-falsealarm-w2-02",
+   "model": "gemini",
+   "phase": "false-alarm",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "false-alarm-gemini-falsealarm-w1-04",
+   "model": "gemini",
+   "phase": "false-alarm",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "false-alarm-gemini-falsealarm-w3-06",
+   "model": "gemini",
+   "phase": "false-alarm",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "false-alarm-gemini-falsealarm-w1-05",
+   "model": "gemini",
+   "phase": "false-alarm",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "main-gemini-carried-w1-02",
+   "model": "gemini",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "main-gemini-carried-w1-01",
+   "model": "gemini",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": true
+  },
+  {
+   "run_id": "main-gemini-carried-w2-03",
+   "model": "gemini",
+   "phase": "main",
+   "counts_ok": true,
+   "words_ok": true
+  }
+ ]
+}
